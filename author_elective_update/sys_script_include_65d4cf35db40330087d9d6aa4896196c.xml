@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_287988_bcr_app.verificarPoolsName</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>verificarPoolsName</name>
+        <script><![CDATA[var verificarPoolsName = Class.create();
+verificarPoolsName.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	VerificarFunct: function(){
+		
+ var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'Verificar Service Pools');
+		
+//override authentication profile 
+//authentication type ='basic'/ 'oauth2'
+//r.setAuthentication(authentication type, profile name);
+
+//set a MID server name if one wants to run the message on MID
+//r.setMIDServer('MY_MID_SERVER');
+//var searchQuery = this.getParameter('sysparm_JSON_VerificarPools');
+//r.setRequestBody(searchQuery);
+//if the message is configured to communicate through ECC queue, either
+//by setting a MID server or calling executeAsync, one needs to set skip_sensor
+//to true. Otherwise, one may get an intermittent error that the response body is null
+//r.setEccParameter('skip_sensor', true);
+		
+ var response = r.execute();
+ var responseBody = response.getBody();
+ var httpStatus = response.getStatusCode();
+ var finalData = responseBody.replace(/\\/g, "");
+		
+		return finalData;
+		
+	},
+	
+    type: 'verificarPoolsName'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-08 15:39:23</sys_created_on>
+        <sys_id>65d4cf35db40330087d9d6aa4896196c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>verificarPoolsName</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_script_include_65d4cf35db40330087d9d6aa4896196c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-08 16:35:09</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>4fa0acfc6fe6b5c0c2b67b2f5d3ee422</instance_id>
+        <instance_name>dev10576</instance_name>
+        <name>sys_script_include_65d4cf35db40330087d9d6aa4896196c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;public&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_287988_bcr_app.verificarPoolsName&lt;/api_name&gt;
+        &lt;caller_access/&gt;
+        &lt;client_callable&gt;true&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;verificarPoolsName&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var verificarPoolsName = Class.create();
+verificarPoolsName.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	VerificarFunct: function(){
+		
+ var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'Verificar Service Pools');
+		
+//override authentication profile 
+//authentication type ='basic'/ 'oauth2'
+//r.setAuthentication(authentication type, profile name);
+
+//set a MID server name if one wants to run the message on MID
+//r.setMIDServer('MY_MID_SERVER');
+//var searchQuery = this.getParameter('sysparm_JSON_VerificarPools');
+//r.setRequestBody(searchQuery);
+//if the message is configured to communicate through ECC queue, either
+//by setting a MID server or calling executeAsync, one needs to set skip_sensor
+//to true. Otherwise, one may get an intermittent error that the response body is null
+//r.setEccParameter('skip_sensor', true);
+		
+ var response = r.execute();
+ var responseBody = response.getBody();
+ var httpStatus = response.getStatusCode();
+ var finalData = responseBody.replace(/\\/g, "");
+		
+		return finalData;
+		
+	},
+	
+    type: 'verificarPoolsName'
+});]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-03-08 15:39:23&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;65d4cf35db40330087d9d6aa4896196c&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;verificarPoolsName&lt;/sys_name&gt;
+        &lt;sys_package display_value="BCR_APP" source="x_287988_bcr_app"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_scope display_value="BCR_APP"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_65d4cf35db40330087d9d6aa4896196c&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-03-08 16:35:09&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-745717970</payload_hash>
+        <record_name>verificarPoolsName</record_name>
+        <reverted_from/>
+        <source>5e4f065ddb470010579a9fd2ca9619d3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 21:45:54</sys_created_on>
+        <sys_id>236f869ddb470010579a9fd2ca9619c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170551d631e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 21:45:54</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>af6f869d3647001011d900b79f4e34c7</update_guid>
+        <update_guid_history>af6f869d3647001011d900b79f4e34c7:0,d21f821d744700105542f64dbc8bdd87:1149205964,fb77855d760300106355bdcb2dd4cc29:0,5e36c519e70300105b2200198a1dab72:1110041188,82f20c7ae6520010acce4309fa0d6eb6:0,af8e7f62f75200103400422415b5d8dc:-276805985,2fe27b5ebfd6001069555f4fa7a2bbc1:-588297397</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-18 16:38:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>5d3ca90d3bd740b9bffced5c716ac8e9</sys_id>
+        <sys_metadata>65d4cf35db40330087d9d6aa4896196c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>verificarPoolsName</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_script_include_65d4cf35db40330087d9d6aa4896196c</sys_update_name>
+        <sys_update_version display_value="sys_script_include_65d4cf35db40330087d9d6aa4896196c">236f869ddb470010579a9fd2ca9619c8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-18 16:38:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

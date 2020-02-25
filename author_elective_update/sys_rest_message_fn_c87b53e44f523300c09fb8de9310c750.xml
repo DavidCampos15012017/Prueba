@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="nsSNow">ac17eec7db580410f9d35f774896190e</basic_auth_profile>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Eliminar Virtual Server BCR .30</function_name>
+        <http_method>delete</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>BCRmessage [ Eliminar Virtual Server BCR .30 ]</qualified_name>
+        <rest_endpoint>http://${ipAddress}/nitro/v1/config/lbvserver/${serverName}</rest_endpoint>
+        <rest_message display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-24 16:25:11</sys_created_on>
+        <sys_id>c87b53e44f523300c09fb8de9310c750</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Eliminar Virtual Server BCR .30</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_rest_message_fn_c87b53e44f523300c09fb8de9310c750</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:28:09</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server display_value="Katherine">ae95d5511b8b0010c33c877ddc4bcb10</use_mid_server>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>sys_rest_message_fn_c87b53e44f523300c09fb8de9310c750</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>basic</authentication_type><basic_auth_password/><basic_auth_profile display_value="nsSNow">ac17eec7db580410f9d35f774896190e</basic_auth_profile><basic_auth_user/><content/><function_name>Eliminar Virtual Server BCR .30</function_name><http_method>delete</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>BCRmessage [ Eliminar Virtual Server BCR .30 ]</qualified_name><rest_endpoint>http://${ipAddress}/nitro/v1/config/lbvserver/${serverName}</rest_endpoint><rest_message display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-24 16:25:11</sys_created_on><sys_id>c87b53e44f523300c09fb8de9310c750</sys_id><sys_mod_count>18</sys_mod_count><sys_name>Eliminar Virtual Server BCR .30</sys_name><sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package><sys_policy/><sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope><sys_update_name>sys_rest_message_fn_c87b53e44f523300c09fb8de9310c750</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-20 20:28:09</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server display_value="Katherine">ae95d5511b8b0010c33c877ddc4bcb10</use_mid_server><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>-706547240</payload_hash>
+        <record_name>Eliminar Virtual Server BCR .30</record_name>
+        <reverted_from/>
+        <source>3bde5d161b8b0410c33c877ddc4bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 20:47:42</sys_created_on>
+        <sys_id>a4ee9d161b8b0410c33c877ddc4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170645b31710000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:47:42</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>0a6a595e8f4b0410130fd4690204e0d8</update_guid>
+        <update_guid_history>0a6a595e8f4b0410130fd4690204e0d8:-706547240,b58e1116258b0410512a6120e4d3feca:0,824e19925c8b04101d28bfb4a365e716:1716044251,444e15929d8b0410f098566bd66fccd5:0,0a6a595e8f4b0410130fd4690204e0d8:-706547240,d8301d127f4b04108ba428cf437b2c0e:0,90ffc1deb10b0410f7efd378e7663135:1716044251,82ef01de650b0410adc376828c9475c0:0,fbd3232d31c38010cb6158952031b559:-706547240,bf12b88ec1c7c010242727cd8e212052:0,18e1fc0e38c7c01017d6af2983118bf8:1716044251,5ad13c0e9fc7c0106bfde4fd881eb381:0,fbd3232d31c38010cb6158952031b559:-706547240,fce22b6915c3801026b50d6671a21152:0,87a263290ec380100a7c3651eef917b4:1716044251,01585be91d838010d14f58f5dfd19f1a:-706547240,01585be91d838010d14f58f5dfd19f1a:-706547240,4e4aaa6d53cf4010b285be76dcfaca4f:0,151a622d41cf40104477258838a13e06:2047222843,2f0aaee959cf401058254f3bc0909470:0,878e5ee9da8f40100ec9420a890cd99f:0,574e16a93a8f4010643fea1dec15e729:1716044251,994e52a9b48f40103a00bb6874f5032b:0,d1ac7169600f40102688550a34f81e75:-706547240,bf05bd6de4cb4010f3ff5e4f333b71eb:0,62d4752d0ccb40106a48b62abae81f2d:1716044251,b0d4b12da3cb40100bc43cae6cf294a5:0,e8be4291bb8f00101cde271adfd439b5:-706547240,3e9c829d5e4f0010f8ec0692abbd3586:0,126c0e1ddc4f0010470669bba08ab924:1716044251,a06c4a1d624f0010f4e72c4e59302d28:0,e4e711558c8b0010a95284756202719d:-706547240,a3aec1d52e4b001028d5508ca06d66d8:-1043041639</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 15:02:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>7753c3e8d6d94620a376668d48f86640</sys_id>
+        <sys_metadata>c87b53e44f523300c09fb8de9310c750</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Eliminar Virtual Server BCR .30</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_c87b53e44f523300c09fb8de9310c750</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_c87b53e44f523300c09fb8de9310c750">a4ee9d161b8b0410c33c877ddc4bcbce</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 15:02:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

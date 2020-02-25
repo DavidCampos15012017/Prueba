@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>false</active>
+        <api_name>x_287988_bcr_app.crearPolos_include</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>crearPolos_include</name>
+        <script><![CDATA[var crearPolos_include = Class.create();
+crearPolos_include.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    
+crearPolos: function() {	 
+// inciio de codigo
+ var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'POST');
+ //r.setStringParameterNoEscape('persistencebackup', 'NONE');
+ //r.setStringParameterNoEscape('name', 'kevsancr2018');
+ //r.setStringParameterNoEscape('persistencetype', 'NONE');
+	var searchQuery = this.getParameter('sysparm_JSON_data'); //From this you will get value from Client script
+ 
+	r.setRequestBody(searchQuery);
+//var servername = document.getElementById("IO:259db362dbb7e30087d9d6aa48961907").value;  
+
+//override authentication profile 
+//authentication type ='basic'/ 'oauth2'
+//r.setAuthentication(authentication type, profile name);
+
+//set a MID server name if one wants to run the message on MID
+//r.setMIDServer('MY_MID_SERVER');
+
+//if the message is configured to communicate through ECC queue, either
+//by setting a MID server or calling executeAsync, one needs to set skip_sensor
+//to true. Otherwise, one may get an intermittent error that the response body is null
+//r.setEccParameter('skip_sensor', true);
+
+ var response = r.execute();
+ var responseBody = response.getBody();
+ var httpStatus = response.getStatusCode();
+	
+
+		
+		 
+		 return httpStatus;
+	
+     },
+
+    type: 'crearPolos_include'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-26 18:04:03</sys_created_on>
+        <sys_id>0cf5ccf6dbb7e30087d9d6aa48961977</sys_id>
+        <sys_mod_count>90</sys_mod_count>
+        <sys_name>crearPolos_include</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_script_include_0cf5ccf6dbb7e30087d9d6aa48961977</sys_update_name>
+        <sys_updated_by>701980296</sys_updated_by>
+        <sys_updated_on>2020-02-10 21:32:49</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>4fa0acfc6fe6b5c0c2b67b2f5d3ee422</instance_id>
+        <instance_name>dev10576</instance_name>
+        <name>sys_script_include_0cf5ccf6dbb7e30087d9d6aa48961977</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;public&lt;/access&gt;
+        &lt;active&gt;false&lt;/active&gt;
+        &lt;api_name&gt;x_287988_bcr_app.crearPolos_include&lt;/api_name&gt;
+        &lt;caller_access/&gt;
+        &lt;client_callable&gt;true&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;crearPolos_include&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var crearPolos_include = Class.create();
+crearPolos_include.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    
+crearPolos: function() {	 
+// inciio de codigo
+ var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'POST');
+ //r.setStringParameterNoEscape('persistencebackup', 'NONE');
+ //r.setStringParameterNoEscape('name', 'kevsancr2018');
+ //r.setStringParameterNoEscape('persistencetype', 'NONE');
+	var searchQuery = this.getParameter('sysparm_JSON_data'); //From this you will get value from Client script
+ 
+	r.setRequestBody(searchQuery);
+//var servername = document.getElementById("IO:259db362dbb7e30087d9d6aa48961907").value;  
+
+//override authentication profile 
+//authentication type ='basic'/ 'oauth2'
+//r.setAuthentication(authentication type, profile name);
+
+//set a MID server name if one wants to run the message on MID
+//r.setMIDServer('MY_MID_SERVER');
+
+//if the message is configured to communicate through ECC queue, either
+//by setting a MID server or calling executeAsync, one needs to set skip_sensor
+//to true. Otherwise, one may get an intermittent error that the response body is null
+//r.setEccParameter('skip_sensor', true);
+
+ var response = r.execute();
+ var responseBody = response.getBody();
+ var httpStatus = response.getStatusCode();
+	
+
+		
+		 
+		 return httpStatus;
+	
+     },
+
+    type: 'crearPolos_include'
+});]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-02-26 18:04:03&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;0cf5ccf6dbb7e30087d9d6aa48961977&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;90&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;crearPolos_include&lt;/sys_name&gt;
+        &lt;sys_package display_value="BCR_APP" source="x_287988_bcr_app"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_scope display_value="BCR_APP"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_0cf5ccf6dbb7e30087d9d6aa48961977&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;701980296&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2020-02-10 21:32:49&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-1119982030</payload_hash>
+        <record_name>crearPolos_include</record_name>
+        <reverted_from/>
+        <source>5e4f065ddb470010579a9fd2ca9619d3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 21:45:53</sys_created_on>
+        <sys_id>2f6f869ddb470010579a9fd2ca9619a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170551d61e90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 21:45:53</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>ab6f869d6c4700102577ad6ae8d933a3</update_guid>
+        <update_guid_history>ab6f869d6c4700102577ad6ae8d933a3:0,7ffe0ad90f470010cdabe71dc71aa8d9:801739408,6f77455d7c03001093a55c22b2ae02ed:0,f2f54d95920300100e415d1ceec5e1c9:646218667,46f20c7aa2520010b9f76e1959289161:0,9a6e7b223c520010ac7ca36cd0ec3784:-548648869,a7e27b5eccd60010418b307584f6619f:716239412</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 22:48:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>b3f6ca6902ad43a49708a29bf707de90</sys_id>
+        <sys_metadata>0cf5ccf6dbb7e30087d9d6aa48961977</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>crearPolos_include</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_script_include_0cf5ccf6dbb7e30087d9d6aa48961977</sys_update_name>
+        <sys_update_version display_value="sys_script_include_0cf5ccf6dbb7e30087d9d6aa48961977">2f6f869ddb470010579a9fd2ca9619a3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 22:48:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

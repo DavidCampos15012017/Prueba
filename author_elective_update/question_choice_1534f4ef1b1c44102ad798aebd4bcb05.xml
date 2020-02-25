@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <misc>0</misc>
+        <order>100</order>
+        <question display_value="Seleccione el Virtual Server que desea habilitar">a221fb441b73b7002ad798aebd4bcb5a</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>207330568</sys_created_by>
+        <sys_created_on>2019-10-10 22:01:18</sys_created_on>
+        <sys_id>1534f4ef1b1c44102ad798aebd4bcb05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>-- Ninguno --</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>question_choice_1534f4ef1b1c44102ad798aebd4bcb05</sys_update_name>
+        <sys_updated_by>207330568</sys_updated_by>
+        <sys_updated_on>2019-10-10 22:01:18</sys_updated_on>
+        <text>-- Ninguno --</text>
+        <value>Ninguno</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=1534f4ef1b1c44102ad798aebd4bcb05"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="CRC">a1717eb30a0a0b5400d84de16c2432e6</currency>
+        <field>misc</field>
+        <id>1534f4ef1b1c44102ad798aebd4bcb05</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="">CRC</reference_currency>
+        <sys_created_by>207330568</sys_created_by>
+        <sys_created_on>2019-10-10 22:01:18</sys_created_on>
+        <sys_id>c24474ef1b1c44102ad798aebd4bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>207330568</sys_updated_by>
+        <sys_updated_on>2019-10-10 22:01:18</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="CRC">a1717eb30a0a0b5400d84de16c2432e6</currency>
+        <field>rec_misc</field>
+        <id>1534f4ef1b1c44102ad798aebd4bcb05</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="">CRC</reference_currency>
+        <sys_created_by>207330568</sys_created_by>
+        <sys_created_on>2019-10-10 22:01:18</sys_created_on>
+        <sys_id>064474ef1b1c44102ad798aebd4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>207330568</sys_updated_by>
+        <sys_updated_on>2019-10-10 22:01:18</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>question_choice_1534f4ef1b1c44102ad798aebd4bcb05</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>100</order>
+        <question display_value="Seleccione el Virtual Server que desea habilitar">a221fb441b73b7002ad798aebd4bcb5a</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>207330568</sys_created_by>
+        <sys_created_on>2019-10-10 22:01:18</sys_created_on>
+        <sys_id>1534f4ef1b1c44102ad798aebd4bcb05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>-- Ninguno --</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>question_choice_1534f4ef1b1c44102ad798aebd4bcb05</sys_update_name>
+        <sys_updated_by>207330568</sys_updated_by>
+        <sys_updated_on>2019-10-10 22:01:18</sys_updated_on>
+        <text>-- Ninguno --</text>
+        <value>Ninguno</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=1534f4ef1b1c44102ad798aebd4bcb05"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CRC">a1717eb30a0a0b5400d84de16c2432e6</currency>
+        <field>misc</field>
+        <id>1534f4ef1b1c44102ad798aebd4bcb05</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="">CRC</reference_currency>
+        <sys_created_by>207330568</sys_created_by>
+        <sys_created_on>2019-10-10 22:01:18</sys_created_on>
+        <sys_id>c24474ef1b1c44102ad798aebd4bcbb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>207330568</sys_updated_by>
+        <sys_updated_on>2019-10-10 22:01:18</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CRC">a1717eb30a0a0b5400d84de16c2432e6</currency>
+        <field>rec_misc</field>
+        <id>1534f4ef1b1c44102ad798aebd4bcb05</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="">CRC</reference_currency>
+        <sys_created_by>207330568</sys_created_by>
+        <sys_created_on>2019-10-10 22:01:18</sys_created_on>
+        <sys_id>064474ef1b1c44102ad798aebd4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>207330568</sys_updated_by>
+        <sys_updated_on>2019-10-10 22:01:18</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>]]></payload>
+        <payload_hash>-1296917731</payload_hash>
+        <record_name>-- Ninguno --</record_name>
+        <reverted_from/>
+        <source>2b2ac3261b838410c33c877ddc4bcbc6</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 23:15:18</sys_created_on>
+        <sys_id>104a4f261b838410c33c877ddc4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1706a08ad8f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 23:15:18</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>5c4a4f26de8384101491c602be1d2fd3</update_guid>
+        <update_guid_history>5c4a4f26de8384101491c602be1d2fd3:0,3b18072e00438410134a931e83888003:-405685823,e3898f22e18384106f6e856a9e3ae988:0,3b18072e00438410134a931e83888003:-405685823,2c44fe62a803841017d4578c26cecbc0:0,d3e33eee78cf4410c2f788a4a4b56ec5:742780936,b792526a6b4f4410907840263cbddbac:0,f2425ea6604f4410366cfaec1cc7c1ef:742780936,cc8246e2c40f44102d960aa937d18c2b:0,e3228262b00f4410f047b0c020712937:742780936,43d461ae4f4b4410fac34994ef530da1:0,a2846dea6c4b441074b88c03b85844ae:742780936,567e59d2f98b04105a1e1d51e63bf397:0,551e5552188b04103d952095cfcd1c39:742780936,c5209512c84b0410cb66cbba060a5ef2:0,6abf019e800b04100de4998be59aca98:742780936,ec12b08ea9c7c010dd6d5e76a429c1aa:0,43a1f8caf5c7c0102cea57eacd8477f1:742780936,86d2e369d2c38010b5417100aa399a6f:0,3f7223e5b8c38010888b65d3c1e8f903:742780936,573aa26dd0cf40103643458d4eead841:0,c7e922e9b5cf401021d31aa2c68679e1:742780936,448e1ae9f08f4010bc9663746ce36288:0,6e1e5269aa8f40109e893d507a6a9c36:742780936,d505f56da5cb40106fffdf5a5bc7ab36:0,d4b4f1e944cb4010c1b0b2d7b51196a2:742780936,549c4e5d2f4f00107e6eb2ed7c07d12d:0,df3c4ad9e54f001022fa2b0e256072a8:742780936,49aecd951b4b0010cfdf4cf1f92bee50:-1296917731</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">df8a83e61b838410c33c877ddc4bcbd8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 23:16:35</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>469bca7fabdf494c9b5626f3e736bf10</sys_id>
+        <sys_metadata>1534f4ef1b1c44102ad798aebd4bcb05</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>-- Ninguno --</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent display_value="Seleccione el Virtual Server que desea habilitar">a221fb441b73b7002ad798aebd4bcb5a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>question_choice_1534f4ef1b1c44102ad798aebd4bcb05</sys_update_name>
+        <sys_update_version display_value="question_choice_1534f4ef1b1c44102ad798aebd4bcb05">104a4f261b838410c33c877ddc4bcbd4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 23:16:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

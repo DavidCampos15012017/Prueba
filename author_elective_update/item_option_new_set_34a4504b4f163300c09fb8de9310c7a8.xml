@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>informaci_monitorsaludbcr</internal_name>
+        <layout>2across</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-01 20:21:00</sys_created_on>
+        <sys_id>34a4504b4f163300c09fb8de9310c7a8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>informació MonitorSaludBCR</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>item_option_new_set_34a4504b4f163300c09fb8de9310c7a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-22 21:30:00</sys_updated_on>
+        <title>informació MonitorSaludBCR</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </item_option_new_set>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>item_option_new_set_34a4504b4f163300c09fb8de9310c7a8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>informaci_monitorsaludbcr</internal_name>
+        <layout>2across</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-01 20:21:00</sys_created_on>
+        <sys_id>34a4504b4f163300c09fb8de9310c7a8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>informació MonitorSaludBCR</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>item_option_new_set_34a4504b4f163300c09fb8de9310c7a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-22 21:30:00</sys_updated_on>
+        <title>informació MonitorSaludBCR</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>]]></payload>
+        <payload_hash>495332157</payload_hash>
+        <record_name>informació MonitorSaludBCR</record_name>
+        <reverted_from/>
+        <source>bd82562a1b4f4410c33c877ddc4bcbe8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 19:12:12</sys_created_on>
+        <sys_id>5b92126a1b4f4410c33c877ddc4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170692a1be30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 19:12:12</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>9792126a894f4410dd68a52539a9e6c6</update_guid>
+        <update_guid_history>9792126a894f4410dd68a52539a9e6c6:0,1d5252e6034f4410c651bd17f34bdff6:1041068813,2b7206e2e50f4410fd1eb69cbe972a39:0,9e3286622d0f44107eb4ddcf7d2f68b9:1041068813,aad421ae304b4410fe3fc909f817adae:0,c594a12efb4b44107a004be7951a4d7c:1041068813,3d7e19d2348b041083673fa010a247ad:0,a82e59525a8b0410c16d74d2ab365886:1041068813,14205512294b04106f2ec11e0cff70be:0,8ecf459ec10b041039e655bd3904d970:1041068813,4012708ecec7c01047ffb41a46d8f5ac:0,62b1300eecc7c010e9ceefb9d8d9bece:1041068813,69d2a36991c380104f54683ce09043a7:0,be82e3e5f9c380103bf1d4c36266d2ec:1041068813,ba3a626d59cf40105e6eec0490fa0360:0,11f926e951cf4010a6059d445b46e90b:1041068813,db7ed6e9d38f40106622b1aa0eea78a7:0,fd2e5669cc8f4010d655f962f00479a9:1041068813,b805b56d6ecb401055b584c71bc3936e:0,b6b4f5e91fcb4010725742f569961870:1041068813,778c0e5da84f001059124283eaa78a74:0,5e4c8ed93c4f0010376cf5d280c03611:1041068813,e0ae8d95924b0010f23efd724aa1028a:1765788680</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4c4ceea61bcf4410c33c877ddc4bcba7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 21:04:12</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>7d884b42d295460c84e08cfda31cd1a4</sys_id>
+        <sys_metadata>34a4504b4f163300c09fb8de9310c7a8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>informació MonitorSaludBCR</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>item_option_new_set_34a4504b4f163300c09fb8de9310c7a8</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_34a4504b4f163300c09fb8de9310c7a8">5b92126a1b4f4410c33c877ddc4bcbc6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 21:04:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

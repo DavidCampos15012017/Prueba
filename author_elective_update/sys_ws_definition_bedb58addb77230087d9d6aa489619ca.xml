@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="DELETE">
+        <active>false</active>
+        <base_uri>/api/x_287988_bcr_app/bcr_script</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>BCR_Script</name>
+        <namespace>x_287988_bcr_app</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>bcr_script</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-22 22:24:24</sys_created_on>
+        <sys_id>bedb58addb77230087d9d6aa489619ca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>BCR_Script</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_ws_definition_bedb58addb77230087d9d6aa489619ca</sys_update_name>
+        <sys_updated_by>701980296</sys_updated_by>
+        <sys_updated_on>2020-02-10 20:50:06</sys_updated_on>
+    </sys_ws_definition>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>sys_ws_definition_bedb58addb77230087d9d6aa489619ca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <base_uri>/api/x_287988_bcr_app/bcr_script</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>BCR_Script</name>
+        <namespace>x_287988_bcr_app</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>bcr_script</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-22 22:24:24</sys_created_on>
+        <sys_id>bedb58addb77230087d9d6aa489619ca</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>BCR_Script</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_ws_definition_bedb58addb77230087d9d6aa489619ca</sys_update_name>
+        <sys_updated_by>701980296</sys_updated_by>
+        <sys_updated_on>2020-02-10 20:50:06</sys_updated_on>
+    </sys_ws_definition>
+</record_update>]]></payload>
+        <payload_hash>-561647374</payload_hash>
+        <record_name>BCR_Script</record_name>
+        <reverted_from/>
+        <source>bd82562a1b4f4410c33c877ddc4bcbe8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 19:12:28</sys_created_on>
+        <sys_id>9fa21a6a1b4f4410c33c877ddc4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170692a5d250000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 19:12:28</sys_updated_on>
+        <type>Scripted REST API</type>
+        <update_guid>dba21a6aa04f4410bbd9e1ff9b7eff24</update_guid>
+        <update_guid_history>dba21a6aa04f4410bbd9e1ff9b7eff24:0,a8725ee6054f4410641d886e33006c78:-989918966,6f820ee2fa0f4410c778f3f65d302e5e:0,dd5282a2740f441083abe51bfe5085d1:-989918966,e6e469ae7b4b4410226850fe03cc3200:0,10b4ed2e2c4b44107784c057981cdc08:-989918966,4f8ed1167d8b041031aabbe7356a6074:0,294e95927f8b0410c1978449c52ecdee:-989918966,81309d12644b04104e5143c8a7ed658b:0,63ef81dec70b04106bdd71542013506f:-989918966,f0227c8e1fc7c01017c137660f64832a:0,73d1fc0efbc7c0100432ec052d0a9006:-989918966,31e2ab693ec38010f75e6b999fa71cd8:0,6aa2232973c380100007d2d8d44b1822:-989918966,fa4aea6d7dcf401036bde1e56ce348cf:0,fc1a222d90cf4010e1d284dcebc0a315:-989918966,cc9e9ee9158f4010f9de4991249c7ef9:0,6e4e92a91e8f4010157dceb65df8a6f4:-989918966,7415b1ad6ecb4010f8911792d6bdcf28:0,0ad4352dc2cb4010e659d13bcd86303c:-989918966,f39c469dcb4f0010be31200af725d9c3:0,ad6c8a1d214f00105d70c46300d48dba:-989918966,d8be85d5a44b0010cad811bbb3caa75a:-561647374</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 21:05:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ws_definition">sys_ws_definition</sys_db_object>
+        <sys_id>7d765c5acd5a4880840165cf35988b90</sys_id>
+        <sys_metadata>bedb58addb77230087d9d6aa489619ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BCR_Script</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_ws_definition_bedb58addb77230087d9d6aa489619ca</sys_update_name>
+        <sys_update_version display_value="sys_ws_definition_bedb58addb77230087d9d6aa489619ca">9fa21a6a1b4f4410c33c877ddc4bcb24</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 21:05:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

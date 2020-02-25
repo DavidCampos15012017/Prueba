@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_287988_bcr_app.LLamadoMASBCR2</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>LLamadoMASBCR2</name>
+        <script><![CDATA[var LLamadoMASBCR2 = Class.create();
+LLamadoMASBCR2.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    listarMAS: function() {
+        //var text_body = this.getParameter('sysparm_JSON_data');
+
+
+
+        var ambiente = this.getParameter('sysparm_JSON_Ambiente');
+
+        var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'BCR MAS Verificar');
+        var response = r.execute();
+        var responseBody = response.getBody();
+        var httpStatus = response.getStatusCode();
+        var arrayValue = JSON.parse(responseBody).ns;
+        
+		var mensaje = 'Registro no encontrado en Citrix';
+        var objLista;
+		
+		try{
+        var target = new GlideRecord('x_287988_bcr_app_ambientes_citrix');
+        target.addQuery('id_ambiente', ambiente);
+        target.query(); // Issue the query to the database to get relevant records 
+        while (target.next()) {
+            objLista = new Object();
+            objLista.id = target.id_ambiente;
+            objLista.ambiente = target.ambiente;
+            objLista.IpPrimaria = target.ip_primaria;
+            objLista.IpSecundaria = target.ip_secundaria;
+        }
+        for (var i = 0; i < arrayValue.length; i++) {
+            if (ambiente == objLista.id && arrayValue[i].ipv4_address == objLista.IpPrimaria && arrayValue[i].ha_master_state == 'Primary') {
+                mensaje = arrayValue[i].ip_address;
+            } else if (ambiente == objLista.id && arrayValue[i].ipv4_address == objLista.IpSecundaria && arrayValue[i].ha_master_state == 'Primary') {
+                mensaje = arrayValue[i].ip_address;
+            }
+        }
+		}
+		catch(Exception)
+			{
+				mensaje="No existen registros del ambiente indicado!";
+			}
+        return mensaje;
+    },
+    type: 'LLamadoMASBCR2'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-24 03:49:23</sys_created_on>
+        <sys_id>1fbd4f8a4fb67300c09fb8de9310c7d1</sys_id>
+        <sys_mod_count>69</sys_mod_count>
+        <sys_name>LLamadoMASBCR2</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_script_include_1fbd4f8a4fb67300c09fb8de9310c7d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 22:00:58</sys_updated_on>
+    </sys_script_include>
+</record_update>

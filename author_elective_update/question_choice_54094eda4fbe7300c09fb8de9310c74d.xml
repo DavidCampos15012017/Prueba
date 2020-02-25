@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <misc>0</misc>
+        <order>100</order>
+        <question display_value="Por favor, Seleccione un Ambiente">3398ca5e4fbe7300c09fb8de9310c72a</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-24 17:25:06</sys_created_on>
+        <sys_id>54094eda4fbe7300c09fb8de9310c74d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Producción Interna</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>question_choice_54094eda4fbe7300c09fb8de9310c74d</sys_update_name>
+        <sys_updated_by>114190586</sys_updated_by>
+        <sys_updated_on>2019-10-18 16:13:09</sys_updated_on>
+        <text>Producción Interna</text>
+        <value>TCPFB02ProdInt1</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=54094eda4fbe7300c09fb8de9310c74d"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>54094eda4fbe7300c09fb8de9310c74d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="">CRC</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-24 17:25:06</sys_created_on>
+        <sys_id>a309029e4fbe7300c09fb8de9310c7ea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>114190586</sys_updated_by>
+        <sys_updated_on>2019-10-18 16:13:10</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>54094eda4fbe7300c09fb8de9310c74d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="">CRC</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-24 17:25:06</sys_created_on>
+        <sys_id>6b09029e4fbe7300c09fb8de9310c7e9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>114190586</sys_updated_by>
+        <sys_updated_on>2019-10-18 16:13:10</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>question_choice_54094eda4fbe7300c09fb8de9310c74d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>100</order>
+        <question display_value="Por favor, Seleccione un Ambiente">3398ca5e4fbe7300c09fb8de9310c72a</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-24 17:25:06</sys_created_on>
+        <sys_id>54094eda4fbe7300c09fb8de9310c74d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Producción Interna</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>question_choice_54094eda4fbe7300c09fb8de9310c74d</sys_update_name>
+        <sys_updated_by>114190586</sys_updated_by>
+        <sys_updated_on>2019-10-18 16:13:09</sys_updated_on>
+        <text>Producción Interna</text>
+        <value>TCPFB02ProdInt1</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=54094eda4fbe7300c09fb8de9310c74d"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>54094eda4fbe7300c09fb8de9310c74d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="">CRC</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-24 17:25:06</sys_created_on>
+        <sys_id>a309029e4fbe7300c09fb8de9310c7ea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>114190586</sys_updated_by>
+        <sys_updated_on>2019-10-18 16:13:10</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>54094eda4fbe7300c09fb8de9310c74d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="">CRC</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-24 17:25:06</sys_created_on>
+        <sys_id>6b09029e4fbe7300c09fb8de9310c7e9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>114190586</sys_updated_by>
+        <sys_updated_on>2019-10-18 16:13:10</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>]]></payload>
+        <payload_hash>-622146017</payload_hash>
+        <record_name>Producción Interna</record_name>
+        <reverted_from/>
+        <source>aa67056f1b474810c33c877ddc4bcb88</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 16:18:07</sys_created_on>
+        <sys_id>2a8781af1b474810c33c877ddc4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17077fdcfda0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 16:18:07</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>668781af3d4748105f898e88f475100c</update_guid>
+        <update_guid_history>668781af3d4748105f898e88f475100c:0,0237012ffc474810287c39332e893ff8:2037774019,814a8f26fe8384103c6695ccfb93ddf7:0,8a0a03e231838410705d0ed173935b82:2037774019,0499cf220883841008778950126aafdd:0,f85903aea44384105856b8f4ca68fe64:2037774019,ad4432a23f03841054499478cb9345fc:0,6df3feee5ecf441086217d8976ef8ee0:2037774019,e4a2d26ae94f44109a2a8143ca2cff01:0,015252e6044f4410c75353df46702fb5:2037774019,308286e2d70f441042fcf4a28215d081:0,4e328662360f44101a781dae01426082:2037774019,27d4a1ae324b44106e4ddd3a338b48dd:0,c994a12efa4b4410b1a01777f91b592c:2037774019,8f7e99d23f8b0410436b1cad6e1ad3c9:0,dc2e59523f8b0410252cd06baf25fe50:2037774019,212019127f4b04107e4e06086a842225:0,bdcf459ef70b04107babca0c9a26922c:2037774019,9d12348e3ac7c010498492600d8c6018:0,52b1300e06c7c010f187abd733244894:2037774019,aed22769b6c38010b474c162a0e4e48b:0,a682e3e500c38010a13fb1ef9cf366ac:2037774019,084ae26d01cf40109f2f9b06536ee6ff:0,15f9e2e9fdcf40106a4a380e5d2e8dbd:2037774019,e08e5ae9c58f40104d841fbb3c8b24b1:0,252e5669a48f401054caa79753028769:2037774019,8205396dddcb401026dd2aa400fbcc91:0,b6b4f5e92dcb4010da9cbc457dac1524:2037774019,f89c8e5df64f0010042df13a945e3d62:0,ca4c4ed9c44f0010fb62a664eec3afc4:2037774019,71ae01d5f04b001076a589840e3b4c78:-622146017</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4b301d6b1b874810c33c877ddc4bcbd6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 16:56:06</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>44b56db7593447e4aa24782e525b4e10</sys_id>
+        <sys_metadata>54094eda4fbe7300c09fb8de9310c74d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Producción Interna</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent display_value="Por favor, Seleccione un Ambiente">3398ca5e4fbe7300c09fb8de9310c72a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>question_choice_54094eda4fbe7300c09fb8de9310c74d</sys_update_name>
+        <sys_update_version display_value="question_choice_54094eda4fbe7300c09fb8de9310c74d">2a8781af1b474810c33c877ddc4bcb0c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 16:56:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

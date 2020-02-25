@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="nsSNow">ac17eec7db580410f9d35f774896190e</basic_auth_profile>
+        <basic_auth_user/>
+        <content>{"lbmonitor_servicegroup_binding":{"monitorname":"tcp","servicegroupname":"SG_w2222222_80","state":"ENABLED","weight":"1"}}</content>
+        <function_name>lbmonitorServiceBinding</function_name>
+        <http_method>put</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>BCRmessage [ lbmonitorServiceBinding ]</qualified_name>
+        <rest_endpoint>http://${ipAddress}/nitro/v1/config/lbmonitor_service_binding</rest_endpoint>
+        <rest_message display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-08 21:49:14</sys_created_on>
+        <sys_id>48051c9b4f837300c09fb8de9310c702</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>lbmonitorServiceBinding</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_rest_message_fn_48051c9b4f837300c09fb8de9310c702</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:25:47</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server display_value="Katherine">ae95d5511b8b0010c33c877ddc4bcb10</use_mid_server>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>sys_rest_message_fn_48051c9b4f837300c09fb8de9310c702</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>basic</authentication_type><basic_auth_password/><basic_auth_profile display_value="nsSNow">ac17eec7db580410f9d35f774896190e</basic_auth_profile><basic_auth_user/><content>{"lbmonitor_servicegroup_binding":{"monitorname":"tcp","servicegroupname":"SG_w2222222_80","state":"ENABLED","weight":"1"}}</content><function_name>lbmonitorServiceBinding</function_name><http_method>put</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>BCRmessage [ lbmonitorServiceBinding ]</qualified_name><rest_endpoint>http://${ipAddress}/nitro/v1/config/lbmonitor_service_binding</rest_endpoint><rest_message display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-08-08 21:49:14</sys_created_on><sys_id>48051c9b4f837300c09fb8de9310c702</sys_id><sys_mod_count>15</sys_mod_count><sys_name>lbmonitorServiceBinding</sys_name><sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package><sys_policy/><sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope><sys_update_name>sys_rest_message_fn_48051c9b4f837300c09fb8de9310c702</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-20 20:25:47</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server display_value="Katherine">ae95d5511b8b0010c33c877ddc4bcb10</use_mid_server><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>-1425899816</payload_hash>
+        <record_name>lbmonitorServiceBinding</record_name>
+        <reverted_from/>
+        <source>3bde5d161b8b0410c33c877ddc4bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 20:47:42</sys_created_on>
+        <sys_id>a0ee9d161b8b0410c33c877ddc4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170645b2ee70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:47:42</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>27d9d5dadc4b0410fe131fa8f70e7554</update_guid>
+        <update_guid_history>27d9d5dadc4b0410fe131fa8f70e7554:-1425899816,798e1116188b04101b84271e70703856:0,b12ed952e58b0410e02089061b524c55:1575397324,27d9d5dadc4b0410fe131fa8f70e7554:-1425899816,0c30d912434b04109e8b7088ecdbdcb3:0,dbcf859ec10b0410113df170359605f6:1575397324,aa632be976c38010cfc7d0b348bec4ec:-1425899816,6f12788ef0c7c0109b1f2f78dccdeddb:0,abb1b00e08c7c0102438ecad2d5b7671:1575397324,aa632be976c38010cfc7d0b348bec4ec:-1425899816,e8e22b69bfc3801058e2eed33ec6ab07:0,7f82a7e5ecc380102adf54a868a7ca0c:1575397324,d8d793e9ea8380103c15356b66516f8f:-1425899816,354a6a6d28cf401098b2bb3c1e9cd9df:0,92f966e9bccf40107cc123efeae26ba0:-1828873430,b28e5ee9558f40103b5ae5eaff7de254:0,fe2ed669f28f401010cd250a5e43095c:1575397324,b305bd6d84cb4010a6ae331b1ce77295:0,b7b479e9e9cb401062a6759411c24508:1575397324,50bd8e11698f0010086ee87d8515267a:-1425899816,729c829d594f0010b8e398ff8517ff2f:0,5b4cced9524f0010e3ba803f816659a6:1575397324,763719156d8b0010811bed2d1fe05c48:-1425899816,d3aec1d5f14b0010e5a6d5c21d9d269e:84117835</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 15:09:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>8da195949cf3452ab850b4aec24a46a4</sys_id>
+        <sys_metadata>48051c9b4f837300c09fb8de9310c702</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>lbmonitorServiceBinding</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_48051c9b4f837300c09fb8de9310c702</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_48051c9b4f837300c09fb8de9310c702">a0ee9d161b8b0410c33c877ddc4bcb90</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 15:09:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

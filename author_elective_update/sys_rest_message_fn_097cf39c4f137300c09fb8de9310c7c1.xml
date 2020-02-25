@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="nsSNow">ac17eec7db580410f9d35f774896190e</basic_auth_profile>
+        <basic_auth_user>admin</basic_auth_user>
+        <content/>
+        <function_name>ObtenerServidoresBCR</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>BCRmessage [ ObtenerServidoresBCR ]</qualified_name>
+        <rest_endpoint>http://${ipAddress}/nitro/v1/config/server</rest_endpoint>
+        <rest_message display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-12 17:14:11</sys_created_on>
+        <sys_id>097cf39c4f137300c09fb8de9310c7c1</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>ObtenerServidoresBCR</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_rest_message_fn_097cf39c4f137300c09fb8de9310c7c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:23:37</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server display_value="Katherine">ae95d5511b8b0010c33c877ddc4bcb10</use_mid_server>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>sys_rest_message_fn_097cf39c4f137300c09fb8de9310c7c1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>basic</authentication_type><basic_auth_password/><basic_auth_profile display_value="nsSNow">ac17eec7db580410f9d35f774896190e</basic_auth_profile><basic_auth_user>admin</basic_auth_user><content/><function_name>ObtenerServidoresBCR</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>BCRmessage [ ObtenerServidoresBCR ]</qualified_name><rest_endpoint>http://${ipAddress}/nitro/v1/config/server</rest_endpoint><rest_message display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-08-12 17:14:11</sys_created_on><sys_id>097cf39c4f137300c09fb8de9310c7c1</sys_id><sys_mod_count>13</sys_mod_count><sys_name>ObtenerServidoresBCR</sys_name><sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package><sys_policy/><sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope><sys_update_name>sys_rest_message_fn_097cf39c4f137300c09fb8de9310c7c1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-20 20:23:37</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server display_value="Katherine">ae95d5511b8b0010c33c877ddc4bcb10</use_mid_server><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>-333548727</payload_hash>
+        <record_name>ObtenerServidoresBCR</record_name>
+        <reverted_from/>
+        <source>3bde5d161b8b0410c33c877ddc4bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 20:47:42</sys_created_on>
+        <sys_id>1cee9d161b8b0410c33c877ddc4bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170645b2e2f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:47:42</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>6f59dd9a3e4b0410fcebc60bb93d668d</update_guid>
+        <update_guid_history>6f59dd9a3e4b0410fcebc60bb93d668d:-333548727,a98e1116ac8b04103476a8628f16e61e:0,181e1552438b04109d2152a998925808:194166077,6f59dd9a3e4b0410fcebc60bb93d668d:-333548727,8030d912194b041053a6d616b78b71a1:0,35bfcd5eed0b0410fcdbff1f496c5d87:194166077,5c43e3e959c3801096c326fbad1674c1:-333548727,ab12788e15c7c010fd90c00f6630a8bb:0,92a1b8ca9ec7c010380248331e054dc0:194166077,5c43e3e959c3801096c326fbad1674c1:-333548727,e0e2e7698fc380108f41a1caba7b73f6:0,4f72afa55cc380103784b84dc2fc25fb:194166077,b5a7dfa92d8380108574a931d578bb8e:-333548727,754a6a6db1cf4010e76a137868b717c1:0,16e9eea908cf40107c948cd99a9ad283:1439396505,ba8e5ee9438f40101c8bbb48ac644f42:0,311ede29fa8f40107aa82fcf3adc84fe:194166077,3f05bd6dbacb4010d0250a13b466aa77:0,a3a4b1e920cb4010b342c473d82bed23:194166077,d48d4edd624f001052b94efb2ac43bac:-333548727,a29c829d8c4f0010d7bfe84249c9ef11:0,e23c0ad9864f00107dada62ca7ceff66:194166077,c6f6d9d1c88b0010a9c9c460a5b21a16:-333548727,dfaec1d5914b0010106e04211a487b81:-1979174280</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 15:18:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>75b24dd5127c4bdd81b5f78a5c228b49</sys_id>
+        <sys_metadata>097cf39c4f137300c09fb8de9310c7c1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ObtenerServidoresBCR</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_097cf39c4f137300c09fb8de9310c7c1</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_097cf39c4f137300c09fb8de9310c7c1">1cee9d161b8b0410c33c877ddc4bcb76</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 15:18:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

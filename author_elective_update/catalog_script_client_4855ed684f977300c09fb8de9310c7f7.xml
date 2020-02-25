@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Configuración de Virtual Servers Citrix ">3105d62cdb7573002ca60d53ca961963</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>cargaOcultacamposModificacionDeshabilita</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+	console.log("carga onload = cargaOcultacamposModificacionDeshabilita");
+	//g_form.setReadOnly('por_favor_seleccione_una_instancia_vpx',true);
+	g_form.setDisplay('n_mero_de_servidores_a_eliminar',false);
+	g_form.setDisplay('n_mero_de_servidores_a_deshabilitar',false);
+	g_form.setMandatory('n_mero_de_servidores_a_eliminar',false);
+	g_form.setDisplay('n_mero_de_servidores_a_eliminar',false);
+	
+	g_form.setReadOnly('servicegroup_de_la_granja',true);
+	g_form.setMandatory('servidor_a_eliminar_1', false);
+	g_form.setMandatory('servidor_a_eliminar_2', false);
+	g_form.setMandatory('servidor_a_eliminar_3', false);
+	g_form.setMandatory('servidor_a_eliminar_4', false);
+	//Visible
+	g_form.setDisplay('servidor_a_eliminar_1', false);
+	g_form.setDisplay('servidor_a_eliminar_2', false);
+	g_form.setDisplay('servidor_a_eliminar_3', false);
+	g_form.setDisplay('servidor_a_eliminar_4', false);
+	//servicegroup_de_la_granja
+	g_form.setDisplay('servicegroup_de_la_granja',false);
+	g_form.setMandatory('servicegroup_de_la_granja', false);
+	
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-13 00:52:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4855ed684f977300c09fb8de9310c7f7</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>cargaOcultacamposModificacionDeshabilita</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>catalog_script_client_4855ed684f977300c09fb8de9310c7f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 22:35:28</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>catalog_script_client_4855ed684f977300c09fb8de9310c7f7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;
+    &lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;applies_catalog&gt;true&lt;/applies_catalog&gt;
+        &lt;applies_extended&gt;false&lt;/applies_extended&gt;
+        &lt;applies_req_item&gt;false&lt;/applies_req_item&gt;
+        &lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;
+        &lt;applies_target_record&gt;false&lt;/applies_target_record&gt;
+        &lt;applies_to&gt;item&lt;/applies_to&gt;
+        &lt;cat_item display_value="Configuración de Virtual Servers Citrix "&gt;3105d62cdb7573002ca60d53ca961963&lt;/cat_item&gt;
+        &lt;cat_variable/&gt;
+        &lt;condition/&gt;
+        &lt;description/&gt;
+        &lt;field/&gt;
+        &lt;global&gt;true&lt;/global&gt;
+        &lt;isolate_script&gt;true&lt;/isolate_script&gt;
+        &lt;messages/&gt;
+        &lt;name&gt;cargaOcultacamposModificacionDeshabilita&lt;/name&gt;
+        &lt;order/&gt;
+        &lt;script&gt;&lt;![CDATA[function onLoad() {
+	
+	console.log("carga onload = cargaOcultacamposModificacionDeshabilita");
+	//g_form.setReadOnly('por_favor_seleccione_una_instancia_vpx',true);
+	g_form.setDisplay('n_mero_de_servidores_a_eliminar',false);
+	g_form.setDisplay('n_mero_de_servidores_a_deshabilitar',false);
+	g_form.setMandatory('n_mero_de_servidores_a_eliminar',false);
+	g_form.setDisplay('n_mero_de_servidores_a_eliminar',false);
+	
+	g_form.setReadOnly('servicegroup_de_la_granja',true);
+	g_form.setMandatory('servidor_a_eliminar_1', false);
+	g_form.setMandatory('servidor_a_eliminar_2', false);
+	g_form.setMandatory('servidor_a_eliminar_3', false);
+	g_form.setMandatory('servidor_a_eliminar_4', false);
+	//Visible
+	g_form.setDisplay('servidor_a_eliminar_1', false);
+	g_form.setDisplay('servidor_a_eliminar_2', false);
+	g_form.setDisplay('servidor_a_eliminar_3', false);
+	g_form.setDisplay('servidor_a_eliminar_4', false);
+	//servicegroup_de_la_granja
+	g_form.setDisplay('servicegroup_de_la_granja',false);
+	g_form.setMandatory('servicegroup_de_la_granja', false);
+	
+}]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-08-13 00:52:00&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;4855ed684f977300c09fb8de9310c7f7&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;21&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;cargaOcultacamposModificacionDeshabilita&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="BCR_APP" source="x_287988_bcr_app"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="BCR_APP"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;catalog_script_client_4855ed684f977300c09fb8de9310c7f7&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2020-02-19 22:35:28&lt;/sys_updated_on&gt;
+        &lt;table/&gt;
+        &lt;type&gt;onLoad&lt;/type&gt;
+        &lt;ui_type&gt;10&lt;/ui_type&gt;
+        &lt;variable_set/&gt;
+        &lt;view/&gt;
+    &lt;/catalog_script_client&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>255577783</payload_hash>
+        <record_name>cargaOcultacamposModificacionDeshabilita</record_name>
+        <reverted_from/>
+        <source>806edd921b8b0410c33c877ddc4bcba5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 20:45:29</sys_created_on>
+        <sys_id>cc6edd921b8b0410c33c877ddc4bcbde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1706459294f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:45:29</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>0c6edd92288b0410a64fae750ce4e1de</update_guid>
+        <update_guid_history>0c6edd92288b0410a64fae750ce4e1de:0,bd2ed952498b0410cb87e17f30782867:-215104024,d42e19525d8b0410bf0d1bf87d9a21fa:0,a200d9de740b041016eb77a23c7c8daf:0,9fcfc59e470b04100f5b2bfcd284fb15:-215104024,3dcf059e580b0410a2a79b89d120adee:0,d1fde88626c7c0101708948d91475201:-1110795931,8af1384eadc7c0105b2cc0399c3f6e39:0,bbb1b00e8fc7c010bca2b0dfdbce4e9d:-215104024,86b1300e24c7c01080a8284eb832e466:0,d1fde88626c7c0101708948d91475201:-1110795931,e0c26b2982c3801023714cc9c521e377:0,b782a7e5c7c380100e987e69d6a5951f:-1995019377,6282e3e5dac380101c4008c761958b86:0,162a6a2d98cf4010972457a6e9db68a5:0,daf966e94ccf4010e56f2e7d4507f2b2:-1995019377,71096e69aecf4010cd5d554fc4d3d578:0,296e5ea9c98f4010ae717618bc77b620:0,8f2ed669e68f4010c980f78fb6b3bf7b:-1995019377,692e5669e58f401039ca26dee1cf8e34:0,d0f4bd2d48cb401011ca73dc0af97017:0,f3b479e911cb4010f293840a8ee91540:-215104024,22b4b5e91ecb4010a52895bb641b12f1:0,8e6f42d1a28f0010d661200420666612:-1110795931,eb7c065d864f0010ab499be1c7797dc5:0,5f4cced9564f0010bd8d8d3907d2ecac:-1995019377,7d4c4ed9024f0010a14921763fcd4a82:0,1c9e8595a84b00107e85431377f05b3f:382472448</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">e28e3d961b0f0410c33c877ddc4bcb90</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 23:06:01</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>097358ad64f141dc806a38816c901ec4</sys_id>
+        <sys_metadata>4855ed684f977300c09fb8de9310c7f7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cargaOcultacamposModificacionDeshabilita</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>catalog_script_client_4855ed684f977300c09fb8de9310c7f7</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_4855ed684f977300c09fb8de9310c7f7">cc6edd921b8b0410c33c877ddc4bcbde</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 23:06:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

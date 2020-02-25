@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_287988_bcr_app.MostrarServerBCR32</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MostrarServerBCR32</name>
+        <script><![CDATA[var MostrarServerBCR32 = Class.create();
+MostrarServerBCR32.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	listarserver32: function(){
+		try {
+			var text_body = this.getParameter('sysparm_name_IP');
+			var searchQuery = encodeURIComponent(text_body);
+			var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'MostrarServerBCR32');
+			r.setStringParameter('ipAddress', searchQuery);
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+			return responseBody;
+		}
+		catch(ex) {
+			var message = ex.message;
+		}
+	},
+	type: 'MostrarServerBCR32'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-17 17:12:00</sys_created_on>
+        <sys_id>c0b24a0c4f323300c09fb8de9310c773</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>MostrarServerBCR32</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_script_include_c0b24a0c4f323300c09fb8de9310c773</sys_update_name>
+        <sys_updated_by>114190586</sys_updated_by>
+        <sys_updated_on>2019-09-16 02:58:53</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>4fa0acfc6fe6b5c0c2b67b2f5d3ee422</instance_id>
+        <instance_name>dev10576</instance_name>
+        <name>sys_script_include_c0b24a0c4f323300c09fb8de9310c773</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_287988_bcr_app.MostrarServerBCR32&lt;/api_name&gt;
+        &lt;caller_access/&gt;
+        &lt;client_callable&gt;true&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;MostrarServerBCR32&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var MostrarServerBCR32 = Class.create();
+MostrarServerBCR32.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	listarserver32: function(){
+		try {
+			var text_body = this.getParameter('sysparm_name_IP');
+			var searchQuery = encodeURIComponent(text_body);
+			var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'MostrarServerBCR32');
+			r.setStringParameter('ipAddress', searchQuery);
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+			return responseBody;
+		}
+		catch(ex) {
+			var message = ex.message;
+		}
+	},
+	type: 'MostrarServerBCR32'
+});]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-07-17 17:12:00&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;c0b24a0c4f323300c09fb8de9310c773&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;MostrarServerBCR32&lt;/sys_name&gt;
+        &lt;sys_package display_value="BCR_APP" source="x_287988_bcr_app"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_scope display_value="BCR_APP"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_c0b24a0c4f323300c09fb8de9310c773&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;114190586&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-09-16 02:58:53&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1609088867</payload_hash>
+        <record_name>MostrarServerBCR32</record_name>
+        <reverted_from/>
+        <source>5e4f065ddb470010579a9fd2ca9619d3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 21:45:54</sys_created_on>
+        <sys_id>b36fc69ddb470010579a9fd2ca961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170551d65050000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 21:45:54</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>336fc69d9d470010fb7736586eac5512</update_guid>
+        <update_guid_history>336fc69d9d470010fb7736586eac5512:0,3b2fca1d2d470010ee61ac3de7c84603:1619454615,3b77855dba03001052534996baec488a:0,c3664d59610300107f1a9633eb4cab70:18889541,5ef24c7a385200103151093669d06638:0,1faeffa21b52001072726a87888a31b9:-1956271626,3fe27b5e20d600103b6c20e5ca716ff8:-1925114088</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-18 16:33:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>28b594ea494648f1afae5fb966acc8b1</sys_id>
+        <sys_metadata>c0b24a0c4f323300c09fb8de9310c773</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MostrarServerBCR32</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_script_include_c0b24a0c4f323300c09fb8de9310c773</sys_update_name>
+        <sys_update_version display_value="sys_script_include_c0b24a0c4f323300c09fb8de9310c773">b36fc69ddb470010579a9fd2ca961912</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-18 16:33:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

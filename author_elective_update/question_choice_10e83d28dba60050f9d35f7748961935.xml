@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <misc>0</misc>
+        <order>100</order>
+        <question display_value="Por favor, Seleccione un Ambiente">3398ca5e4fbe7300c09fb8de9310c72a</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>114190586</sys_created_by>
+        <sys_created_on>2020-01-21 15:41:43</sys_created_on>
+        <sys_id>10e83d28dba60050f9d35f7748961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pruebas SN</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>question_choice_10e83d28dba60050f9d35f7748961935</sys_update_name>
+        <sys_updated_by>114190586</sys_updated_by>
+        <sys_updated_on>2020-01-21 15:41:43</sys_updated_on>
+        <text>Pruebas SN</text>
+        <value>SNWDlloCPP</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=10e83d28dba60050f9d35f7748961935"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="CRC">a1717eb30a0a0b5400d84de16c2432e6</currency>
+        <field>misc</field>
+        <id>10e83d28dba60050f9d35f7748961935</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="">CRC</reference_currency>
+        <sys_created_by>114190586</sys_created_by>
+        <sys_created_on>2020-01-21 15:41:43</sys_created_on>
+        <sys_id>f9297528dba60050f9d35f77489619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>114190586</sys_updated_by>
+        <sys_updated_on>2020-01-21 15:41:43</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="CRC">a1717eb30a0a0b5400d84de16c2432e6</currency>
+        <field>rec_misc</field>
+        <id>10e83d28dba60050f9d35f7748961935</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="">CRC</reference_currency>
+        <sys_created_by>114190586</sys_created_by>
+        <sys_created_on>2020-01-21 15:41:43</sys_created_on>
+        <sys_id>39297528dba60050f9d35f77489619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>114190586</sys_updated_by>
+        <sys_updated_on>2020-01-21 15:41:43</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>question_choice_10e83d28dba60050f9d35f7748961935</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>100</order>
+        <question display_value="Por favor, Seleccione un Ambiente">3398ca5e4fbe7300c09fb8de9310c72a</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>114190586</sys_created_by>
+        <sys_created_on>2020-01-21 15:41:43</sys_created_on>
+        <sys_id>10e83d28dba60050f9d35f7748961935</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pruebas SN</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>question_choice_10e83d28dba60050f9d35f7748961935</sys_update_name>
+        <sys_updated_by>114190586</sys_updated_by>
+        <sys_updated_on>2020-01-21 15:41:43</sys_updated_on>
+        <text>Pruebas SN</text>
+        <value>SNWDlloCPP</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=10e83d28dba60050f9d35f7748961935"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CRC">a1717eb30a0a0b5400d84de16c2432e6</currency>
+        <field>misc</field>
+        <id>10e83d28dba60050f9d35f7748961935</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="">CRC</reference_currency>
+        <sys_created_by>114190586</sys_created_by>
+        <sys_created_on>2020-01-21 15:41:43</sys_created_on>
+        <sys_id>f9297528dba60050f9d35f77489619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>114190586</sys_updated_by>
+        <sys_updated_on>2020-01-21 15:41:43</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CRC">a1717eb30a0a0b5400d84de16c2432e6</currency>
+        <field>rec_misc</field>
+        <id>10e83d28dba60050f9d35f7748961935</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="">CRC</reference_currency>
+        <sys_created_by>114190586</sys_created_by>
+        <sys_created_on>2020-01-21 15:41:43</sys_created_on>
+        <sys_id>39297528dba60050f9d35f77489619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>114190586</sys_updated_by>
+        <sys_updated_on>2020-01-21 15:41:43</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>]]></payload>
+        <payload_hash>-1644914603</payload_hash>
+        <record_name>Pruebas SN</record_name>
+        <reverted_from/>
+        <source>aa67056f1b474810c33c877ddc4bcb88</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 16:18:03</sys_created_on>
+        <sys_id>2987cd6f1b474810c33c877ddc4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17077fdc1ce0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 16:18:03</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>6587cd6f094748109a09fb6cc80baf8f</update_guid>
+        <update_guid_history>6587cd6f094748109a09fb6cc80baf8f:0,3b274debb047481011daaa5c429c5273:1823295326,504a4f266583841012e30a2101f49788:0,580a4fa28d8384105adcab0ec4fa6021:1823295326,5f898f22ef838410500b5022fe115b61:0,2e490f6ed84384103daf5253341c14b8:1823295326,ec44fe62d4038410d60227d3c4826a8d:0,cfe33eeecacf4410122a63ec70dbce86:1823295326,3392526ae34f44107aee746b93445c86:0,2e425ea62c4f4410f2a444c6979f7ca3:1823295326,488246e22f0f441099f1155824981505:0,1f224262390f4410eea5636f207b92d3:1823295326,fad461ae614b4410f44a6fe8dc6c457a:0,9a846deaa04b44102227eebc4ba3ce65:1823295326,567e59d2fb8b04109ef7dcbad4484672:0,011e1552868b0410b51df1f7a076c3dc:1823295326,78209512a24b041037e64d33cc752bb4:0,5ebf019e1f0b041071be2b760ab6d752:1823295326,a012b08e08c7c010c8c97d53560d4478:0,bea1f8cad1c7c010da8d832f9c41c08e:1823295326,3dd2e36969c3801026dc6b83138d424b:0,2b72efa563c3801028e77e20beb7e1b4:1823295326,db3aa26d6acf40108067196c7272e11d:0,32e922e926cf40105b395f7a37138563:1823295326,fb7e1ae9b18f401036ca554ddf44e064:0,561e1269918f401041d26d64ca971ae7:1823295326,5d05f56d38cb4010029526da3c5b7d12:0,18b4f1e9d3cb40108177c89ef94ecc60:1823295326,d89c4e5dee4f0010b166daf178a20009:0,8f3c4ad9cd4f001001daba0f415ab747:1823295326,89aecd95034b00104db862b9b5c6f92e:-1644914603</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">8f30556b1b874810c33c877ddc4bcb5e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 16:56:06</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>4a78fc2d980f4dc3888cffbb00824d79</sys_id>
+        <sys_metadata>10e83d28dba60050f9d35f7748961935</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pruebas SN</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent display_value="Por favor, Seleccione un Ambiente">3398ca5e4fbe7300c09fb8de9310c72a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>question_choice_10e83d28dba60050f9d35f7748961935</sys_update_name>
+        <sys_update_version display_value="question_choice_10e83d28dba60050f9d35f7748961935">2987cd6f1b474810c33c877ddc4bcb8f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 16:56:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

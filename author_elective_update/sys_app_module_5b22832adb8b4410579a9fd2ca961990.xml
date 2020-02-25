@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Configuraciones">d722832adb8b4410579a9fd2ca96198c</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Configuraciones</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_287988_bcr_app_configuraciones</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_287988_bcr_app.configuraciones_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 22:40:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5b22832adb8b4410579a9fd2ca961990</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Configuraciones Citrixes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_app_module_5b22832adb8b4410579a9fd2ca961990</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 15:33:29</sys_updated_on>
+        <timeline_page/>
+        <title>Configuraciones Citrixes</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>4fa0acfc6fe6b5c0c2b67b2f5d3ee422</instance_id>
+        <instance_name>dev10576</instance_name>
+        <name>sys_app_module_5b22832adb8b4410579a9fd2ca961990</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Configuraciones">d722832adb8b4410579a9fd2ca96198c</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Configuraciones</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_287988_bcr_app_configuraciones</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_287988_bcr_app.configuraciones_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-21 22:40:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5b22832adb8b4410579a9fd2ca961990</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Configuraciones Citrixes</sys_name><sys_overrides/><sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package><sys_policy/><sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope><sys_update_name>sys_app_module_5b22832adb8b4410579a9fd2ca961990</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-24 15:33:29</sys_updated_on><timeline_page/><title>Configuraciones Citrixes</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1780450711</payload_hash>
+        <record_name>Configuraciones Citrixes</record_name>
+        <reverted_from/>
+        <source>39b12f96dbd20010579a9fd2ca961922</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 15:33:29</sys_created_on>
+        <sys_id>f05d7cafdb4f0810579a9fd2ca961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17077d4f49e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 15:33:29</sys_updated_on>
+        <type>Module</type>
+        <update_guid>3c5d7caf7e4f08104122eb82d0d57516</update_guid>
+        <update_guid_history>3c5d7caf7e4f08104122eb82d0d57516:1780450711,df22832a568b44109486eb37b0f96f93:-407557981,2d4ce86b260f0810d47f4893ff226f60:2097994294,df22832a568b44109486eb37b0f96f93:-407557981</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Configuraciones Citrixes">f88105e3db8f0810579a9fd2ca961959</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 15:51:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>63ce1d32463d4e12abe29f0faebcfe39</sys_id>
+        <sys_metadata>5b22832adb8b4410579a9fd2ca961990</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Configuraciones Citrixes</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_app_module_5b22832adb8b4410579a9fd2ca961990</sys_update_name>
+        <sys_update_version display_value="sys_app_module_5b22832adb8b4410579a9fd2ca961990">f05d7cafdb4f0810579a9fd2ca961917</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 15:51:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

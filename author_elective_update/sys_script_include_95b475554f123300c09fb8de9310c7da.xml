@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_287988_bcr_app.EliminarServiceGroupBCR32</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>EliminarServiceGroupBCR32</name>
+        <script><![CDATA[var EliminarServiceGroupBCR32 = Class.create();
+EliminarServiceGroupBCR32.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	serviceGroupBCR32:function(){
+		
+		var serviceGroupEliminar = current.variables.servicegroup_a_eliminar;
+		try {
+			var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'Eliminar ServiceGroup BCR .32');
+			
+			r.setStringParameterNoEscape('ServerName', serviceGroupEliminar);
+			
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+			
+			return responsebody;
+		}
+		catch(ex) {
+			var message = ex.message;
+			return message;
+		}
+		
+	},
+	
+	type: 'EliminarServiceGroupBCR32'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-26 16:52:46</sys_created_on>
+        <sys_id>95b475554f123300c09fb8de9310c7da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EliminarServiceGroupBCR32</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_script_include_95b475554f123300c09fb8de9310c7da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-26 16:52:46</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>4fa0acfc6fe6b5c0c2b67b2f5d3ee422</instance_id>
+        <instance_name>dev10576</instance_name>
+        <name>sys_script_include_95b475554f123300c09fb8de9310c7da</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_287988_bcr_app.EliminarServiceGroupBCR32&lt;/api_name&gt;
+        &lt;caller_access/&gt;
+        &lt;client_callable&gt;true&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;EliminarServiceGroupBCR32&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var EliminarServiceGroupBCR32 = Class.create();
+EliminarServiceGroupBCR32.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	serviceGroupBCR32:function(){
+		
+		var serviceGroupEliminar = current.variables.servicegroup_a_eliminar;
+		try {
+			var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'Eliminar ServiceGroup BCR .32');
+			
+			r.setStringParameterNoEscape('ServerName', serviceGroupEliminar);
+			
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+			
+			return responsebody;
+		}
+		catch(ex) {
+			var message = ex.message;
+			return message;
+		}
+		
+	},
+	
+	type: 'EliminarServiceGroupBCR32'
+});]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-26 16:52:46&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;95b475554f123300c09fb8de9310c7da&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;EliminarServiceGroupBCR32&lt;/sys_name&gt;
+        &lt;sys_package display_value="BCR_APP" source="x_287988_bcr_app"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_scope display_value="BCR_APP"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_95b475554f123300c09fb8de9310c7da&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-26 16:52:46&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1665457177</payload_hash>
+        <record_name>EliminarServiceGroupBCR32</record_name>
+        <reverted_from/>
+        <source>5e4f065ddb470010579a9fd2ca9619d3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 21:45:54</sys_created_on>
+        <sys_id>bb6f869ddb470010579a9fd2ca9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170551d63bc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 21:45:54</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>3b6f869dee470010dfcb0cb3df26cae6</update_guid>
+        <update_guid_history>3b6f869dee470010dfcb0cb3df26cae6:0,892fc61dbe470010e23bd9c1d2cb8e10:-490824179,fb77855dda030010c9a5f540f91ac947:0,0556815930030010b19327035ca860aa:-1010203246,4af20c7a9952001030777d8e02c9a5e0:0,0b9e77a250520010c8cb763c05f92a59:1534141527,efe27b5e8fd6001029bd6abf147696d2:1542389262</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 23:25:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>c08890f8fe20481eba7b80beef21f091</sys_id>
+        <sys_metadata>95b475554f123300c09fb8de9310c7da</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EliminarServiceGroupBCR32</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_script_include_95b475554f123300c09fb8de9310c7da</sys_update_name>
+        <sys_update_version display_value="sys_script_include_95b475554f123300c09fb8de9310c7da">bb6f869ddb470010579a9fd2ca9619e6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 23:25:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

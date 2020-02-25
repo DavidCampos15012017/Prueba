@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="nsSNow">ac17eec7db580410f9d35f774896190e</basic_auth_profile>
+        <basic_auth_user/>
+        <content/>
+        <function_name>PruebaCrearServiceGroupAmbiente</function_name>
+        <http_method>put</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>BCRmessage [ PruebaCrearServiceGroupAmbiente ]</qualified_name>
+        <rest_endpoint>http://${ipAddress}/nitro/v1/config/server</rest_endpoint>
+        <rest_message display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-24 02:50:43</sys_created_on>
+        <sys_id>1bb0438e4f767300c09fb8de9310c78c</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>PruebaCrearServiceGroupAmbiente</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_rest_message_fn_1bb0438e4f767300c09fb8de9310c78c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:23:42</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server display_value="Katherine">ae95d5511b8b0010c33c877ddc4bcb10</use_mid_server>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>sys_rest_message_fn_1bb0438e4f767300c09fb8de9310c78c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>basic</authentication_type><basic_auth_password/><basic_auth_profile display_value="nsSNow">ac17eec7db580410f9d35f774896190e</basic_auth_profile><basic_auth_user/><content/><function_name>PruebaCrearServiceGroupAmbiente</function_name><http_method>put</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>BCRmessage [ PruebaCrearServiceGroupAmbiente ]</qualified_name><rest_endpoint>http://${ipAddress}/nitro/v1/config/server</rest_endpoint><rest_message display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-07-24 02:50:43</sys_created_on><sys_id>1bb0438e4f767300c09fb8de9310c78c</sys_id><sys_mod_count>19</sys_mod_count><sys_name>PruebaCrearServiceGroupAmbiente</sys_name><sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package><sys_policy/><sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope><sys_update_name>sys_rest_message_fn_1bb0438e4f767300c09fb8de9310c78c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-20 20:23:42</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server display_value="Katherine">ae95d5511b8b0010c33c877ddc4bcb10</use_mid_server><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>1501464081</payload_hash>
+        <record_name>PruebaCrearServiceGroupAmbiente</record_name>
+        <reverted_from/>
+        <source>3bde5d161b8b0410c33c877ddc4bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 20:47:42</sys_created_on>
+        <sys_id>d0ee9d161b8b0410c33c877ddc4bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170645b2e430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:47:42</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>8169991ea94b041038bd2f39673901f6</update_guid>
+        <update_guid_history>8169991ea94b041038bd2f39673901f6:1501464081,e98e1116b98b04100e42b8fc9699e120:0,8e1e9552278b041024d853095d5e3992:-956023907,8169991ea94b041038bd2f39673901f6:1501464081,c030d912664b041084ceb030bbffd6a3:0,a3bf819e210b04100c74f7e6c4b2a50c:-956023907,9d43ef65cdc380105bcec7d645a53581:1501464081,6f12788e0ac7c010c6b0807c99d93cbd:0,73a17ccaa2c7c0104eed8eb5e65e240a:-956023907,9d43ef65cdc380105bcec7d645a53581:1501464081,a0e2e769d9c38010bd69b92c7e12ddf8:0,288263e5cec38010b7bdc7ec7191cc0a:-956023907,7aa7d3a1ef8380103d9d08702d4bdfc1:1501464081,354a6a6d2acf40107e7153c141273ec3:0,b7e962e904cf4010ed14e687bfb38fc9:-1176483783,7a8e5ee9ef8f401071b862f540235744:0,531e9269e48f4010757584da43c81c26:-956023907,bb05bd6de0cb4010e29cdb5746cf2779:0,81b435e92dcb4010844ccb4279f3c783:-956023907,798d0e5d5a4f0010c62979640529ff6b:1501464081,629c829d644f0010100d2bfc5d732813:0,cc4c8ad90e4f00102c2ab73134fb108e:-956023907,04071d91878b001098ed2fdfeaf792f7:1501464081,dbaec1d5514b0010897cf6e7c5c99983:-446286610</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 15:18:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>7b7c8fb08c7c4f10b59ca08969cbde40</sys_id>
+        <sys_metadata>1bb0438e4f767300c09fb8de9310c78c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PruebaCrearServiceGroupAmbiente</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_1bb0438e4f767300c09fb8de9310c78c</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_1bb0438e4f767300c09fb8de9310c78c">d0ee9d161b8b0410c33c877ddc4bcb78</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 15:18:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

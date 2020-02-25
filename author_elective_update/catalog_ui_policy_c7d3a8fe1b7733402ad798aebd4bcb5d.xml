@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_ui_policy">
+    <catalog_ui_policy action="DELETE">
+        <active>true</active>
+        <applies_catalog>false</applies_catalog>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <catalog_conditions>IO:9f74c455db4e73002ca60d53ca9619a3=Crear Virtual Servers^EQ</catalog_conditions>
+        <catalog_item display_value="Configuración de Virtual Servers Citrix ">3105d62cdb7573002ca60d53ca961963</catalog_item>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	
+	
+	g_form.setDisplay('n_mero_de_servers_a_enlazar',false);
+	g_form.setDisplay('n_mero_de_servidores_a_Habilitar',false);
+	g_form.setDisplay('n_mero_de_servidores_a_eliminar',false);
+	g_form.setDisplay('n_mero_de_servidores_a_deshabilitar',false);
+	g_form.setDisplay('n_mero_de_servers_a_enlazar',false);
+	g_form.setDisplay('por_favor_seleccione_una_instancia_vpx',false);
+	g_form.setDisplay('servicegroup_de_la_granja',false);
+	g_form.setDisplay('servidor_a_habilitar',false);
+	
+	//false
+	g_form.setDisplay('servidor_a_eliminar_1',false);
+	g_form.setDisplay('servidor_a_eliminar_2',false);
+	g_form.setDisplay('servidor_a_eliminar_3',false);
+	g_form.setDisplay('servidor_a_eliminar_4',false);
+	
+	g_form.setDisplay('n_mero_de_servers_a_enlazar',false);
+	g_form.setDisplay('virtual_server_a_modificar',false);
+	g_form.setDisplay('virtual_server_a_deshabilitar',false);
+	g_form.setDisplay('que_deseas_hacer',false);
+	g_form.setDisplay('granja_a_consultar',false);
+	
+	
+	//true
+	
+	g_form.setDisplay('nombre_del_servidor_virtual',true);
+//	g_form.setReadOnly('nombre_del_servidor_virtual',true);
+	
+	g_form.setDisplay('tipo_de_protoc_lo',true);
+//	g_form.setReadOnly('tipo_de_protoc_lo',true);
+	
+	g_form.setDisplay('ip_address',true);
+//	g_form.setReadOnly('ip_address',true);
+	
+	g_form.setDisplay('tipo_de_puerto',true);
+//	g_form.setReadOnly('tipo_de_puerto',true);
+	
+	var catidadServiceGroupEnlazar = g_form.getValue('n_mero_de_servers_a_enlazar');
+	var grupo = [];
+	
+	if(catidadServiceGroupEnlazar > 0){
+		
+		
+		if(catidadServiceGroupEnlazar == 1){
+			
+			g_form.setDisplay('nombre_servidor_1',true);
+			g_form.setDisplay('nombre_servidor_2',false);
+			g_form.setDisplay('nombre_servidor_3',false);
+			g_form.setDisplay('nombre_servidor_4',false);
+			g_form.setDisplay('nombre_servidor_5',false);
+			g_form.setDisplay('nombre_servidor_6',false);
+			g_form.setDisplay('nombre_servidor_7',false);
+			g_form.setDisplay('nombre_servidor_8',false);
+			
+			g_form.setDisplay('ip_servidor_1',true);
+			g_form.setDisplay('ip_servidor_2',false);
+			g_form.setDisplay('ip_servidor_3',false);
+			g_form.setDisplay('ip_servidor_4',false);
+			g_form.setDisplay('ip_servidor_5',false);
+			g_form.setDisplay('ip_servidor_6',false);
+			g_form.setDisplay('ip_servidor_7',false);
+			g_form.setDisplay('ip_servidor_8',false);
+			
+	
+			
+			
+			
+		}else if(catidadServiceGroupEnlazar == 2){
+			
+			g_form.setDisplay('nombre_servidor_1',true);
+			g_form.setDisplay('nombre_servidor_2',true);
+			g_form.setDisplay('nombre_servidor_3',false);
+			g_form.setDisplay('nombre_servidor_4',false);
+			g_form.setDisplay('nombre_servidor_5',false);
+			g_form.setDisplay('nombre_servidor_6',false);
+			g_form.setDisplay('nombre_servidor_7',false);
+			g_form.setDisplay('nombre_servidor_8',false);
+			
+			g_form.setDisplay('ip_servidor_1',true);
+			g_form.setDisplay('ip_servidor_2',true);
+			g_form.setDisplay('ip_servidor_3',false);
+			g_form.setDisplay('ip_servidor_4',false);
+			g_form.setDisplay('ip_servidor_5',false);
+			g_form.setDisplay('ip_servidor_6',false);
+			g_form.setDisplay('ip_servidor_7',false);
+			g_form.setDisplay('ip_servidor_8',false);
+			
+			//read only
+			
+			
+		}else if(catidadServiceGroupEnlazar == 3){
+			
+			g_form.setDisplay('nombre_servidor_1',true);
+			g_form.setDisplay('nombre_servidor_2',true);
+			g_form.setDisplay('nombre_servidor_3',true);
+			g_form.setDisplay('nombre_servidor_4',false);
+			g_form.setDisplay('nombre_servidor_5',false);
+			g_form.setDisplay('nombre_servidor_6',false);
+			g_form.setDisplay('nombre_servidor_7',false);
+			g_form.setDisplay('nombre_servidor_8',false);
+			
+			g_form.setDisplay('ip_servidor_1',true);
+			g_form.setDisplay('ip_servidor_2',true);
+			g_form.setDisplay('ip_servidor_3',true);
+			g_form.setDisplay('ip_servidor_4',false);
+			g_form.setDisplay('ip_servidor_5',false);
+			g_form.setDisplay('ip_servidor_6',false);
+			g_form.setDisplay('ip_servidor_7',false);
+			g_form.setDisplay('ip_servidor_8',false);
+			
+	
+			
+		}else if(catidadServiceGroupEnlazar == 4){
+			
+			g_form.setDisplay('nombre_servidor_1',true);
+			g_form.setDisplay('nombre_servidor_2',true);
+			g_form.setDisplay('nombre_servidor_3',true);
+			g_form.setDisplay('nombre_servidor_4',true);
+			g_form.setDisplay('nombre_servidor_5',false);
+			g_form.setDisplay('nombre_servidor_6',false);
+			g_form.setDisplay('nombre_servidor_7',false);
+			g_form.setDisplay('nombre_servidor_8',false);
+			
+			g_form.setDisplay('ip_servidor_1',true);
+			g_form.setDisplay('ip_servidor_2',true);
+			g_form.setDisplay('ip_servidor_3',true);
+			g_form.setDisplay('ip_servidor_4',true);
+			g_form.setDisplay('ip_servidor_5',false);
+			g_form.setDisplay('ip_servidor_6',false);
+			g_form.setDisplay('ip_servidor_7',false);
+			g_form.setDisplay('ip_servidor_8',false);
+			
+	
+			
+		}else if(catidadServiceGroupEnlazar == 5){
+			
+			g_form.setDisplay('nombre_servidor_1',true);
+			g_form.setDisplay('nombre_servidor_2',true);
+			g_form.setDisplay('nombre_servidor_3',true);
+			g_form.setDisplay('nombre_servidor_4',true);
+			g_form.setDisplay('nombre_servidor_5',true);
+			g_form.setDisplay('nombre_servidor_6',false);
+			g_form.setDisplay('nombre_servidor_7',false);
+			g_form.setDisplay('nombre_servidor_8',false);
+			
+			g_form.setDisplay('ip_servidor_1',true);
+			g_form.setDisplay('ip_servidor_2',true);
+			g_form.setDisplay('ip_servidor_3',true);
+			g_form.setDisplay('ip_servidor_4',true);
+			g_form.setDisplay('ip_servidor_5',true);
+			g_form.setDisplay('ip_servidor_6',false);
+			g_form.setDisplay('ip_servidor_7',false);
+			g_form.setDisplay('ip_servidor_8',false);
+			
+	
+			
+		}else if(catidadServiceGroupEnlazar == 6){
+			
+			g_form.setDisplay('nombre_servidor_1',true);
+			g_form.setDisplay('nombre_servidor_2',true);
+			g_form.setDisplay('nombre_servidor_3',true);
+			g_form.setDisplay('nombre_servidor_4',true);
+			g_form.setDisplay('nombre_servidor_5',true);
+			g_form.setDisplay('nombre_servidor_6',true);
+			g_form.setDisplay('nombre_servidor_7',false);
+			g_form.setDisplay('nombre_servidor_8',false);
+			
+			g_form.setDisplay('ip_servidor_1',true);
+			g_form.setDisplay('ip_servidor_2',true);
+			g_form.setDisplay('ip_servidor_3',true);
+			g_form.setDisplay('ip_servidor_4',true);
+			g_form.setDisplay('ip_servidor_5',true);
+			g_form.setDisplay('ip_servidor_6',true);
+			g_form.setDisplay('ip_servidor_7',false);
+			g_form.setDisplay('ip_servidor_8',false);
+	
+			
+			
+		}else if(catidadServiceGroupEnlazar == 7){
+			
+			g_form.setDisplay('nombre_servidor_1',true);
+			g_form.setDisplay('nombre_servidor_2',true);
+			g_form.setDisplay('nombre_servidor_3',true);
+			g_form.setDisplay('nombre_servidor_4',true);
+			g_form.setDisplay('nombre_servidor_5',true);
+			g_form.setDisplay('nombre_servidor_6',true);
+			g_form.setDisplay('nombre_servidor_7',true);
+			g_form.setDisplay('nombre_servidor_8',false);
+			
+			g_form.setDisplay('ip_servidor_1',true);
+			g_form.setDisplay('ip_servidor_2',true);
+			g_form.setDisplay('ip_servidor_3',true);
+			g_form.setDisplay('ip_servidor_4',true);
+			g_form.setDisplay('ip_servidor_5',true);
+			g_form.setDisplay('ip_servidor_6',true);
+			g_form.setDisplay('ip_servidor_7',true);
+			g_form.setDisplay('ip_servidor_8',false);
+			
+		
+			
+			
+			
+		}else if(catidadServiceGroupEnlazar == 8){
+			
+			g_form.setDisplay('nombre_servidor_1',true);
+			g_form.setDisplay('nombre_servidor_2',true);
+			g_form.setDisplay('nombre_servidor_3',true);
+			g_form.setDisplay('nombre_servidor_4',true);
+			g_form.setDisplay('nombre_servidor_5',true);
+			g_form.setDisplay('nombre_servidor_6',true);
+			g_form.setDisplay('nombre_servidor_7',true);
+			g_form.setDisplay('nombre_servidor_8',true);
+			
+			g_form.setDisplay('ip_servidor_1',true);
+			g_form.setDisplay('ip_servidor_2',true);
+			g_form.setDisplay('ip_servidor_3',true);
+			g_form.setDisplay('ip_servidor_4',true);
+			g_form.setDisplay('ip_servidor_5',true);
+			g_form.setDisplay('ip_servidor_6',true);
+			g_form.setDisplay('ip_servidor_7',true);
+			g_form.setDisplay('ip_servidor_8',true);
+			
+			
+			
+		}
+}
+
+}]]></script_true>
+        <set_values/>
+        <short_description>LOCK_SCTASK_creacion</short_description>
+        <sys_class_name>catalog_ui_policy</sys_class_name>
+        <sys_created_by>114190586</sys_created_by>
+        <sys_created_on>2019-09-13 16:23:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c7d3a8fe1b7733402ad798aebd4bcb5d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>LOCK_SCTASK_creacion</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>catalog_ui_policy_c7d3a8fe1b7733402ad798aebd4bcb5d</sys_update_name>
+        <sys_updated_by>114190586</sys_updated_by>
+        <sys_updated_on>2019-09-13 16:57:19</sys_updated_on>
+        <table/>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_ui_policy>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>catalog_ui_policy_c7d3a8fe1b7733402ad798aebd4bcb5d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;
+    &lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;applies_catalog&gt;false&lt;/applies_catalog&gt;
+        &lt;applies_req_item&gt;true&lt;/applies_req_item&gt;
+        &lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;
+        &lt;applies_target_record&gt;false&lt;/applies_target_record&gt;
+        &lt;applies_to&gt;item&lt;/applies_to&gt;
+        &lt;catalog_conditions&gt;IO:9f74c455db4e73002ca60d53ca9619a3=Crear Virtual Servers^EQ&lt;/catalog_conditions&gt;
+        &lt;catalog_item display_value="Configuración de Virtual Servers Citrix "&gt;3105d62cdb7573002ca60d53ca961963&lt;/catalog_item&gt;
+        &lt;conditions/&gt;
+        &lt;description/&gt;
+        &lt;global&gt;true&lt;/global&gt;
+        &lt;inherit&gt;false&lt;/inherit&gt;
+        &lt;isolate_script&gt;true&lt;/isolate_script&gt;
+        &lt;model_id/&gt;
+        &lt;model_table/&gt;
+        &lt;on_load&gt;true&lt;/on_load&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;
+        &lt;run_scripts&gt;true&lt;/run_scripts&gt;
+        &lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;
+        &lt;script_true&gt;&lt;![CDATA[function onCondition() {
+	
+	
+	g_form.setDisplay('n_mero_de_servers_a_enlazar',false);
+	g_form.setDisplay('n_mero_de_servidores_a_Habilitar',false);
+	g_form.setDisplay('n_mero_de_servidores_a_eliminar',false);
+	g_form.setDisplay('n_mero_de_servidores_a_deshabilitar',false);
+	g_form.setDisplay('n_mero_de_servers_a_enlazar',false);
+	g_form.setDisplay('por_favor_seleccione_una_instancia_vpx',false);
+	g_form.setDisplay('servicegroup_de_la_granja',false);
+	g_form.setDisplay('servidor_a_habilitar',false);
+	
+	//false
+	g_form.setDisplay('servidor_a_eliminar_1',false);
+	g_form.setDisplay('servidor_a_eliminar_2',false);
+	g_form.setDisplay('servidor_a_eliminar_3',false);
+	g_form.setDisplay('servidor_a_eliminar_4',false);
+	
+	g_form.setDisplay('n_mero_de_servers_a_enlazar',false);
+	g_form.setDisplay('virtual_server_a_modificar',false);
+	g_form.setDisplay('virtual_server_a_deshabilitar',false);
+	g_form.setDisplay('que_deseas_hacer',false);
+	g_form.setDisplay('granja_a_consultar',false);
+	
+	
+	//true
+	
+	g_form.setDisplay('nombre_del_servidor_virtual',true);
+//	g_form.setReadOnly('nombre_del_servidor_virtual',true);
+	
+	g_form.setDisplay('tipo_de_protoc_lo',true);
+//	g_form.setReadOnly('tipo_de_protoc_lo',true);
+	
+	g_form.setDisplay('ip_address',true);
+//	g_form.setReadOnly('ip_address',true);
+	
+	g_form.setDisplay('tipo_de_puerto',true);
+//	g_form.setReadOnly('tipo_de_puerto',true);
+	
+	var catidadServiceGroupEnlazar = g_form.getValue('n_mero_de_servers_a_enlazar');
+	var grupo = [];
+	
+	if(catidadServiceGroupEnlazar &gt; 0){
+		
+		
+		if(catidadServiceGroupEnlazar == 1){
+			
+			g_form.setDisplay('nombre_servidor_1',true);
+			g_form.setDisplay('nombre_servidor_2',false);
+			g_form.setDisplay('nombre_servidor_3',false);
+			g_form.setDisplay('nombre_servidor_4',false);
+			g_form.setDisplay('nombre_servidor_5',false);
+			g_form.setDisplay('nombre_servidor_6',false);
+			g_form.setDisplay('nombre_servidor_7',false);
+			g_form.setDisplay('nombre_servidor_8',false);
+			
+			g_form.setDisplay('ip_servidor_1',true);
+			g_form.setDisplay('ip_servidor_2',false);
+			g_form.setDisplay('ip_servidor_3',false);
+			g_form.setDisplay('ip_servidor_4',false);
+			g_form.setDisplay('ip_servidor_5',false);
+			g_form.setDisplay('ip_servidor_6',false);
+			g_form.setDisplay('ip_servidor_7',false);
+			g_form.setDisplay('ip_servidor_8',false);
+			
+	
+			
+			
+			
+		}else if(catidadServiceGroupEnlazar == 2){
+			
+			g_form.setDisplay('nombre_servidor_1',true);
+			g_form.setDisplay('nombre_servidor_2',true);
+			g_form.setDisplay('nombre_servidor_3',false);
+			g_form.setDisplay('nombre_servidor_4',false);
+			g_form.setDisplay('nombre_servidor_5',false);
+			g_form.setDisplay('nombre_servidor_6',false);
+			g_form.setDisplay('nombre_servidor_7',false);
+			g_form.setDisplay('nombre_servidor_8',false);
+			
+			g_form.setDisplay('ip_servidor_1',true);
+			g_form.setDisplay('ip_servidor_2',true);
+			g_form.setDisplay('ip_servidor_3',false);
+			g_form.setDisplay('ip_servidor_4',false);
+			g_form.setDisplay('ip_servidor_5',false);
+			g_form.setDisplay('ip_servidor_6',false);
+			g_form.setDisplay('ip_servidor_7',false);
+			g_form.setDisplay('ip_servidor_8',false);
+			
+			//read only
+			
+			
+		}else if(catidadServiceGroupEnlazar == 3){
+			
+			g_form.setDisplay('nombre_servidor_1',true);
+			g_form.setDisplay('nombre_servidor_2',true);
+			g_form.setDisplay('nombre_servidor_3',true);
+			g_form.setDisplay('nombre_servidor_4',false);
+			g_form.setDisplay('nombre_servidor_5',false);
+			g_form.setDisplay('nombre_servidor_6',false);
+			g_form.setDisplay('nombre_servidor_7',false);
+			g_form.setDisplay('nombre_servidor_8',false);
+			
+			g_form.setDisplay('ip_servidor_1',true);
+			g_form.setDisplay('ip_servidor_2',true);
+			g_form.setDisplay('ip_servidor_3',true);
+			g_form.setDisplay('ip_servidor_4',false);
+			g_form.setDisplay('ip_servidor_5',false);
+			g_form.setDisplay('ip_servidor_6',false);
+			g_form.setDisplay('ip_servidor_7',false);
+			g_form.setDisplay('ip_servidor_8',false);
+			
+	
+			
+		}else if(catidadServiceGroupEnlazar == 4){
+			
+			g_form.setDisplay('nombre_servidor_1',true);
+			g_form.setDisplay('nombre_servidor_2',true);
+			g_form.setDisplay('nombre_servidor_3',true);
+			g_form.setDisplay('nombre_servidor_4',true);
+			g_form.setDisplay('nombre_servidor_5',false);
+			g_form.setDisplay('nombre_servidor_6',false);
+			g_form.setDisplay('nombre_servidor_7',false);
+			g_form.setDisplay('nombre_servidor_8',false);
+			
+			g_form.setDisplay('ip_servidor_1',true);
+			g_form.setDisplay('ip_servidor_2',true);
+			g_form.setDisplay('ip_servidor_3',true);
+			g_form.setDisplay('ip_servidor_4',true);
+			g_form.setDisplay('ip_servidor_5',false);
+			g_form.setDisplay('ip_servidor_6',false);
+			g_form.setDisplay('ip_servidor_7',false);
+			g_form.setDisplay('ip_servidor_8',false);
+			
+	
+			
+		}else if(catidadServiceGroupEnlazar == 5){
+			
+			g_form.setDisplay('nombre_servidor_1',true);
+			g_form.setDisplay('nombre_servidor_2',true);
+			g_form.setDisplay('nombre_servidor_3',true);
+			g_form.setDisplay('nombre_servidor_4',true);
+			g_form.setDisplay('nombre_servidor_5',true);
+			g_form.setDisplay('nombre_servidor_6',false);
+			g_form.setDisplay('nombre_servidor_7',false);
+			g_form.setDisplay('nombre_servidor_8',false);
+			
+			g_form.setDisplay('ip_servidor_1',true);
+			g_form.setDisplay('ip_servidor_2',true);
+			g_form.setDisplay('ip_servidor_3',true);
+			g_form.setDisplay('ip_servidor_4',true);
+			g_form.setDisplay('ip_servidor_5',true);
+			g_form.setDisplay('ip_servidor_6',false);
+			g_form.setDisplay('ip_servidor_7',false);
+			g_form.setDisplay('ip_servidor_8',false);
+			
+	
+			
+		}else if(catidadServiceGroupEnlazar == 6){
+			
+			g_form.setDisplay('nombre_servidor_1',true);
+			g_form.setDisplay('nombre_servidor_2',true);
+			g_form.setDisplay('nombre_servidor_3',true);
+			g_form.setDisplay('nombre_servidor_4',true);
+			g_form.setDisplay('nombre_servidor_5',true);
+			g_form.setDisplay('nombre_servidor_6',true);
+			g_form.setDisplay('nombre_servidor_7',false);
+			g_form.setDisplay('nombre_servidor_8',false);
+			
+			g_form.setDisplay('ip_servidor_1',true);
+			g_form.setDisplay('ip_servidor_2',true);
+			g_form.setDisplay('ip_servidor_3',true);
+			g_form.setDisplay('ip_servidor_4',true);
+			g_form.setDisplay('ip_servidor_5',true);
+			g_form.setDisplay('ip_servidor_6',true);
+			g_form.setDisplay('ip_servidor_7',false);
+			g_form.setDisplay('ip_servidor_8',false);
+	
+			
+			
+		}else if(catidadServiceGroupEnlazar == 7){
+			
+			g_form.setDisplay('nombre_servidor_1',true);
+			g_form.setDisplay('nombre_servidor_2',true);
+			g_form.setDisplay('nombre_servidor_3',true);
+			g_form.setDisplay('nombre_servidor_4',true);
+			g_form.setDisplay('nombre_servidor_5',true);
+			g_form.setDisplay('nombre_servidor_6',true);
+			g_form.setDisplay('nombre_servidor_7',true);
+			g_form.setDisplay('nombre_servidor_8',false);
+			
+			g_form.setDisplay('ip_servidor_1',true);
+			g_form.setDisplay('ip_servidor_2',true);
+			g_form.setDisplay('ip_servidor_3',true);
+			g_form.setDisplay('ip_servidor_4',true);
+			g_form.setDisplay('ip_servidor_5',true);
+			g_form.setDisplay('ip_servidor_6',true);
+			g_form.setDisplay('ip_servidor_7',true);
+			g_form.setDisplay('ip_servidor_8',false);
+			
+		
+			
+			
+			
+		}else if(catidadServiceGroupEnlazar == 8){
+			
+			g_form.setDisplay('nombre_servidor_1',true);
+			g_form.setDisplay('nombre_servidor_2',true);
+			g_form.setDisplay('nombre_servidor_3',true);
+			g_form.setDisplay('nombre_servidor_4',true);
+			g_form.setDisplay('nombre_servidor_5',true);
+			g_form.setDisplay('nombre_servidor_6',true);
+			g_form.setDisplay('nombre_servidor_7',true);
+			g_form.setDisplay('nombre_servidor_8',true);
+			
+			g_form.setDisplay('ip_servidor_1',true);
+			g_form.setDisplay('ip_servidor_2',true);
+			g_form.setDisplay('ip_servidor_3',true);
+			g_form.setDisplay('ip_servidor_4',true);
+			g_form.setDisplay('ip_servidor_5',true);
+			g_form.setDisplay('ip_servidor_6',true);
+			g_form.setDisplay('ip_servidor_7',true);
+			g_form.setDisplay('ip_servidor_8',true);
+			
+			
+			
+		}
+}
+
+}]]&gt;&lt;/script_true&gt;
+        &lt;set_values/&gt;
+        &lt;short_description&gt;LOCK_SCTASK_creacion&lt;/short_description&gt;
+        &lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;114190586&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-09-13 16:23:28&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;c7d3a8fe1b7733402ad798aebd4bcb5d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;LOCK_SCTASK_creacion&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="BCR_APP" source="x_287988_bcr_app"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="BCR_APP"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;catalog_ui_policy_c7d3a8fe1b7733402ad798aebd4bcb5d&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;114190586&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-09-13 16:57:19&lt;/sys_updated_on&gt;
+        &lt;table/&gt;
+        &lt;ui_type&gt;0&lt;/ui_type&gt;
+        &lt;variable_set/&gt;
+        &lt;view/&gt;
+    &lt;/catalog_ui_policy&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-721272328</payload_hash>
+        <record_name>LOCK_SCTASK_creacion</record_name>
+        <reverted_from/>
+        <source>8ef1f44e1bc7c010c33c877ddc4bcbe1</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 22:53:01</sys_created_on>
+        <sys_id>6af1384e1bc7c010c33c877ddc4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1705fa78f4d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 22:53:01</sys_updated_on>
+        <type>Catalog UI Policy</type>
+        <update_guid>a6f1384e95c7c0103d10865b792e31e6</update_guid>
+        <update_guid_history>a6f1384e95c7c0103d10865b792e31e6:0,d4e1fc0e4cc7c010d4ed6035949cb4cf:1083540646,c6b1300e06c7c0101b9afe015ceb5e4c:0,38c26b29e4c38010b4addec8ba6bc2fd:0,c3a2632953c380107052bdcbc15d0d4f:1083540646,da82e3e5cac380107098dbb09dc81b79:0,ea2aaa2d20cf4010afbccc4471ce4212:0,551a222d94cf4010f1b0c6f9f52217c6:1083540646,31096e696dcf401027a5223047400a64:0,fd6e5ea9278f4010f3ad42d2eac6738d:0,9f4ed2a9178f4010c3e27c7cb015cee0:1083540646,9d2e5669aa8f4010e16665140ef90302:0,a8f4bd2d64cb4010c0b912d575028684:0,a2d4352d76cb40105163c47ad2dd32f4:1083540646,aab4b5e9d2cb4010f2a73b9290a578e4:0,fb7c465db64f00100f19ae78665bbc26:0,ca6cca1dc74f0010bc56ffe1f95454ea:1083540646,f54c4ed9924f0010517e09c03af8a476:0,6c9e8595824b0010f55e3d862dffbba0:-721272328</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">33b860d61b870410c33c877ddc4bcb7f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 16:51:11</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy">catalog_ui_policy</sys_db_object>
+        <sys_id>1981f889109543c4975960c402dfe124</sys_id>
+        <sys_metadata>c7d3a8fe1b7733402ad798aebd4bcb5d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LOCK_SCTASK_creacion</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_c7d3a8fe1b7733402ad798aebd4bcb5d</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_c7d3a8fe1b7733402ad798aebd4bcb5d">6af1384e1bc7c010c33c877ddc4bcbe6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 16:51:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

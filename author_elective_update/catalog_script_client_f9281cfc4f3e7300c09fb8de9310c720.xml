@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>false</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Configuración de Virtual Servers Citrix ">3105d62cdb7573002ca60d53ca961963</cat_item>
+        <cat_variable>IO:9f74c455db4e73002ca60d53ca9619a3</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>CargaModificarSelectBoxVirtualServerBCR</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+
+    //si elijo modificar primero cargo el selelectBox
+
+    var tipoSolicitud = g_form.getValue('tipo_de_solicitud');
+    var instanciaPrimaria = g_form.getValue('instancia_primaria_bcr');
+
+    if (tipoSolicitud == 'Modificar Virtual Servers') {
+
+        console.log("CargaModificarSelectBoxVirtualServerBCR");
+		g_form.setValue('virtual_server_a_modificar','');
+        var ga = new GlideAjax('MostrarVirtualServerInclude32');
+        ga.addParam("sysparm_name", "listarVS");
+        ga.addParam("sysparm_name_IP", instanciaPrimaria);
+        ga.getXML(getResponse);
+
+
+    } else {
+
+        //limpio campos
+        g_form.setValue('nombre_del_servidor_virtual', '');
+        g_form.setValue('tipo_de_protoc_lo', '');
+        g_form.setValue('ip_address', '');
+        //g_form.setReadOnly('nombre_del_servidor_virtual',false);
+    }
+    //function
+
+    // aqui carga por campos
+    function getResponse(response) {
+        console.log("CargaModificarSelectBoxVirtualServerBCR2");
+        var values = response.responseXML.documentElement.getAttribute('answer');
+        var arrayValue = JSON.parse(values).lbvserver;
+        g_form.clearOptions('virtual_server_a_modificar');
+        var options = '';
+        for (var i = 0; i < arrayValue.length; i++) {
+            var dataBoxFill = arrayValue[i].name;
+            var ip = arrayValue[i].ipv46;
+            options += '<option value="' + dataBoxFill + '">' + dataBoxFill + ': ' + ip + '</option>';
+
+            //g_form.addOption('virtual_server_a_modificar',dataBoxFill,dataBoxFill);
+
+
+        } //fin for
+       /* Para el autocomplete
+		document.getElementById('listaVS').innerHTML = options;
+        var modificar = g_form.getElement('virtual_server_a_modificar');
+        modificar.setAttribute("list", 'listaVS');
+*/
+
+    }
+
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-19 17:25:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f9281cfc4f3e7300c09fb8de9310c720</sys_id>
+        <sys_mod_count>62</sys_mod_count>
+        <sys_name>CargaModificarSelectBoxVirtualServerBCR</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>catalog_script_client_f9281cfc4f3e7300c09fb8de9310c720</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 22:35:24</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>catalog_script_client_f9281cfc4f3e7300c09fb8de9310c720</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;
+    &lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;false&lt;/active&gt;
+        &lt;applies_catalog&gt;true&lt;/applies_catalog&gt;
+        &lt;applies_extended&gt;false&lt;/applies_extended&gt;
+        &lt;applies_req_item&gt;false&lt;/applies_req_item&gt;
+        &lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;
+        &lt;applies_target_record&gt;false&lt;/applies_target_record&gt;
+        &lt;applies_to&gt;item&lt;/applies_to&gt;
+        &lt;cat_item display_value="Configuración de Virtual Servers Citrix "&gt;3105d62cdb7573002ca60d53ca961963&lt;/cat_item&gt;
+        &lt;cat_variable&gt;IO:9f74c455db4e73002ca60d53ca9619a3&lt;/cat_variable&gt;
+        &lt;condition/&gt;
+        &lt;description/&gt;
+        &lt;field/&gt;
+        &lt;global&gt;true&lt;/global&gt;
+        &lt;isolate_script&gt;true&lt;/isolate_script&gt;
+        &lt;messages/&gt;
+        &lt;name&gt;CargaModificarSelectBoxVirtualServerBCR&lt;/name&gt;
+        &lt;order/&gt;
+        &lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+
+    //si elijo modificar primero cargo el selelectBox
+
+    var tipoSolicitud = g_form.getValue('tipo_de_solicitud');
+    var instanciaPrimaria = g_form.getValue('instancia_primaria_bcr');
+
+    if (tipoSolicitud == 'Modificar Virtual Servers') {
+
+        console.log("CargaModificarSelectBoxVirtualServerBCR");
+		g_form.setValue('virtual_server_a_modificar','');
+        var ga = new GlideAjax('MostrarVirtualServerInclude32');
+        ga.addParam("sysparm_name", "listarVS");
+        ga.addParam("sysparm_name_IP", instanciaPrimaria);
+        ga.getXML(getResponse);
+
+
+    } else {
+
+        //limpio campos
+        g_form.setValue('nombre_del_servidor_virtual', '');
+        g_form.setValue('tipo_de_protoc_lo', '');
+        g_form.setValue('ip_address', '');
+        //g_form.setReadOnly('nombre_del_servidor_virtual',false);
+    }
+    //function
+
+    // aqui carga por campos
+    function getResponse(response) {
+        console.log("CargaModificarSelectBoxVirtualServerBCR2");
+        var values = response.responseXML.documentElement.getAttribute('answer');
+        var arrayValue = JSON.parse(values).lbvserver;
+        g_form.clearOptions('virtual_server_a_modificar');
+        var options = '';
+        for (var i = 0; i &lt; arrayValue.length; i++) {
+            var dataBoxFill = arrayValue[i].name;
+            var ip = arrayValue[i].ipv46;
+            options += '&lt;option value="' + dataBoxFill + '"&gt;' + dataBoxFill + ': ' + ip + '&lt;/option&gt;';
+
+            //g_form.addOption('virtual_server_a_modificar',dataBoxFill,dataBoxFill);
+
+
+        } //fin for
+       /* Para el autocomplete
+		document.getElementById('listaVS').innerHTML = options;
+        var modificar = g_form.getElement('virtual_server_a_modificar');
+        modificar.setAttribute("list", 'listaVS');
+*/
+
+    }
+
+}]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-07-19 17:25:27&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;f9281cfc4f3e7300c09fb8de9310c720&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;62&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;CargaModificarSelectBoxVirtualServerBCR&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="BCR_APP" source="x_287988_bcr_app"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="BCR_APP"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;catalog_script_client_f9281cfc4f3e7300c09fb8de9310c720&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2020-02-19 22:35:24&lt;/sys_updated_on&gt;
+        &lt;table/&gt;
+        &lt;type&gt;onChange&lt;/type&gt;
+        &lt;ui_type&gt;10&lt;/ui_type&gt;
+        &lt;variable_set/&gt;
+        &lt;view/&gt;
+    &lt;/catalog_script_client&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-122050125</payload_hash>
+        <record_name>CargaModificarSelectBoxVirtualServerBCR</record_name>
+        <reverted_from/>
+        <source>bd82562a1b4f4410c33c877ddc4bcbe8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 19:11:50</sys_created_on>
+        <sys_id>8a82962a1b4f4410c33c877ddc4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1706929c7780000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 19:11:50</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>c682962a414f4410ab76ffc021b05035</update_guid>
+        <update_guid_history>c682962a414f4410ab76ffc021b05035:0,db72922ac74f4410ffb4caab00b9bb19:288354758,8d5252e67d4f4410c1d565429e43189a:0,3a62caa27b0f4410bace437915dccf03:0,cc6286a2d50f441004f92bc419c87cb1:288354758,c23286621e0f4410744cd047a9bf6c67:0,b1c4e56eef4b4410d6b0972a670cc085:0,47b4e16e504b441064d65580713ee904:288354758,7094a12ef54b4410eb92bb5c0e22790d:0,546e11d2868b0410ff212c78bc08b425:0,415ed9921d8b041079e7553bc8a5a29d:288354758,582e5952c08b0410ef1918271efe6f1e:0,ae001ddec20b04100990efcbfb2fed28:0,97ffc5dec40b041056faeeb781e35979:288354758,31cf059ed20b041043e30f40ccec13fa:0,18fde0c642c7c01090550f3b13f42601:-2072266761,9ef1384e6dc7c010a5fb1d50ee82b483:0,43e1f04eb1c7c010e978c1ec14abe8ad:288354758,16b1300eebc7c010da5548dc28623777:0,18fde0c642c7c01090550f3b13f42601:-2072266761,28c26b290ac3801049c47d01b1ad6bd1:0,a5b2672992c380104f70cb21786adb23:-1840231439,6a82e3e5dec380102131e566e1b73c94:0,ea2a6a2dedcf4010da08afaee6709ce6:0,ff1a262d79cf401067ea9541a9b506ab:-1840231439,f9096e69b6cf401076571648a0dc5686:0,fd6e5ea9878f40107d72495bc6518661:0,125e1aa9f78f40100f09ae07c4458c85:-1840231439,a92e5669bb8f4010c25016ba7a96c24f:0,a8f4bd2d32cb4010848c16fb5523c958:0,bde4392d17cb40102ec804b6ea0c79f2:288354758,62b4f5e976cb401073c4189322e9f70c:0,f06fce91e18f0010f0859e6c0c1ed37d:-2072266761,eb7c065daa4f001022aecd3f7a96cbfa:0,bc7cce1dd14f0010f6529709474904ec:-1840231439,8e4c4ed9194f001076f8ec4a40abe19d:0,dc9e85959c4b00104b0a21e120d5a47a:1894311556</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">29dbd6661b8f4410c33c877ddc4bcbd5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 19:52:30</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>0d9927a73b6b49beab22cfc5a1250ce4</sys_id>
+        <sys_metadata>f9281cfc4f3e7300c09fb8de9310c720</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CargaModificarSelectBoxVirtualServerBCR</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>catalog_script_client_f9281cfc4f3e7300c09fb8de9310c720</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_f9281cfc4f3e7300c09fb8de9310c720">8a82962a1b4f4410c33c877ddc4bcb35</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 19:52:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

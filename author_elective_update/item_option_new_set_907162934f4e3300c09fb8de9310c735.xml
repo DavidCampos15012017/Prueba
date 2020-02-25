@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>monitoresdesaludvariableset</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-20 15:00:46</sys_created_on>
+        <sys_id>907162934f4e3300c09fb8de9310c735</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>monitoresDeSaludVariableSet</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>item_option_new_set_907162934f4e3300c09fb8de9310c735</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-20 15:02:32</sys_updated_on>
+        <title>monitoresDeSaludVariableSet</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </item_option_new_set>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>item_option_new_set_907162934f4e3300c09fb8de9310c735</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>monitoresdesaludvariableset</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-20 15:00:46</sys_created_on>
+        <sys_id>907162934f4e3300c09fb8de9310c735</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>monitoresDeSaludVariableSet</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>item_option_new_set_907162934f4e3300c09fb8de9310c735</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-20 15:02:32</sys_updated_on>
+        <title>monitoresDeSaludVariableSet</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>]]></payload>
+        <payload_hash>-1711785872</payload_hash>
+        <record_name>monitoresDeSaludVariableSet</record_name>
+        <reverted_from/>
+        <source>bd82562a1b4f4410c33c877ddc4bcbe8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 19:12:12</sys_created_on>
+        <sys_id>5792126a1b4f4410c33c877ddc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170692a1c3c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 19:12:12</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>9392126ae24f4410d7f0ff8b920ce6cf</update_guid>
+        <update_guid_history>9392126ae24f4410d7f0ff8b920ce6cf:0,4e625ae6154f4410a8377ced18ecb6c1:735812610,277206e2600f4410da319826fe184542:0,fe424e625b0f441058c42c0b57fd12f7:735812610,a6d421ae7c4b4410502a2d6bf87770b7:0,b9a4a92e7e4b4410843ec5ff2a9b2e10:735812610,757e19d2f48b0410219e7a4c1ffed4db:0,5e3e91926a8b04106eeb1f0427fdf552:735812610,182055125b4b0410ba413e373a0423c6:0,58ef8d9ec40b04104f1e88074494013d:735812610,0412708e4fc7c010f53ce8a1824e2ec1:0,68d1780e53c7c01064a4f88c3a7e58e5:735812610,65d2a36905c38010c1e95dd9ddd719af:0,73922fe5efc38010ba5e6997e573d14c:735812610,b63a626df4cf4010a1ff8a0ecde9fe68:0,d60a2ee928cf4010658a976a081f4314:735812610,af7ed6e9358f40106b5769a933c9c6bb:0,9b3e9e69198f40109f0e9531ef68da85:735812610,7c05b56da0cb4010bdbced1170285882:0,1fc4fde9facb401027f1c207b1060662:735812610,738c0e5dc94f0010c5836b577ad7e87c:0,c75c461d394f0010bb59fee9168b23e0:735812610,f0ae8d95a14b00103a9cdbf49edfcd91:1007446075</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">df6c66e61bcf4410c33c877ddc4bcba4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 21:04:58</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>04aca1f0e2834f6280272b9ca46bc6a4</sys_id>
+        <sys_metadata>907162934f4e3300c09fb8de9310c735</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>monitoresDeSaludVariableSet</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>item_option_new_set_907162934f4e3300c09fb8de9310c735</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_907162934f4e3300c09fb8de9310c735">5792126a1b4f4410c33c877ddc4bcbcf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 21:04:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_287988_bcr_app_configuraciones" version="2" view="">
+        <sys_ui_list action="DELETE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_287988_bcr_app_configuraciones</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name/>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path/>
+            <sys_id>6614476adb8b4410579a9fd2ca9619b4</sys_id>
+            <sys_mod_count/>
+            <sys_name/>
+            <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2020-02-24 14:19:00</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>4fa0acfc6fe6b5c0c2b67b2f5d3ee422</instance_id>
+        <instance_name>dev10576</instance_name>
+        <name>sys_ui_list_x_287988_bcr_app_configuraciones_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_287988_bcr_app_configuraciones" version="2" view=""><sys_ui_list action="DELETE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_287988_bcr_app_configuraciones</name><parent/><position/><relationship/><sum>false</sum><sys_class_name/><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path/><sys_id>6614476adb8b4410579a9fd2ca9619b4</sys_id><sys_mod_count/><sys_name/><sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package><sys_policy/><sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on>2020-02-24 14:19:00</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-642625077</payload_hash>
+        <record_name>x_287988_bcr_app_configuraciones</record_name>
+        <reverted_from/>
+        <source>39b12f96dbd20010579a9fd2ca961922</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 14:19:00</sys_created_on>
+        <sys_id>614ce86bdb0f0810579a9fd2ca9619c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1707790c2fc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 14:19:00</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>a94ce86b600f081060f7c4b770ba6dc0</update_guid>
+        <update_guid_history>a94ce86b600f081060f7c4b770ba6dc0:-642625077,ee14476a8a8b4410a0a79ec6e7db44b6:-797513491</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 15:51:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>177ff45fdedf47c09037bac3537e4400</sys_id>
+        <sys_metadata>5fb7b06bdb4f0810579a9fd2ca9619f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_287988_bcr_app_configuraciones</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent display_value="">4560cb66db8b4410579a9fd2ca9619e0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_287988_bcr_app_configuraciones_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_287988_bcr_app_configuraciones_null">614ce86bdb0f0810579a9fd2ca9619c1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 15:51:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

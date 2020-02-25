@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="nsSNow">ac17eec7db580410f9d35f774896190e</basic_auth_profile>
+        <basic_auth_user/>
+        <content/>
+        <function_name>CreatePersistencegroupBCR30</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>BCRmessage [ CreatePersistencegroupBCR30 ]</qualified_name>
+        <rest_endpoint>http://${ipAddress}/nitro/v1/config/lbgroup</rest_endpoint>
+        <rest_message display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-28 19:45:29</sys_created_on>
+        <sys_id>b19f2cc64fd23300c09fb8de9310c707</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>CreatePersistencegroupBCR30</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_rest_message_fn_b19f2cc64fd23300c09fb8de9310c707</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:27:10</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server display_value="Katherine">ae95d5511b8b0010c33c877ddc4bcb10</use_mid_server>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>sys_rest_message_fn_b19f2cc64fd23300c09fb8de9310c707</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>basic</authentication_type><basic_auth_password/><basic_auth_profile display_value="nsSNow">ac17eec7db580410f9d35f774896190e</basic_auth_profile><basic_auth_user/><content/><function_name>CreatePersistencegroupBCR30</function_name><http_method>post</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>BCRmessage [ CreatePersistencegroupBCR30 ]</qualified_name><rest_endpoint>http://${ipAddress}/nitro/v1/config/lbgroup</rest_endpoint><rest_message display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-06-28 19:45:29</sys_created_on><sys_id>b19f2cc64fd23300c09fb8de9310c707</sys_id><sys_mod_count>20</sys_mod_count><sys_name>CreatePersistencegroupBCR30</sys_name><sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package><sys_policy/><sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope><sys_update_name>sys_rest_message_fn_b19f2cc64fd23300c09fb8de9310c707</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-20 20:27:10</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server display_value="Katherine">ae95d5511b8b0010c33c877ddc4bcb10</use_mid_server><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>-1263987837</payload_hash>
+        <record_name>CreatePersistencegroupBCR30</record_name>
+        <reverted_from/>
+        <source>3bde5d161b8b0410c33c877ddc4bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 20:47:42</sys_created_on>
+        <sys_id>68ee9d161b8b0410c33c877ddc4bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170645b307a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:47:42</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>bf2ad15ea14b04106403719748bcad36</update_guid>
+        <update_guid_history>bf2ad15ea14b04106403719748bcad36:-1263987837,7d8e11167c8b041005df1ccfc656359a:0,184e5592ce8b0410a70aa5cbd4fcb153:868268742,004e1592198b0410e40da5cccfee4fcb:0,bf2ad15ea14b04106403719748bcad36:-1263987837,c830d912e24b041032ccdb64cea34fd2:0,5aef41dec70b04101493d64072be170c:868268742,4eef01de230b04104d2abf0b3cce23b5:0,23a36fe997c38010d6aac41bf4915718:-1263987837,ff12b88e2ec7c01083ce81ccf0090d21:0,ead13c0e11c7c01044f584fedf9e8fdc:868268742,5ed13c0e77c7c010a6fd3b4779e6416a:0,23a36fe997c38010d6aac41bf4915718:-1263987837,b8e22b691bc38010246c9191589c623d:0,a9a2afe5d6c380101595a446a9e320e1:868268742,d828d7e98083801098ff0a18cc766035:-1263987837,d828d7e98083801098ff0a18cc766035:-1263987837,8a4aaa6d79cf401016e1a4263dfc0421:0,f70aaee9e6cf4010454d3241ae808dd4:1921345264,a30aaee9d0cf401030d9298d0dc17367:0,438e5ee9a88f4010061324ec2896258a:0,e94e52a9298f40109ff70b19be18238e:868268742,d94e52a91e8f40106b4f0d5ea14b8a22:0,fb05bd6d58cb4010d82f87bf5cb03bbd:0,45d4b12d2acb40100e7326e433d38bef:868268742,f0d4b12da7cb40105557704bff21519c:0,380e4251998f001089f0eca5992443f6:-1263987837,7a9c829d214f00102e2f1d67baeeba58:0,f06c4a1d154f0010993a8d64a262c767:868268742,e06c4a1df34f0010f60b3706b9d6601f:0,b9a7d5158a8b001024ef09e5c5a052d7:-1263987837,afaec1d5074b0010b7b9a8dcd44b89c4:-2041503278</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 15:02:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>c959e448fcd94188950766f53a8e7851</sys_id>
+        <sys_metadata>b19f2cc64fd23300c09fb8de9310c707</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CreatePersistencegroupBCR30</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_b19f2cc64fd23300c09fb8de9310c707</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_b19f2cc64fd23300c09fb8de9310c707">68ee9d161b8b0410c33c877ddc4bcbbe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 15:02:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Bootstrap">00106ba0db04330087d9d6aa489619c5</sc_cat_item>
+        <sc_catalog display_value="TestingBoostrap">e3af1ba0db04330087d9d6aa4896196a</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-04 20:26:07</sys_created_on>
+        <sys_id>a6b0aba0db04330087d9d6aa48961982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TestingBoostrap.Bootstrap</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_a6b0aba0db04330087d9d6aa48961982</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-04 20:26:07</sys_updated_on>
+    </sc_cat_item_catalog>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>sc_cat_item_catalog_a6b0aba0db04330087d9d6aa48961982</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Bootstrap">00106ba0db04330087d9d6aa489619c5</sc_cat_item>
+        <sc_catalog display_value="TestingBoostrap">e3af1ba0db04330087d9d6aa4896196a</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-04 20:26:07</sys_created_on>
+        <sys_id>a6b0aba0db04330087d9d6aa48961982</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TestingBoostrap.Bootstrap</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_a6b0aba0db04330087d9d6aa48961982</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-04 20:26:07</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>]]></payload>
+        <payload_hash>1114062286</payload_hash>
+        <record_name>TestingBoostrap.Bootstrap</record_name>
+        <reverted_from/>
+        <source>bd82562a1b4f4410c33c877ddc4bcbe8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 19:12:23</sys_created_on>
+        <sys_id>46a2566a1b4f4410c33c877ddc4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170692a49490000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 19:12:23</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>82a2566a724f4410dcb29d7f04d0e6fb</update_guid>
+        <update_guid_history>82a2566a724f4410dcb29d7f04d0e6fb:0,1c429aa6794f4410ec232e00d2e803a1:52737404,5e824ae2ac0f441070150319bcbdfc61:0,45228e22420f4410da6517ef27107ce4:52737404,41e465ae6e4b441015aa1abff27358a5:0,3b74a9eab14b4410fbec6253de1aa751:52737404,c58e9dd2938b041017143141b44c84bf:0,d20e5152718b0410fa469390632151ca:52737404,53209912764b04102ece9557a59e6df0:0,37af4d5e4b0b041019e5ca9feb72a14d:52737404,cb12388e0cc7c01045d3dfa6035e876e:0,58a138ca97c7c01044d3f557f4e12b1b:52737404,c0e2e769c1c38010580339d751cc855a:0,11722fa5bac38010e7fa43d62bfbfce3:52737404,e94a2a6d15cf401019429fcfe96f4081:0,77d96ea94bcf4010c9f2a3c818119f65:52737404,1e8e1ee9338f40106aedbc742b1526a4:0,6b0e5e29d58f401022c341922a126cc6:52737404,1f057d6d95cb401058f76deaf162922b:0,fda431e963cb4010175fae485e8b3e0f:52737404,9e9c429dcc4f001013f3e3d99666710b:0,7c3c86d9444f0010a114f4bb2ca2412b:52737404,c3ae81d5144b001098e2a1bee9241edc:1114062286</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">0e8bee661bcf4410c33c877ddc4bcbca</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 21:01:04</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>1c91bfa8eed54e20a87346c5da5503c1</sys_id>
+        <sys_metadata>a6b0aba0db04330087d9d6aa48961982</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TestingBoostrap.Bootstrap</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent display_value="">00106ba0db04330087d9d6aa489619c5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_a6b0aba0db04330087d9d6aa48961982</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_a6b0aba0db04330087d9d6aa48961982">46a2566a1b4f4410c33c877ddc4bcbfb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 21:01:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

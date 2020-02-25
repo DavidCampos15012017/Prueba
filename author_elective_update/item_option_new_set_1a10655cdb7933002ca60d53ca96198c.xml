@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>true</display_title>
+        <internal_name>informacion_de_la_solicitud</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-29 16:16:55</sys_created_on>
+        <sys_id>1a10655cdb7933002ca60d53ca96198c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Información de la Solicitud</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>item_option_new_set_1a10655cdb7933002ca60d53ca96198c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-10 04:22:49</sys_updated_on>
+        <title>Información de la Solicitud</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </item_option_new_set>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>item_option_new_set_1a10655cdb7933002ca60d53ca96198c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>true</display_title>
+        <internal_name>informacion_de_la_solicitud</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-29 16:16:55</sys_created_on>
+        <sys_id>1a10655cdb7933002ca60d53ca96198c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Información de la Solicitud</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>item_option_new_set_1a10655cdb7933002ca60d53ca96198c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-10 04:22:49</sys_updated_on>
+        <title>Información de la Solicitud</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>]]></payload>
+        <payload_hash>-1091603663</payload_hash>
+        <record_name>Información de la Solicitud</record_name>
+        <reverted_from/>
+        <source>bd82562a1b4f4410c33c877ddc4bcbe8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 19:12:12</sys_created_on>
+        <sys_id>9792126a1b4f4410c33c877ddc4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170692a1bcc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 19:12:12</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>d392126ac94f44106c5e1aa76cd527c4</update_guid>
+        <update_guid_history>d392126ac94f44106c5e1aa76cd527c4:0,53429ea6924f4410800601221d5748c9:1640687315,677206e2740f4410b89cc3cad9592937:0,5432c262ab0f4410cbb4a5552d349962:1640687315,e6d421ae944b441087c045c94863b5ac:0,4b84adead04b4410577beb05ec6afaca:1640687315,f97e19d2de8b04100e46620cda5705ab:0,061e9552528b0410c89bd5d496c1f35b:1640687315,d0205512994b04100abd7b145bd22cbc:0,53bf419e740b0410221d43c00b9a24ec:1640687315,8c12708e2cc7c0104a57b03fe196eca9:0,ffa13ccaa3c7c0106171016beac973d9:1640687315,a9d2a369c9c380107a7e52ffb9e874a5:0,288223e59bc380102603686d5f0efaec:1640687315,fa3a626d04cf4010d906edd5b9f0145e:0,2fe962e9accf4010b7b05a1403f42ba1:1640687315,1f7ed6e9e78f40107dfdd1c4f882c3a5:0,d31e92699f8f40103da9af460b74ad06:1640687315,f805b56de6cb40106f2a9ddee87f436c:0,b0b435e911cb4010912ba8a8674f1a65:1640687315,b78c0e5d454f00100836fc0d0f6b7d72:0,b73c8ad9774f00103607c8e0d9b4ce6d:1640687315,e4ae8d95924b001018f5896915604d88:-543675460</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">3a4c62e61bcf4410c33c877ddc4bcb27</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 21:04:24</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>894d847ff89b48548ec72d77e0266089</sys_id>
+        <sys_metadata>1a10655cdb7933002ca60d53ca96198c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Información de la Solicitud</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>item_option_new_set_1a10655cdb7933002ca60d53ca96198c</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_1a10655cdb7933002ca60d53ca96198c">9792126a1b4f4410c33c877ddc4bcbc4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 21:04:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

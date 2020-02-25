@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_287988_bcr_app.llamadoMasBCR</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>llamadoMasBCR</name>
+        <script><![CDATA[var llamadoMasBCR = Class.create();
+llamadoMasBCR.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	llamadoMasBCRMethod: function(){
+		
+		
+	var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'BCR MAS Verificar');
+		
+		var response = r.execute();
+		var responseBody = response.getBody();
+		var httpStatus = response.getStatusCode();
+		var arrayValue= JSON.parse(responseBody).ns;
+		var ipValue= '';
+		var haValue = '';
+		var array = [];
+		
+		for(var i = 0; i < arrayValue.length; i++ ){
+			
+			//x_287988_bcr_app: the primary node is: Primary and the IP Address is: 172.31.238.15
+			
+			if(arrayValue[i].ip_address == '172.21.72.30' && arrayValue[i].ha_master_state == 'Primary'){
+				
+				ipValue = arrayValue[i].ip_address;
+				haValue = arrayValue[i].ha_master_state;
+			    array.push(ipValue,haValue);
+				
+
+				//poner aca el script includes de esa IP
+				
+			}else if(arrayValue[i].ip_address == '172.21.72.32' && arrayValue[i].ha_master_state == 'Primary'){
+				ipValue = arrayValue[i].ip_address;
+				haValue = arrayValue[i].ha_master_state;
+			    array.push(ipValue,haValue);
+				
+				//poner el include script de la otra IP
+			}
+			
+		}//fin for
+
+		return array.toString();	
+		
+	},
+	type: 'llamadoMasBCR'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-21 19:57:11</sys_created_on>
+        <sys_id>dfc260b74f423300c09fb8de9310c747</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>llamadoMasBCR</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_script_include_dfc260b74f423300c09fb8de9310c747</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-24 15:06:33</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>sys_script_include_dfc260b74f423300c09fb8de9310c747</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;public&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_287988_bcr_app.llamadoMasBCR&lt;/api_name&gt;
+        &lt;caller_access/&gt;
+        &lt;client_callable&gt;true&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;llamadoMasBCR&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var llamadoMasBCR = Class.create();
+llamadoMasBCR.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	llamadoMasBCRMethod: function(){
+		
+		
+	var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'BCR MAS Verificar');
+		
+		var response = r.execute();
+		var responseBody = response.getBody();
+		var httpStatus = response.getStatusCode();
+		var arrayValue= JSON.parse(responseBody).ns;
+		var ipValue= '';
+		var haValue = '';
+		var array = [];
+		
+		for(var i = 0; i &lt; arrayValue.length; i++ ){
+			
+			//x_287988_bcr_app: the primary node is: Primary and the IP Address is: 172.31.238.15
+			
+			if(arrayValue[i].ip_address == '172.21.72.30' &amp;&amp; arrayValue[i].ha_master_state == 'Primary'){
+				
+				ipValue = arrayValue[i].ip_address;
+				haValue = arrayValue[i].ha_master_state;
+			    array.push(ipValue,haValue);
+				
+
+				//poner aca el script includes de esa IP
+				
+			}else if(arrayValue[i].ip_address == '172.21.72.32' &amp;&amp; arrayValue[i].ha_master_state == 'Primary'){
+				ipValue = arrayValue[i].ip_address;
+				haValue = arrayValue[i].ha_master_state;
+			    array.push(ipValue,haValue);
+				
+				//poner el include script de la otra IP
+			}
+			
+		}//fin for
+
+		return array.toString();	
+		
+	},
+	type: 'llamadoMasBCR'
+});]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-21 19:57:11&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;dfc260b74f423300c09fb8de9310c747&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;15&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;llamadoMasBCR&lt;/sys_name&gt;
+        &lt;sys_package display_value="BCR_APP" source="x_287988_bcr_app"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_scope display_value="BCR_APP"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_dfc260b74f423300c09fb8de9310c747&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-06-24 15:06:33&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-319508641</payload_hash>
+        <record_name>llamadoMasBCR</record_name>
+        <reverted_from/>
+        <source>8ef1f44e1bc7c010c33c877ddc4bcbe1</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 22:53:43</sys_created_on>
+        <sys_id>e8223c8e1bc7c010c33c877ddc4bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1705fa831ac0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 22:53:43</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>28223c8ebfc7c010a9e5fc59435ea3b5</update_guid>
+        <update_guid_history>28223c8ebfc7c010a9e5fc59435ea3b5:0,8ee1b04e48c7c010d0cb1be38e6b8a0d:991531489,a9e2ab6924c380100581306161493a5a:0,60b2e329e4c380108b1b94a6ae991e8c:991531489,2a4aea6d09cf401080da64befd9fc890:0,b21aa22dbacf401025cb5f77db26f5e2:991531489,f38e9ee9378f401061370b5f8c6d02c7:0,c95e96a9b28f4010b7bbb223f7f29223:991531489,6c1571ad70cb4010efb64343f43ae88a:0,80e4f52d85cb40105d94d3f8b20d2b62:991531489,6b9c469d9b4f001077c42e4db6c4c33e:0,736c8e1dc04f0010fbbdbfd7b4fee03d:991531489,d0be45d55c4b001046c90ef0544424cf:-977963128</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 15:11:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>16e80c87f4b946c682e6edd32788d0e4</sys_id>
+        <sys_metadata>dfc260b74f423300c09fb8de9310c747</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>llamadoMasBCR</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_script_include_dfc260b74f423300c09fb8de9310c747</sys_update_name>
+        <sys_update_version display_value="sys_script_include_dfc260b74f423300c09fb8de9310c747">e8223c8e1bc7c010c33c877ddc4bcbb5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 15:11:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

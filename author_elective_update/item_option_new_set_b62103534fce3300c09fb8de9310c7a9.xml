@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>variablesetmonitor</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-20 17:17:27</sys_created_on>
+        <sys_id>b62103534fce3300c09fb8de9310c7a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>variableSetMonitor</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>item_option_new_set_b62103534fce3300c09fb8de9310c7a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-20 17:17:27</sys_updated_on>
+        <title>variableSetMonitor</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </item_option_new_set>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>item_option_new_set_b62103534fce3300c09fb8de9310c7a9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>variablesetmonitor</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-20 17:17:27</sys_created_on>
+        <sys_id>b62103534fce3300c09fb8de9310c7a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>variableSetMonitor</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>item_option_new_set_b62103534fce3300c09fb8de9310c7a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-20 17:17:27</sys_updated_on>
+        <title>variableSetMonitor</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>]]></payload>
+        <payload_hash>-1559777538</payload_hash>
+        <record_name>variableSetMonitor</record_name>
+        <reverted_from/>
+        <source>bd82562a1b4f4410c33c877ddc4bcbe8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 19:12:12</sys_created_on>
+        <sys_id>db92126a1b4f4410c33c877ddc4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170692a1c680000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 19:12:12</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>1b92126a664f441004c9bd566e2830d3</update_guid>
+        <update_guid_history>1b92126a664f441004c9bd566e2830d3:0,b7621ee6e84f4410e2169e7159895b56:-285531508,ab7206e2110f4410b8ddc8ea4f1f1346:0,745242a2280f441072c53eb77a16c022:-285531508,2ed421aee34b44100f92a3baf85919bb:0,f3a46d2e324b4410bcd7f8d2a531bd95:-285531508,f57e19d2dd8b04102720b88fbea7f4df:0,a84e55920d8b0410a70a6619bc22c3a3:-285531508,98205512d14b04107e7e0777a40bf1ca:0,faef41de670b0410116ee2543af39c5c:-285531508,8812708ee4c7c010a83a26b082d51fc5:0,72d17c0e75c7c010cd0b31d5d3e5f03f:-285531508,e1d2a36944c380103ba28ad7e5cd36b3:0,f5a2efe50bc38010e30c2681c2f5ac27:-285531508,363a626de7cf40100ef4ca4dc1c0e96c:0,441aeee992cf4010d8d49c3ff4ac251a:-285531508,2f7ed6e9b78f4010196c94665da91abf:0,b14e52a9d38f40100955822209032af7:-285531508,f805b56da6cb4010bb69bd89559c3086:0,99d4f12dd4cb4010760bbcff4f0e1f32:-285531508,cc9c0e5d444f0010f1250d8f929c667f:0,4d6c4a1de94f001076f052689d9aa7b7:-285531508,f8ae8d953b4b001009c46705ea50e894:1484442889</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">718c6ae61bcf4410c33c877ddc4bcb04</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 21:05:25</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>0a9e0516481d4e78819f457ebaeeca40</sys_id>
+        <sys_metadata>b62103534fce3300c09fb8de9310c7a9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>variableSetMonitor</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>item_option_new_set_b62103534fce3300c09fb8de9310c7a9</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_b62103534fce3300c09fb8de9310c7a9">db92126a1b4f4410c33c877ddc4bcbd3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 21:05:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

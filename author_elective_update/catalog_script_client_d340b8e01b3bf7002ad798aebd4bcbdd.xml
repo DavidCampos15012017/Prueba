@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>false</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Configuración de Virtual Servers Citrix ">3105d62cdb7573002ca60d53ca961963</cat_item>
+        <cat_variable>IO:9f74c455db4e73002ca60d53ca9619a3</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>tipoSolicitudMandatoryCreacion</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+//USAR JQUERY click automaticaly el 2
+   //Type appropriate comment here, and begin script below
+	var tipo = g_form.getValue('tipo_de_solicitud');
+	
+	if(tipo == 'Crear Virtual Servers'){
+		g_form.setDisplay('n_mero_de_servers_a_enlazar',true);
+		console.log("tipoSolicitudMandatoryCreacion");
+		$j(document).ready(function(){
+  $j('#IO:f8f0b46ddb0ab3002ca60d53ca96198f_llh6pnqmktijtddl90c4hnpjmh').trigger('click');
+});	
+	}
+   
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>114190586</sys_created_by>
+        <sys_created_on>2019-09-06 17:32:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d340b8e01b3bf7002ad798aebd4bcbdd</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>tipoSolicitudMandatoryCreacion</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>catalog_script_client_d340b8e01b3bf7002ad798aebd4bcbdd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 21:49:57</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>4fa0acfc6fe6b5c0c2b67b2f5d3ee422</instance_id>
+        <instance_name>dev10576</instance_name>
+        <name>catalog_script_client_d340b8e01b3bf7002ad798aebd4bcbdd</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Configuración de Virtual Servers Citrix "&gt;3105d62cdb7573002ca60d53ca961963&lt;/cat_item&gt;&lt;cat_variable&gt;IO:9f74c455db4e73002ca60d53ca9619a3&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;tipoSolicitudMandatoryCreacion&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+//USAR JQUERY click automaticaly el 2
+   //Type appropriate comment here, and begin script below
+	var tipo = g_form.getValue('tipo_de_solicitud');
+	
+	if(tipo == 'Crear Virtual Servers'){
+		g_form.setDisplay('n_mero_de_servers_a_enlazar',true);
+		console.log("tipoSolicitudMandatoryCreacion");
+		$j(document).ready(function(){
+  $j('#IO:f8f0b46ddb0ab3002ca60d53ca96198f_llh6pnqmktijtddl90c4hnpjmh').trigger('click');
+});	
+	}
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;114190586&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-09-06 17:32:12&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d340b8e01b3bf7002ad798aebd4bcbdd&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;tipoSolicitudMandatoryCreacion&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="BCR_APP" source="x_287988_bcr_app"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BCR_APP"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_d340b8e01b3bf7002ad798aebd4bcbdd&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-02-19 21:49:57&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1036589435</payload_hash>
+        <record_name>tipoSolicitudMandatoryCreacion</record_name>
+        <reverted_from/>
+        <source>39b12f96dbd20010579a9fd2ca961922</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 21:49:57</sys_created_on>
+        <sys_id>2e83ac02db03c010579a9fd2ca961900</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1705f6dd3330000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 21:49:57</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>6683ac021003c0108c74fd400f5b9500</update_guid>
+        <update_guid_history>6683ac021003c0108c74fd400f5b9500:1036589435,0bde6f398c0f80105546e2e3dfb1db84:0,12ce2739820f801000b72e903c12bbd5:17767884,839e63f5e60f80106cf58c898252f6d0:0,cb2ad32db1cb40103814fcac60ffa2a8:1036589435,6a461729eccb4010942f2f67e14be435:810651998,79a707e5d78b40108907bb54a60784cc:1036589435,23f2cb214e8b4010b2ce874fc31c3d28:0,aee2c3211b8b401037178b0e62a7c571:-29575071,acc207ed524b4010fff58e77e0439955:0,b2ce56656ec740103f04e9faf1177818:0,e5be5e2575c740100eeefbf48b1086c9:-29575071,a78e9ee184c74010f3720b64a1aac264:0,5f6adae9aa8740105140f832389fd857:0,ca5ad2e95e874010e90cc3ca471767ca:-29575071,043a16a9a7874010fc71482f1ddc19a3:0,e7d81e25fc8740104b3ae2dc85e08a15:0,aec81625ee874010241e94c3705cc043:-29575071,94a816e17b87401033a7746065d86fff:0,f5d4d6a95d4740105f7882edf28011eb:0,a8c412a989474010e9e31dc86fbd2c2e:-29575071,92941269b8474010b816b90fbbb05c4a:0,624f465de3470010b559fe1269cd6360:0,813f0e1d144700105276d8339ebd44f2:-29575071,8f0f4ed90b470010d9af5c6a74c5b4ae:0,4657451d31030010420f3ae8d29cb7a0:0,cdbef3e240520010731a3f69a7b4ab8b:1492783116,2e7e73621952001088936ad488142b6a:0,56c23b1e92d60010b88593bfdbafb36d:-1441194506</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="tipoSolicitudMandatoryCreacion">94b4a442db03c010579a9fd2ca9619c3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 21:54:59</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>155b494e276a44c081e0da0601cb7040</sys_id>
+        <sys_metadata>d340b8e01b3bf7002ad798aebd4bcbdd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tipoSolicitudMandatoryCreacion</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>catalog_script_client_d340b8e01b3bf7002ad798aebd4bcbdd</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_d340b8e01b3bf7002ad798aebd4bcbdd">2e83ac02db03c010579a9fd2ca961900</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 21:54:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

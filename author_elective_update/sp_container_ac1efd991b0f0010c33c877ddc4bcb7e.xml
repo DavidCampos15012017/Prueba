@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Configuración de Virtual Servers - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="configuraci_n_de_virtual_servers">681efd991b0f0010c33c877ddc4bcb7c</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 20:30:02</sys_created_on>
+        <sys_id>ac1efd991b0f0010c33c877ddc4bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Configuración de Virtual Servers - Container 1</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sp_container_ac1efd991b0f0010c33c877ddc4bcb7e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 20:30:02</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>sp_container_ac1efd991b0f0010c33c877ddc4bcb7e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Configuración de Virtual Servers - Container 1</name><order>1</order><sp_page display_value="configuraci_n_de_virtual_servers">681efd991b0f0010c33c877ddc4bcb7c</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-17 20:30:02</sys_created_on><sys_id>ac1efd991b0f0010c33c877ddc4bcb7e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Configuración de Virtual Servers - Container 1</sys_name><sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package><sys_policy/><sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope><sys_update_name>sp_container_ac1efd991b0f0010c33c877ddc4bcb7e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-17 20:30:02</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>1225998688</payload_hash>
+        <record_name>Configuración de Virtual Servers - Container 1</record_name>
+        <reverted_from/>
+        <source>1fce49551b4b0010c33c877ddc4bcb41</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 20:30:02</sys_created_on>
+        <sys_id>e01eb15d1b0f0010c33c877ddc4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17054d7ef180000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 20:30:02</sys_updated_on>
+        <type>Container</type>
+        <update_guid>2c1eb15d8d0f00103663284b40fc4d93</update_guid>
+        <update_guid_history>2c1eb15d8d0f00103663284b40fc4d93:1225998688</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a6e006111b4f0010c33c877ddc4bcb49</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 20:42:28</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>07b805a8ffda4fb0842a380f48475664</sys_id>
+        <sys_metadata>ac1efd991b0f0010c33c877ddc4bcb7e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Configuración de Virtual Servers - Container 1</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sp_container_ac1efd991b0f0010c33c877ddc4bcb7e</sys_update_name>
+        <sys_update_version display_value="sp_container_ac1efd991b0f0010c33c877ddc4bcb7e">e01eb15d1b0f0010c33c877ddc4bcb94</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 20:42:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

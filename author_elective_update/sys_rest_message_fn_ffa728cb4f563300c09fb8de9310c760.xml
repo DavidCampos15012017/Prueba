@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="nsSNow">ac17eec7db580410f9d35f774896190e</basic_auth_profile>
+        <basic_auth_user/>
+        <content/>
+        <function_name>EliminarMonitorSaludBCR30</function_name>
+        <http_method>delete</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>BCRmessage [ EliminarMonitorSaludBCR30 ]</qualified_name>
+        <rest_endpoint>http://${ipAddress}/nitro/v1/config/lbmonitor/${serverName}</rest_endpoint>
+        <rest_message display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-01 21:45:12</sys_created_on>
+        <sys_id>ffa728cb4f563300c09fb8de9310c760</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>EliminarMonitorSaludBCR30</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_rest_message_fn_ffa728cb4f563300c09fb8de9310c760</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:28:46</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server display_value="Katherine">ae95d5511b8b0010c33c877ddc4bcb10</use_mid_server>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>sys_rest_message_fn_ffa728cb4f563300c09fb8de9310c760</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>basic</authentication_type><basic_auth_password/><basic_auth_profile display_value="nsSNow">ac17eec7db580410f9d35f774896190e</basic_auth_profile><basic_auth_user/><content/><function_name>EliminarMonitorSaludBCR30</function_name><http_method>delete</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>BCRmessage [ EliminarMonitorSaludBCR30 ]</qualified_name><rest_endpoint>http://${ipAddress}/nitro/v1/config/lbmonitor/${serverName}</rest_endpoint><rest_message display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-07-01 21:45:12</sys_created_on><sys_id>ffa728cb4f563300c09fb8de9310c760</sys_id><sys_mod_count>31</sys_mod_count><sys_name>EliminarMonitorSaludBCR30</sys_name><sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package><sys_policy/><sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope><sys_update_name>sys_rest_message_fn_ffa728cb4f563300c09fb8de9310c760</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-20 20:28:46</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server display_value="Katherine">ae95d5511b8b0010c33c877ddc4bcb10</use_mid_server><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>-2100141332</payload_hash>
+        <record_name>EliminarMonitorSaludBCR30</record_name>
+        <reverted_from/>
+        <source>3bde5d161b8b0410c33c877ddc4bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 20:47:43</sys_created_on>
+        <sys_id>e4ee9d161b8b0410c33c877ddc4bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170645b32120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:47:43</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>1f8a5d5e5a4b041062df39423c44693b</update_guid>
+        <update_guid_history>1f8a5d5e5a4b041062df39423c44693b:-2100141332,068e1116928b0410599cc206307b6ee5:0,a45ed992958b04104825e681c6fa671c:-51233361,8c4e15921a8b0410f2e226b8deab01db:0,1f8a5d5e5a4b041062df39423c44693b:-2100141332,10301d12b54b0410ed4e590e5a74dd36:0,f6ff85de560b0410425ebf58295ec3c2:-51233361,92ef01dee30b0410e1fc7633982c1bd3:0,0604232d74c38010dc5b42bd2d4c5d5e:-2100141332,bb12b88e96c7c010665067d0f0c41c6e:0,7ae1f04eabc7c010e9a465414d287c04:-51233361,12d13c0e29c7c0109eff497bd011e2a1:0,0604232d74c38010dc5b42bd2d4c5d5e:-2100141332,fce22b694ac3801008d048970a27576c:0,51b227298ac380103e671ae21a1ac8b1:-51233361,4b789fe9688380102b0139badbe838dc:-2100141332,4b789fe9688380102b0139badbe838dc:-2100141332,064aaa6dffcf40104ef4201791333876:0,5b1a262d93cf40100b11686a4b80c539:1259227623,bf0aaee940cf4010a06b065581392d76:0,cf8e5ee9298f4010ddadbf75f34aefac:0,4e5ed6a9d48f4010bc62ca4698a7dca8:-51233361,554e52a9538f4010c26289d1fa5cb831:0,0accfd29bc0f401017637a5b60441197:-2100141332,bf05fd6d8acb4010521eced5778a4405:0,ade4392d78cb4010adbe92a4def1c34e:-51233361,7cd4b12d24cb401054e5c841a03572aa:0,92de02913f8f0010d85f2eb9a0c8e091:-2100141332,729c829d5e4f0010d3fe2176300fbac6:0,687cce1de24f0010496f1fab23fb2a57:-51233361,6c6c4a1d004f00106ab6bc84e327832d:0,1c181555d48b00103b57e57204eac205:-2100141332,a7aec1d54c4b0010f1485bca340662e4:-2133032559</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 15:02:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>2c927f042f274482970bb8e7432e8829</sys_id>
+        <sys_metadata>ffa728cb4f563300c09fb8de9310c760</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EliminarMonitorSaludBCR30</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_ffa728cb4f563300c09fb8de9310c760</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_ffa728cb4f563300c09fb8de9310c760">e4ee9d161b8b0410c33c877ddc4bcbd8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 15:02:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

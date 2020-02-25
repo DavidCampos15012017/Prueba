@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_287988_bcr_app.MostrarServiceGroupBCR32ScrtpInclude</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MostrarServiceGroupBCR32ScrtpInclude</name>
+        <script><![CDATA[var MostrarServiceGroupBCR32ScrtpInclude = Class.create();
+MostrarServiceGroupBCR32ScrtpInclude.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	ServiceList:function(){
+		
+		try { 
+ var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'Mostrar ServiceGroup BCR .32');
+
+//override authentication profile 
+//authentication type ='basic'/ 'oauth2'
+//r.setAuthentication(authentication type, profile name);
+
+//set a MID server name if one wants to run the message on MID
+//r.setMIDServer('MY_MID_SERVER');
+
+//if the message is configured to communicate through ECC queue, either
+//by setting a MID server or calling executeAsync, one needs to set skip_sensor
+//to true. Otherwise, one may get an intermittent error that the response body is null
+//r.setEccParameter('skip_sensor', true);
+
+ var response = r.execute();
+ var responseBody = response.getBody();
+ var httpStatus = response.getStatusCode();
+ var finalData = responseBody.replace(/\\/g, "");
+			
+ return responseBody;
+}
+catch(ex) {
+ var message = ex.message;
+	return message;
+}
+		
+		
+	},
+
+    type: 'MostrarServiceGroupBCR32ScrtpInclude'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-24 20:29:53</sys_created_on>
+        <sys_id>c6139cf04f163300c09fb8de9310c710</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>MostrarServiceGroupBCR32ScrtpInclude</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_script_include_c6139cf04f163300c09fb8de9310c710</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 18:36:26</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>4fa0acfc6fe6b5c0c2b67b2f5d3ee422</instance_id>
+        <instance_name>dev10576</instance_name>
+        <name>sys_script_include_c6139cf04f163300c09fb8de9310c710</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_287988_bcr_app.MostrarServiceGroupBCR32ScrtpInclude&lt;/api_name&gt;
+        &lt;caller_access/&gt;
+        &lt;client_callable&gt;true&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;MostrarServiceGroupBCR32ScrtpInclude&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var MostrarServiceGroupBCR32ScrtpInclude = Class.create();
+MostrarServiceGroupBCR32ScrtpInclude.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	ServiceList:function(){
+		
+		try { 
+ var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'Mostrar ServiceGroup BCR .32');
+
+//override authentication profile 
+//authentication type ='basic'/ 'oauth2'
+//r.setAuthentication(authentication type, profile name);
+
+//set a MID server name if one wants to run the message on MID
+//r.setMIDServer('MY_MID_SERVER');
+
+//if the message is configured to communicate through ECC queue, either
+//by setting a MID server or calling executeAsync, one needs to set skip_sensor
+//to true. Otherwise, one may get an intermittent error that the response body is null
+//r.setEccParameter('skip_sensor', true);
+
+ var response = r.execute();
+ var responseBody = response.getBody();
+ var httpStatus = response.getStatusCode();
+ var finalData = responseBody.replace(/\\/g, "");
+			
+ return responseBody;
+}
+catch(ex) {
+ var message = ex.message;
+	return message;
+}
+		
+		
+	},
+
+    type: 'MostrarServiceGroupBCR32ScrtpInclude'
+});]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-06-24 20:29:53&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;c6139cf04f163300c09fb8de9310c710&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;MostrarServiceGroupBCR32ScrtpInclude&lt;/sys_name&gt;
+        &lt;sys_package display_value="BCR_APP" source="x_287988_bcr_app"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_scope display_value="BCR_APP"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_c6139cf04f163300c09fb8de9310c710&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-07-16 18:36:26&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1101248547</payload_hash>
+        <record_name>MostrarServiceGroupBCR32ScrtpInclude</record_name>
+        <reverted_from/>
+        <source>5e4f065ddb470010579a9fd2ca9619d3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 21:45:54</sys_created_on>
+        <sys_id>336fc69ddb470010579a9fd2ca96191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170551d65600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 21:45:54</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>bf6fc69d5a470010e522c5b24731c71c</update_guid>
+        <update_guid_history>bf6fc69d5a470010e522c5b24731c71c:0,843fca1d594700104352b946342e9f9d:348932171,3377855d410300105f04dd7f939f5d95:0,7b668d5989030010f7f45cc3d870207b:1117385334,56f24c7af752001093b4dca6b0354643:0,7fae33e216520010b5090e3a3f1896ed:1836053891,73e2bb5e61d60010206afd6475b6ec03:1700194508</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-18 16:35:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>82780e92ed274a1892bd327d4735b6a4</sys_id>
+        <sys_metadata>c6139cf04f163300c09fb8de9310c710</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MostrarServiceGroupBCR32ScrtpInclude</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_script_include_c6139cf04f163300c09fb8de9310c710</sys_update_name>
+        <sys_update_version display_value="sys_script_include_c6139cf04f163300c09fb8de9310c710">336fc69ddb470010579a9fd2ca96191d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-18 16:35:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="nsSNow">ac17eec7db580410f9d35f774896190e</basic_auth_profile>
+        <basic_auth_user/>
+        <content/>
+        <function_name>ModificarServiceGroup30BCR</function_name>
+        <http_method>put</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>BCRmessage [ ModificarServiceGroup30BCR ]</qualified_name>
+        <rest_endpoint>http://${ipAddress}/nitro/v1/config/servicegroup</rest_endpoint>
+        <rest_message display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-10 17:07:21</sys_created_on>
+        <sys_id>2f5eb1fd4fea7300c09fb8de9310c721</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>ModificarServiceGroup30BCR</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_rest_message_fn_2f5eb1fd4fea7300c09fb8de9310c721</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:25:29</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server display_value="Katherine">ae95d5511b8b0010c33c877ddc4bcb10</use_mid_server>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>sys_rest_message_fn_2f5eb1fd4fea7300c09fb8de9310c721</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>basic</authentication_type><basic_auth_password/><basic_auth_profile display_value="nsSNow">ac17eec7db580410f9d35f774896190e</basic_auth_profile><basic_auth_user/><content/><function_name>ModificarServiceGroup30BCR</function_name><http_method>put</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>BCRmessage [ ModificarServiceGroup30BCR ]</qualified_name><rest_endpoint>http://${ipAddress}/nitro/v1/config/servicegroup</rest_endpoint><rest_message display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-07-10 17:07:21</sys_created_on><sys_id>2f5eb1fd4fea7300c09fb8de9310c721</sys_id><sys_mod_count>14</sys_mod_count><sys_name>ModificarServiceGroup30BCR</sys_name><sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package><sys_policy/><sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope><sys_update_name>sys_rest_message_fn_2f5eb1fd4fea7300c09fb8de9310c721</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-20 20:25:29</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server display_value="Katherine">ae95d5511b8b0010c33c877ddc4bcb10</use_mid_server><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>552369411</payload_hash>
+        <record_name>ModificarServiceGroup30BCR</record_name>
+        <reverted_from/>
+        <source>3bde5d161b8b0410c33c877ddc4bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 20:47:42</sys_created_on>
+        <sys_id>6cee9d161b8b0410c33c877ddc4bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170645b2eab0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:47:42</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>4bc9991e444b04107a548bd5dc7eddfa</update_guid>
+        <update_guid_history>4bc9991e444b04107a548bd5dc7eddfa:552369411,f58e11160e8b0410847e73afa1925037:0,ef1e1952b68b04109670d3df77dbe367:880155127,4bc9991e444b04107a548bd5dc7eddfa:552369411,0830d912d54b0410033494d299f065ad:0,89cfc19e820b04105e88fea86d83eaf7:880155127,f253e7e92cc3801016101f023a803e19:552369411,e312788e35c7c01001b562713a3258d5:0,21b1fccadcc7c010ad7554f94a689565:880155127,f253e7e92cc3801016101f023a803e19:552369411,6ce22b695bc380108f74f9542a4dea01:0,b982a3e59dc38010d878d7754008d3da:880155127,ddc7dfa9c3838010a29b9fb30cb1fc94:552369411,fd4a6a6d85cf4010b4605a944acb42cc:0,05f9e2e94ccf4010c782e3c76339d578:-2019820385,368e5ee93a8f4010705a9fe1ef9f744e:0,702e1669368f4010463293e64fda6f64:880155127,f705bd6de9cb40107c2f68e989f65b8f:0,02b4b5e9accb40100a646f4c764a0e52:880155127,40ad4a9d3b4f0010723541c1d61c1b01:552369411,2e9c829d784f0010173f1c012281721c:0,dd4c0ed9de4f00104c65776f58d96de3:880155127,b1279515538b001019d71c680d7ee1a2:552369411,9faec1d51f4b0010b3be02c130590798:281381184</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 15:09:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>0b9072ee1e63429c8107da0c5a42cee1</sys_id>
+        <sys_metadata>2f5eb1fd4fea7300c09fb8de9310c721</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ModificarServiceGroup30BCR</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_2f5eb1fd4fea7300c09fb8de9310c721</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_2f5eb1fd4fea7300c09fb8de9310c721">6cee9d161b8b0410c33c877ddc4bcb8b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 15:09:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

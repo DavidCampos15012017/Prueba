@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="DELETE">
+        <active>false</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>GET</http_method>
+        <name>BCR_resourceREST</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+try { 
+ var r = new sn_ws.RESTMessageV2('BCR_APP.x_287988_bcr_app.BCRmessage', 'Default GET');
+
+//override authentication profile 
+//authentication type ='basic'/ 'oauth2'
+r.setAuthentication('basic', 'user');
+
+//set a MID server name if one wants to run the message on MID
+r.setMIDServer('MID_SERVICE_ARROW');
+
+//if the message is configured to communicate through ECC queue, either
+//by setting a MID server or calling executeAsync, one needs to set skip_sensor
+//to true. Otherwise, one may get an intermittent error that the response body is null
+//r.setEccParameter('skip_sensor', true);
+
+  response = r.execute();
+ var responseBody = response.getBody();
+ var httpStatus = response.getStatusCode();
+		   
+}
+catch(ex) {
+ var message = ex.message;
+}	  
+	
+ 
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_287988_bcr_app/bcr_script</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description>REST BCR connection</short_description>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-22 22:25:11</sys_created_on>
+        <sys_id>40fb58addb77230087d9d6aa489619d1</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>BCR_resourceREST</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_ws_operation_40fb58addb77230087d9d6aa489619d1</sys_update_name>
+        <sys_updated_by>701980296</sys_updated_by>
+        <sys_updated_on>2020-02-10 20:46:33</sys_updated_on>
+        <web_service_definition display_value="BCR_Script">bedb58addb77230087d9d6aa489619ca</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>sys_ws_operation_40fb58addb77230087d9d6aa489619d1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ws_operation"&gt;
+    &lt;sys_ws_operation action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;false&lt;/active&gt;
+        &lt;consumes&gt;application/json,application/xml,text/xml&lt;/consumes&gt;
+        &lt;consumes_customized&gt;false&lt;/consumes_customized&gt;
+        &lt;default_operation_uri/&gt;
+        &lt;enforce_acl&gt;cf9d01d3e73003009d6247e603f6a990&lt;/enforce_acl&gt;
+        &lt;http_method&gt;GET&lt;/http_method&gt;
+        &lt;name&gt;BCR_resourceREST&lt;/name&gt;
+        &lt;operation_script&gt;&lt;![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+try { 
+ var r = new sn_ws.RESTMessageV2('BCR_APP.x_287988_bcr_app.BCRmessage', 'Default GET');
+
+//override authentication profile 
+//authentication type ='basic'/ 'oauth2'
+r.setAuthentication('basic', 'user');
+
+//set a MID server name if one wants to run the message on MID
+r.setMIDServer('MID_SERVICE_ARROW');
+
+//if the message is configured to communicate through ECC queue, either
+//by setting a MID server or calling executeAsync, one needs to set skip_sensor
+//to true. Otherwise, one may get an intermittent error that the response body is null
+//r.setEccParameter('skip_sensor', true);
+
+  response = r.execute();
+ var responseBody = response.getBody();
+ var httpStatus = response.getStatusCode();
+		   
+}
+catch(ex) {
+ var message = ex.message;
+}	  
+	
+ 
+
+})(request, response);]]&gt;&lt;/operation_script&gt;
+        &lt;operation_uri&gt;/api/x_287988_bcr_app/bcr_script&lt;/operation_uri&gt;
+        &lt;produces&gt;application/json,application/xml,text/xml&lt;/produces&gt;
+        &lt;produces_customized&gt;false&lt;/produces_customized&gt;
+        &lt;relative_path&gt;/&lt;/relative_path&gt;
+        &lt;request_example/&gt;
+        &lt;requires_acl_authorization&gt;true&lt;/requires_acl_authorization&gt;
+        &lt;requires_authentication&gt;true&lt;/requires_authentication&gt;
+        &lt;requires_snc_internal_role&gt;true&lt;/requires_snc_internal_role&gt;
+        &lt;short_description&gt;REST BCR connection&lt;/short_description&gt;
+        &lt;sys_class_name&gt;sys_ws_operation&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-02-22 22:25:11&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;40fb58addb77230087d9d6aa489619d1&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;24&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;BCR_resourceREST&lt;/sys_name&gt;
+        &lt;sys_package display_value="BCR_APP" source="x_287988_bcr_app"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="BCR_APP"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_ws_operation_40fb58addb77230087d9d6aa489619d1&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;701980296&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2020-02-10 20:46:33&lt;/sys_updated_on&gt;
+        &lt;web_service_definition display_value="BCR_Script"&gt;bedb58addb77230087d9d6aa489619ca&lt;/web_service_definition&gt;
+        &lt;web_service_version/&gt;
+    &lt;/sys_ws_operation&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>556488042</payload_hash>
+        <record_name>BCR_resourceREST</record_name>
+        <reverted_from/>
+        <source>bd82562a1b4f4410c33c877ddc4bcbe8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 19:12:29</sys_created_on>
+        <sys_id>97a21a6a1b4f4410c33c877ddc4bcb28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170692a5d490000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 19:12:29</sys_updated_on>
+        <type>Scripted REST Resource</type>
+        <update_guid>d3a21a6aa84f441017c7aac62f914c28</update_guid>
+        <update_guid_history>d3a21a6aa84f441017c7aac62f914c28:0,b55292e68b4f4410e217ea651ce5ccc1:-472401178,77820ee2bc0f4410cd49111cd52d8862:0,7632c662a00f4410c8dabfe1b31c277f:-472401178,a6e469ae7a4b44107b9ba3ff0dc6f810:0,7594e12ec94b44105ed2f01ed9a7d761:-472401178,c38ed1165b8b0410f82de96378c3fe78:0,d12e9952928b0410c5b892658b2d857f:-472401178,dd309d12624b0410a8f23fc4af31389a:0,3ecf859e690b0410cfa21b36dd836937:-472401178,b0227c8e86c7c010d47e37fc3fc99d3a:0,43b1700efcc7c01053369cd384b265aa:-472401178,35e2ab69b3c380101064ead5364cbcdb:0,5f8267e588c38010e9743c4a4e1c551f:-472401178,fe4aea6d09cf40104ed9f7fee989abd2:0,06f926e978cf4010028ba8cf9dcff8e8:-472401178,c09e9ee9e28f401049c1104877aff1fd:0,1a2e9669a58f4010b792df540c282e89:-472401178,7815b1adf3cb4010cf22a8d9b7bc9d2b:0,9fb439e90acb401044970ffd6f211f5c:-472401178,f79c469dca4f00103847ad0b259628c6:0,f64cced91a4f00109b8274c2350ddd01:-472401178,6cbe85d5d74b00105274d2b8d6f3115d:556488042</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 21:05:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ws_operation">sys_ws_operation</sys_db_object>
+        <sys_id>1209db0bfa0d496a8a13e38598c138a1</sys_id>
+        <sys_metadata>40fb58addb77230087d9d6aa489619d1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BCR_resourceREST</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_ws_operation_40fb58addb77230087d9d6aa489619d1</sys_update_name>
+        <sys_update_version display_value="sys_ws_operation_40fb58addb77230087d9d6aa489619d1">97a21a6a1b4f4410c33c877ddc4bcb28</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 21:05:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

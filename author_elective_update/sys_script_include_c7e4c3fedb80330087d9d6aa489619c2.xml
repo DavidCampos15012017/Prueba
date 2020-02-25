@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_287988_bcr_app.MostrarVirtualServers</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MostrarVirtualServers</name>
+        <script><![CDATA[var MostrarVirtualServers = Class.create();
+MostrarVirtualServers.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	ShowVirtualServer: function(){
+		
+
+ var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'Mostrar Virtual Server');
+
+//override authentication profile 
+//authentication type ='basic'/ 'oauth2'
+//r.setAuthentication(authentication type, profile name);
+
+//set a MID server name if one wants to run the message on MID
+//r.setMIDServer('MY_MID_SERVER');
+
+//if the message is configured to communicate through ECC queue, either
+//by setting a MID server or calling executeAsync, one needs to set skip_sensor
+//to true. Otherwise, one may get an intermittent error that the response body is null
+//r.setEccParameter('skip_sensor', true);
+
+ var response = r.execute();
+ var responseBody = response.getBody();
+ var httpStatus = response.getStatusCode();
+		
+		
+		return responseBody;
+		
+	},
+
+    type: 'MostrarVirtualServers'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-11 18:12:14</sys_created_on>
+        <sys_id>c7e4c3fedb80330087d9d6aa489619c2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>MostrarVirtualServers</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_script_include_c7e4c3fedb80330087d9d6aa489619c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-11 18:33:35</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>4fa0acfc6fe6b5c0c2b67b2f5d3ee422</instance_id>
+        <instance_name>dev10576</instance_name>
+        <name>sys_script_include_c7e4c3fedb80330087d9d6aa489619c2</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_287988_bcr_app.MostrarVirtualServers&lt;/api_name&gt;
+        &lt;caller_access/&gt;
+        &lt;client_callable&gt;true&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;MostrarVirtualServers&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var MostrarVirtualServers = Class.create();
+MostrarVirtualServers.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	ShowVirtualServer: function(){
+		
+
+ var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'Mostrar Virtual Server');
+
+//override authentication profile 
+//authentication type ='basic'/ 'oauth2'
+//r.setAuthentication(authentication type, profile name);
+
+//set a MID server name if one wants to run the message on MID
+//r.setMIDServer('MY_MID_SERVER');
+
+//if the message is configured to communicate through ECC queue, either
+//by setting a MID server or calling executeAsync, one needs to set skip_sensor
+//to true. Otherwise, one may get an intermittent error that the response body is null
+//r.setEccParameter('skip_sensor', true);
+
+ var response = r.execute();
+ var responseBody = response.getBody();
+ var httpStatus = response.getStatusCode();
+		
+		
+		return responseBody;
+		
+	},
+
+    type: 'MostrarVirtualServers'
+});]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-03-11 18:12:14&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;c7e4c3fedb80330087d9d6aa489619c2&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;MostrarVirtualServers&lt;/sys_name&gt;
+        &lt;sys_package display_value="BCR_APP" source="x_287988_bcr_app"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_scope display_value="BCR_APP"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_c7e4c3fedb80330087d9d6aa489619c2&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-03-11 18:33:35&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>52109793</payload_hash>
+        <record_name>MostrarVirtualServers</record_name>
+        <reverted_from/>
+        <source>5e4f065ddb470010579a9fd2ca9619d3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 21:45:54</sys_created_on>
+        <sys_id>bb6fc69ddb470010579a9fd2ca961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170551d657d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 21:45:54</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>3b6fc69de0470010dcc67b746ba93320</update_guid>
+        <update_guid_history>3b6fc69de0470010dcc67b746ba93320:0,983fca1d444700109d09cc93954869c5:-36021547,ff77855d9c0300104fa36615416e7aa4:0,7f668d59580300100bd991cad691b3ff:-1062404145,5ef24c7a49520010cfe4ece22bb05d46:0,c4be73e2e8520010304acadb15302c32:-1170006476,ffe2bb5efcd60010773d3656d8b97d12:-1418860714</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-18 16:36:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>b5f0912094ec44f68275721cc7363721</sys_id>
+        <sys_metadata>c7e4c3fedb80330087d9d6aa489619c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MostrarVirtualServers</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_script_include_c7e4c3fedb80330087d9d6aa489619c2</sys_update_name>
+        <sys_update_version display_value="sys_script_include_c7e4c3fedb80330087d9d6aa489619c2">bb6fc69ddb470010579a9fd2ca961920</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-18 16:36:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

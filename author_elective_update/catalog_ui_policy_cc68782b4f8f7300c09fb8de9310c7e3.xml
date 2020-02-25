@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_ui_policy">
+    <catalog_ui_policy action="DELETE">
+        <active>false</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <catalog_conditions>IO:9f74c455db4e73002ca60d53ca9619a3=Verificar Granja^EQ</catalog_conditions>
+        <catalog_item display_value="Configuración de Virtual Servers Citrix ">3105d62cdb7573002ca60d53ca961963</catalog_item>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>VerificarGranja</short_description>
+        <sys_class_name>catalog_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-09 19:01:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cc68782b4f8f7300c09fb8de9310c7e3</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>VerificarGranja</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>catalog_ui_policy_cc68782b4f8f7300c09fb8de9310c7e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 16:34:41</sys_updated_on>
+        <table/>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>catalog_ui_policy_cc68782b4f8f7300c09fb8de9310c7e3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;catalog_conditions&gt;IO:9f74c455db4e73002ca60d53ca9619a3=Verificar Granja^EQ&lt;/catalog_conditions&gt;&lt;catalog_item display_value="Configuración de Virtual Servers Citrix "&gt;3105d62cdb7573002ca60d53ca961963&lt;/catalog_item&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;VerificarGranja&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-08-09 19:01:01&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cc68782b4f8f7300c09fb8de9310c7e3&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;VerificarGranja&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="BCR_APP" source="x_287988_bcr_app"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BCR_APP"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_cc68782b4f8f7300c09fb8de9310c7e3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-02-20 16:34:41&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-74192894</payload_hash>
+        <record_name>VerificarGranja</record_name>
+        <reverted_from/>
+        <source>a45e1c951bc30010c33c877ddc4bcb2b</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 16:34:41</sys_created_on>
+        <sys_id>0ef468921b870410c33c877ddc4bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170637389380000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 16:34:41</sys_updated_on>
+        <type>Catalog UI Policy</type>
+        <update_guid>46f46892b28704103bf4d40b0bd6da72</update_guid>
+        <update_guid_history>46f46892b28704103bf4d40b0bd6da72:-74192894,2e8e505eaa4704101b1f1e763f0debeb:-1975267939,055e9c1ecb470410f677d965c72ea1c0:-74192894,e2f1384e10c7c010a1797fc21f845bf5:0,a0e1304e2bc7c0107de70c404a431032:-1946456839,86b1300e6fc7c010bf3f658bfc5d454d:0,b8c26b296fc380100c356be4aba376ff:0,13a26329c0c3801026ed1fd2bd2a93ff:-1946456839,1a82e3e5fcc380103d0e5a752d5a7d7a:0,6e2aaa2d16cf401044ffaa0ffa337914:0,ad1a622d0bcf401039c39db605a8f050:-1946456839,7d096e6991cf4010665b0ba61e788a64:0,716e5ea9328f4010dc3b7b784acce690:0,ef4e16a9b58f4010b9b1b78d44763c7d:-1946456839,d92e5669a18f4010b2f1b06cfcd76d03:0,e0f4bd2db0cb40103ee6903ea744cb93:0,76d4752db6cb40101aeedb460c2af772:-1946456839,e6b4b5e948cb4010efc466321fa4b0e5:0,7f7c465dc94f0010fa05852bfca9e828:0,ee6c0e1d354f001030ffb7661f878a60:-1946456839,354c4ed9a94f00104ccdd11c1c93c477:0,a89e8595374b0010e2db38709c876ba2:-425212593</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">14d5e8161b870410c33c877ddc4bcb77</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 16:38:23</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy">catalog_ui_policy</sys_db_object>
+        <sys_id>0bbdabf12c02446b994c3181b7769131</sys_id>
+        <sys_metadata>cc68782b4f8f7300c09fb8de9310c7e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VerificarGranja</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_cc68782b4f8f7300c09fb8de9310c7e3</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_cc68782b4f8f7300c09fb8de9310c7e3">0ef468921b870410c33c877ddc4bcb72</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 16:38:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_287988_bcr_app.MostrarServerFiltradoModificarByname32BCR</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MostrarServerFiltradoModificarByname32BCR</name>
+        <script><![CDATA[var MostrarServerFiltradoModificarByname32BCR = Class.create();
+MostrarServerFiltradoModificarByname32BCR.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	listarServer:function(){
+		try {
+			var arrayValue = [];
+			var text_body = this.getParameter('sysparm_JSON_data');
+			var searchQuery = encodeURIComponent(text_body);
+			var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'MostrarServerbyNameBCR32');
+			r.setStringParameterNoEscape('serverName', searchQuery);
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+			var valueGet = JSON.parse(responseBody);
+			var ServerName = valueGet.server[0].name;
+			var ipAddress = valueGet.server[0].ipaddress;
+			var comments = valueGet.server[0].comment;
+			arrayValue.push(ServerName,ipAddress,comments);
+			return arrayValue.toString();
+		}
+		catch(ex) {
+			var message = ex.message;
+		}
+	},
+	
+	type: 'MostrarServerFiltradoModificarByname32BCR'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-19 20:42:00</sys_created_on>
+        <sys_id>d1d405b44ffe7300c09fb8de9310c758</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>MostrarServerFiltradoModificarByname32BCR</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_script_include_d1d405b44ffe7300c09fb8de9310c758</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-02 18:02:32</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>4fa0acfc6fe6b5c0c2b67b2f5d3ee422</instance_id>
+        <instance_name>dev10576</instance_name>
+        <name>sys_script_include_d1d405b44ffe7300c09fb8de9310c758</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_287988_bcr_app.MostrarServerFiltradoModificarByname32BCR&lt;/api_name&gt;
+        &lt;caller_access/&gt;
+        &lt;client_callable&gt;true&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;MostrarServerFiltradoModificarByname32BCR&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var MostrarServerFiltradoModificarByname32BCR = Class.create();
+MostrarServerFiltradoModificarByname32BCR.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	listarServer:function(){
+		try {
+			var arrayValue = [];
+			var text_body = this.getParameter('sysparm_JSON_data');
+			var searchQuery = encodeURIComponent(text_body);
+			var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'MostrarServerbyNameBCR32');
+			r.setStringParameterNoEscape('serverName', searchQuery);
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+			var valueGet = JSON.parse(responseBody);
+			var ServerName = valueGet.server[0].name;
+			var ipAddress = valueGet.server[0].ipaddress;
+			var comments = valueGet.server[0].comment;
+			arrayValue.push(ServerName,ipAddress,comments);
+			return arrayValue.toString();
+		}
+		catch(ex) {
+			var message = ex.message;
+		}
+	},
+	
+	type: 'MostrarServerFiltradoModificarByname32BCR'
+});]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-07-19 20:42:00&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;d1d405b44ffe7300c09fb8de9310c758&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;MostrarServerFiltradoModificarByname32BCR&lt;/sys_name&gt;
+        &lt;sys_package display_value="BCR_APP" source="x_287988_bcr_app"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_scope display_value="BCR_APP"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_d1d405b44ffe7300c09fb8de9310c758&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-09-02 18:02:32&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>730885618</payload_hash>
+        <record_name>MostrarServerFiltradoModificarByname32BCR</record_name>
+        <reverted_from/>
+        <source>5e4f065ddb470010579a9fd2ca9619d3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 21:45:54</sys_created_on>
+        <sys_id>3b6fc69ddb470010579a9fd2ca96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170551d65d10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 21:45:54</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>b76fc69d37470010919a6de4b820fc2b</update_guid>
+        <update_guid_history>b76fc69d37470010919a6de4b820fc2b:0,c13f0e1d5e4700105d066894cc6dc2d6:1180651690,f777855da8030010db305c20489bf6af:0,65768199a90300108e2d456ad8209725:100481391,1ef24c7ab5520010f2394f2e0e12f95d:0,45bef3e25e520010ad77c71f8d073837:1738356512,37e2bb5e0bd600108cfddf71d846091d:186629089</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-18 16:34:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>1bfc446c0d68408099150a4cae4f8c04</sys_id>
+        <sys_metadata>d1d405b44ffe7300c09fb8de9310c758</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MostrarServerFiltradoModificarByname32BCR</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_script_include_d1d405b44ffe7300c09fb8de9310c758</sys_update_name>
+        <sys_update_version display_value="sys_script_include_d1d405b44ffe7300c09fb8de9310c758">3b6fc69ddb470010579a9fd2ca96192b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-18 16:34:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

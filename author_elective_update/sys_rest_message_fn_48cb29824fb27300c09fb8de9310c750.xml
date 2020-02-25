@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="nsSNow">ac17eec7db580410f9d35f774896190e</basic_auth_profile>
+        <basic_auth_user/>
+        <content/>
+        <function_name>PruebaServerScriptDinamico</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>BCRmessage [ PruebaServerScriptDinamico ]</qualified_name>
+        <rest_endpoint>http://${ipParameter}/nitro/v1/config/server</rest_endpoint>
+        <rest_message display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-23 20:39:16</sys_created_on>
+        <sys_id>48cb29824fb27300c09fb8de9310c750</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>PruebaServerScriptDinamico</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_rest_message_fn_48cb29824fb27300c09fb8de9310c750</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:25:52</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server display_value="Katherine">ae95d5511b8b0010c33c877ddc4bcb10</use_mid_server>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>sys_rest_message_fn_48cb29824fb27300c09fb8de9310c750</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>basic</authentication_type><basic_auth_password/><basic_auth_profile display_value="nsSNow">ac17eec7db580410f9d35f774896190e</basic_auth_profile><basic_auth_user/><content/><function_name>PruebaServerScriptDinamico</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>BCRmessage [ PruebaServerScriptDinamico ]</qualified_name><rest_endpoint>http://${ipParameter}/nitro/v1/config/server</rest_endpoint><rest_message display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-07-23 20:39:16</sys_created_on><sys_id>48cb29824fb27300c09fb8de9310c750</sys_id><sys_mod_count>12</sys_mod_count><sys_name>PruebaServerScriptDinamico</sys_name><sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package><sys_policy/><sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope><sys_update_name>sys_rest_message_fn_48cb29824fb27300c09fb8de9310c750</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-20 20:25:52</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server display_value="Katherine">ae95d5511b8b0010c33c877ddc4bcb10</use_mid_server><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>-368595083</payload_hash>
+        <record_name>PruebaServerScriptDinamico</record_name>
+        <reverted_from/>
+        <source>3bde5d161b8b0410c33c877ddc4bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 20:47:42</sys_created_on>
+        <sys_id>68ee9d161b8b0410c33c877ddc4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170645b2ef90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:47:42</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>68e9991e754b04106f49215988ae3444</update_guid>
+        <update_guid_history>68e9991e754b04106f49215988ae3444:-368595083,b98e1116ca8b04108af4127ae9385158:0,022ed952228b041078bee0d004f76683:2049828457,68e9991e754b04106f49215988ae3444:-368595083,4c30d912f84b0410bcfe23f1ce8f3cb5:0,5bcfc59e770b0410b0b2c2f6b2802024:2049828457,6f63ef6554c38010dc6e491fb849ae65:-368595083,2312788e73c7c010cee0ebe90a509fde:0,bbb1b00e03c7c010beb15654f7beebb9:2049828457,6f63ef6554c38010dc6e491fb849ae65:-368595083,a8e22b6982c38010be75594f8f19e809:0,0092a7e50ac38010535db04eea74cf3a:2049828457,add793e924838010b6bc41492e86b00d:-368595083,c24a6a6d6dcf4010d177e47e95d417e1:0,e6f966e91dcf401057b0df09738b3acd:1908475885,728e5ee9a28f401010aff94e474f8756:0,432ed6696c8f40101bf29ffe89e0b28a:2049828457,3305bd6dbfcb4010088cc9d199144097:0,7fb479e9fecb4010a14c4f650eb39d5a:2049828457,85bd8e116a8f00108e1e9f1d68d61556:-368595083,329c829d514f0010005770eb1ba29731:0,134cced9144f0010745d14ad3e7999bc:2049828457,3c47d115e58b00106971963727bad2bc:-368595083,dfaec1d5fe4b00108b4a0862e669eb9f:-2101566456</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 15:18:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>7b2196ab793349c9bc4c12dd1830bd19</sys_id>
+        <sys_metadata>48cb29824fb27300c09fb8de9310c750</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PruebaServerScriptDinamico</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_48cb29824fb27300c09fb8de9310c750</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_48cb29824fb27300c09fb8de9310c750">68ee9d161b8b0410c33c877ddc4bcb91</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 15:18:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

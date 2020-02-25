@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_287988_bcr_app.MostrarCargaVirtualServerBCR</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MostrarCargaVirtualServerBCR</name>
+        <script><![CDATA[var MostrarCargaVirtualServerBCR = Class.create();
+MostrarCargaVirtualServerBCR.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	listarVS:function(){
+		 var getIpAddress = current.variables.instancia_primaria_bcr;
+
+		var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'Mostrar Virtual Server BCR .32');
+		 r.setStringParameter('ipAddress', getIpAddress);
+		var response = r.execute();
+		var responseBody = response.getBody();
+		var httpStatus = response.getStatusCode();
+		return responseBody;
+	},
+	type: 'MostrarCargaVirtualServerBCR'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-09 21:52:34</sys_created_on>
+        <sys_id>5c5f91e74f03b300c09fb8de9310c773</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>MostrarCargaVirtualServerBCR</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_script_include_5c5f91e74f03b300c09fb8de9310c773</sys_update_name>
+        <sys_updated_by>114190586</sys_updated_by>
+        <sys_updated_on>2019-09-04 21:22:00</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>4fa0acfc6fe6b5c0c2b67b2f5d3ee422</instance_id>
+        <instance_name>dev10576</instance_name>
+        <name>sys_script_include_5c5f91e74f03b300c09fb8de9310c773</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_287988_bcr_app.MostrarCargaVirtualServerBCR&lt;/api_name&gt;
+        &lt;caller_access/&gt;
+        &lt;client_callable&gt;true&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;MostrarCargaVirtualServerBCR&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var MostrarCargaVirtualServerBCR = Class.create();
+MostrarCargaVirtualServerBCR.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	listarVS:function(){
+		 var getIpAddress = current.variables.instancia_primaria_bcr;
+
+		var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'Mostrar Virtual Server BCR .32');
+		 r.setStringParameter('ipAddress', getIpAddress);
+		var response = r.execute();
+		var responseBody = response.getBody();
+		var httpStatus = response.getStatusCode();
+		return responseBody;
+	},
+	type: 'MostrarCargaVirtualServerBCR'
+});]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-08-09 21:52:34&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;5c5f91e74f03b300c09fb8de9310c773&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;MostrarCargaVirtualServerBCR&lt;/sys_name&gt;
+        &lt;sys_package display_value="BCR_APP" source="x_287988_bcr_app"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_scope display_value="BCR_APP"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_5c5f91e74f03b300c09fb8de9310c773&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;114190586&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-09-04 21:22:00&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-776696508</payload_hash>
+        <record_name>MostrarCargaVirtualServerBCR</record_name>
+        <reverted_from/>
+        <source>5e4f065ddb470010579a9fd2ca9619d3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 21:45:54</sys_created_on>
+        <sys_id>a76f869ddb470010579a9fd2ca9619c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170551d63000000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 21:45:54</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>276f869df2470010201c986e9d27b0c4</update_guid>
+        <update_guid_history>276f869df2470010201c986e9d27b0c4:0,e51f421de6470010c758126c7d8a708e:-1238090456,3f77855d90030010dee323f9fea7c819:0,ac3605195d030010bc83e0b956b0e59b:1810645826,8af20c7a5652001068eadd6c378ffdb2:0,6a8efb623852001028ae3c71f5be4ed8:-662559249,67e27b5e16d6001012d53aabb25b8dbe:1951240169</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-18 14:52:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>3b73aed8391949b0927a75d689f47d11</sys_id>
+        <sys_metadata>5c5f91e74f03b300c09fb8de9310c773</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MostrarCargaVirtualServerBCR</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_script_include_5c5f91e74f03b300c09fb8de9310c773</sys_update_name>
+        <sys_update_version display_value="sys_script_include_5c5f91e74f03b300c09fb8de9310c773">a76f869ddb470010579a9fd2ca9619c4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-18 14:52:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

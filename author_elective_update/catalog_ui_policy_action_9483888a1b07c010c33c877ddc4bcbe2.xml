@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Configuración de Virtual Servers Citrix ">3105d62cdb7573002ca60d53ca961963</catalog_item>
+        <catalog_variable>IO:c15eaa2cdbb573002ca60d53ca96196f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>200</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 19:30:18</sys_created_on>
+        <sys_id>9483888a1b07c010c33c877ddc4bcbe2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ContainerVirtuaalServerVS</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_9483888a1b07c010c33c877ddc4bcbe2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 19:31:00</sys_updated_on>
+        <table/>
+        <ui_policy display_value="PO_Ocultar_Contenedor_VIEW">f4f2408a1b07c010c33c877ddc4bcb73</ui_policy>
+        <variable>ContainerVirtuaalServerVS</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>catalog_ui_policy_action_9483888a1b07c010c33c877ddc4bcbe2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Configuración de Virtual Servers Citrix ">3105d62cdb7573002ca60d53ca961963</catalog_item><catalog_variable>IO:c15eaa2cdbb573002ca60d53ca96196f</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><mandatory>ignore</mandatory><order>200</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-19 19:30:18</sys_created_on><sys_id>9483888a1b07c010c33c877ddc4bcbe2</sys_id><sys_mod_count>2</sys_mod_count><sys_name>ContainerVirtuaalServerVS</sys_name><sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package><sys_policy/><sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope><sys_update_name>catalog_ui_policy_action_9483888a1b07c010c33c877ddc4bcbe2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-19 19:31:00</sys_updated_on><table/><ui_policy display_value="PO_Ocultar_Contenedor_VIEW">f4f2408a1b07c010c33c877ddc4bcb73</ui_policy><variable>ContainerVirtuaalServerVS</variable><variable_set/><visible>false</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1137038061</payload_hash>
+        <record_name>ContainerVirtuaalServerVS</record_name>
+        <reverted_from/>
+        <source>a45e1c951bc30010c33c877ddc4bcb2b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 19:31:00</sys_created_on>
+        <sys_id>c7b34c8a1b07c010c33c877ddc4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1705eee9a290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 19:31:00</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>03b34c8aca07c0105c7a819f9a4dc689</update_guid>
+        <update_guid_history>03b34c8aca07c0105c7a819f9a4dc689:-1137038061,e7a3848a9407c0100989634e47df4410:-911517485,8d93888a1c07c01023dcbc445ed35ae8:-110450124</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">8686440e1b07c010c33c877ddc4bcb28</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 19:43:13</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>034afc4bc8fd43cd8e7108c7d6aeb9a1</sys_id>
+        <sys_metadata>9483888a1b07c010c33c877ddc4bcbe2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ContainerVirtuaalServerVS</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_9483888a1b07c010c33c877ddc4bcbe2</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_9483888a1b07c010c33c877ddc4bcbe2">c7b34c8a1b07c010c33c877ddc4bcb89</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 19:43:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

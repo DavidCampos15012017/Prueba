@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>true</display_title>
+        <internal_name>tipo_de_consulta</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-28 22:56:47</sys_created_on>
+        <sys_id>d532b5c0db7133002ca60d53ca96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tipo de consulta</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>item_option_new_set_d532b5c0db7133002ca60d53ca96191b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-28 22:56:47</sys_updated_on>
+        <title>tipo de consulta</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </item_option_new_set>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>item_option_new_set_d532b5c0db7133002ca60d53ca96191b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>true</display_title>
+        <internal_name>tipo_de_consulta</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-28 22:56:47</sys_created_on>
+        <sys_id>d532b5c0db7133002ca60d53ca96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tipo de consulta</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>item_option_new_set_d532b5c0db7133002ca60d53ca96191b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-28 22:56:47</sys_updated_on>
+        <title>tipo de consulta</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>]]></payload>
+        <payload_hash>-546123081</payload_hash>
+        <record_name>tipo de consulta</record_name>
+        <reverted_from/>
+        <source>bd82562a1b4f4410c33c877ddc4bcbe8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 19:12:12</sys_created_on>
+        <sys_id>1792126a1b4f4410c33c877ddc4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170692a1caa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 19:12:12</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>5392126ac54f441040b1a3fa67c3edda</update_guid>
+        <update_guid_history>5392126ac54f441040b1a3fa67c3edda:0,f572dee60b4f44103fcef6e22cc797cf:526073419,f37206e2ba0f4410e3672a8d9cdbf34d:0,ea5206a2210f44102d6c603093c07476:526073419,66d421ae3b4b4410cf49e4b3ca3a84c2:0,e9b4216ea24b4410d59d01dee109bcbb:526073419,b97e19d27c8b04108525abb0923cede5:0,0f4e59926c8b04107e34d5ecd9e4c120:526073419,5c205512184b04100c10f1d55f96c6d0:0,99ff05decf0b041069d26f06ae8be84e:526073419,8812708e69c7c010529ab368768afdd8:0,19e1704e48c7c01029eaa1317ebd9520:526073419,21d2a36946c3801055ca7ca4fd60a4b9:0,8cb2a32980c38010fc3a496eeb236fcc:526073419,723a626dcacf40100e6ec87aa025bc72:0,ca1aa22de2cf40101893f08f1847b722:526073419,237ed6e9e68f40100398ffbd1f3af1d2:0,e85e56a9e98f401077ee7cc72295674c:526073419,3805b56dfdcb401019c3da025ebed68c:0,efd4b52daccb4010848cbf3739b7844c:526073419,0c9c0e5d5d4f00100239f687033fdc85:0,cb6c4e1d7f4f0010c696fe76ebb71b40:526073419,fcae8d95614b0010a7a341653d2a7999:-1602436222</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">3b7c2ae61bcf4410c33c877ddc4bcb18</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 21:05:17</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>09a479b69ea045eca1cf7d96da820859</sys_id>
+        <sys_metadata>d532b5c0db7133002ca60d53ca96191b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tipo de consulta</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>item_option_new_set_d532b5c0db7133002ca60d53ca96191b</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_d532b5c0db7133002ca60d53ca96191b">1792126a1b4f4410c33c877ddc4bcbda</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 21:05:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

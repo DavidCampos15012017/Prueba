@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>eliminarpools_variableset</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-10 17:02:22</sys_created_on>
+        <sys_id>4ebdd344db0233002ca60d53ca9619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>eliminarPools_variableSet</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>item_option_new_set_4ebdd344db0233002ca60d53ca9619c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-10 17:02:22</sys_updated_on>
+        <title>eliminarPools_variableSet</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </item_option_new_set>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>item_option_new_set_4ebdd344db0233002ca60d53ca9619c0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>eliminarpools_variableset</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-10 17:02:22</sys_created_on>
+        <sys_id>4ebdd344db0233002ca60d53ca9619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>eliminarPools_variableSet</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>item_option_new_set_4ebdd344db0233002ca60d53ca9619c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-10 17:02:22</sys_updated_on>
+        <title>eliminarPools_variableSet</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>]]></payload>
+        <payload_hash>-2037521153</payload_hash>
+        <record_name>eliminarPools_variableSet</record_name>
+        <reverted_from/>
+        <source>bd82562a1b4f4410c33c877ddc4bcbe8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 19:12:12</sys_created_on>
+        <sys_id>df92126a1b4f4410c33c877ddc4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170692a1c0f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 19:12:12</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>1f92126a3e4f441059b22fed55f775ca</update_guid>
+        <update_guid_history>1f92126a3e4f441059b22fed55f775ca:0,ba5216e6a74f441056875d7f008ebacd:-863943321,af7206e2490f44102aa34dd9ed3a6e3d:0,b3320a62370f4410c49ff41ab77af4da:-863943321,22d421ae2e4b44104e7cec2e3cb718b3:0,2a94252ef84b44104b386402211057a5:-863943321,bd7e19d2a18b04106d28268726ab76b1:0,de2e1d528b8b0410dc340f7485837276:-863943321,94205512e94b04108890a087b0172ec2:0,f3cfc59efe0b0410d00615d03c7b5eaa:-863943321,c412708e24c7c010d7b7502f471ccfb0:0,10c1f00ed0c7c0105055e070d806e1d3:-863943321,e5d2a36946c380105fd45ba6406ad2ab:0,d892a7e502c38010186ebb1b3fb075bf:-863943321,3a3a626dbccf4010fb88f78367933864:0,7ef9a6e98fcf401030f42651adae8e60:-863943321,237ed6e91b8f4010026172efb2a4c9b8:0,172e1a69838f401019bda7303fd0fe19:-863943321,fc05b56de5cb401050de209c458e657e:0,14c479e9e7cb4010a9a12fe67918f3e7:-863943321,f38c0e5d554f00107cf0d3d23a8cb778:0,a34c021dbe4f0010ebc873336007cc4d:-863943321,e8ae8d950e4b0010b548225043c85c8d:1460010634</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">bd3caea61bcf4410c33c877ddc4bcb50</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 21:04:04</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>0f418c5fa2a84aa3884feba1fbcaee69</sys_id>
+        <sys_metadata>4ebdd344db0233002ca60d53ca9619c0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>eliminarPools_variableSet</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>item_option_new_set_4ebdd344db0233002ca60d53ca9619c0</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_4ebdd344db0233002ca60d53ca9619c0">df92126a1b4f4410c33c877ddc4bcbca</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 21:04:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

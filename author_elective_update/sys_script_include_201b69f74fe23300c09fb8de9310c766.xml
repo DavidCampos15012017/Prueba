@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_287988_bcr_app.MostrarSSLVirtualServerBCR30</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MostrarSSLVirtualServerBCR30</name>
+        <script><![CDATA[var MostrarSSLVirtualServerBCR30 = Class.create();
+MostrarSSLVirtualServerBCR30.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	listarSSL: function(){
+		
+		try {
+			var arraydata = [];
+			var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'mostrarSSLVirtual ServerBCR30');
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+			
+			return responseBody;
+		}
+		catch(ex) {
+			var message = ex.message;
+		}
+		
+	},
+	
+	type: 'MostrarSSLVirtualServerBCR30'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 20:52:20</sys_created_on>
+        <sys_id>201b69f74fe23300c09fb8de9310c766</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>MostrarSSLVirtualServerBCR30</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_script_include_201b69f74fe23300c09fb8de9310c766</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 21:10:45</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>sys_script_include_201b69f74fe23300c09fb8de9310c766</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_287988_bcr_app.MostrarSSLVirtualServerBCR30&lt;/api_name&gt;
+        &lt;caller_access/&gt;
+        &lt;client_callable&gt;true&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;MostrarSSLVirtualServerBCR30&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var MostrarSSLVirtualServerBCR30 = Class.create();
+MostrarSSLVirtualServerBCR30.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	listarSSL: function(){
+		
+		try {
+			var arraydata = [];
+			var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'mostrarSSLVirtual ServerBCR30');
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+			
+			return responseBody;
+		}
+		catch(ex) {
+			var message = ex.message;
+		}
+		
+	},
+	
+	type: 'MostrarSSLVirtualServerBCR30'
+});]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-07-16 20:52:20&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;201b69f74fe23300c09fb8de9310c766&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;MostrarSSLVirtualServerBCR30&lt;/sys_name&gt;
+        &lt;sys_package display_value="BCR_APP" source="x_287988_bcr_app"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_scope display_value="BCR_APP"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_201b69f74fe23300c09fb8de9310c766&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-07-16 21:10:45&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>973393771</payload_hash>
+        <record_name>MostrarSSLVirtualServerBCR30</record_name>
+        <reverted_from/>
+        <source>806edd921b8b0410c33c877ddc4bcba5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 20:46:13</sys_created_on>
+        <sys_id>f28e91161b8b0410c33c877ddc4bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1706459d32c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:46:13</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>328e9116058b0410fd26ef89811329a2</update_guid>
+        <update_guid_history>328e9116058b0410fd26ef89811329a2:0,6a1e9552218b041080a4705099df24f2:-796474265,0d305d12474b0410891dbde1e618cff2:0,ffbf819ed40b0410546902f1a278de79:-796474265,a4223c8ec3c7c010582b808a1810cf69:0,54b17cca88c7c0109a2c637b47452293:-796474265,ade2ab6996c380102789498af4c41129:0,388263e518c380109ea9a8d1251f2964:-796474265,e24aea6d18cf40104b5e7080b1f1da6c:0,44f9a2e974cf401014a67ce23af5821b:-796474265,bf8e9ee9ec8f4010f5f20d03b4e82ba2:0,bf1e9269848f401070cb17121b6c1fff:-796474265,141531add0cb4010c894f59e181e79c1:0,19b435e957cb4010daf42109892cd2f9:-796474265,db9c069d214f0010147e098af7896f4f:0,5c4ccad9714f00108b5d80a3dce32939:-796474265,0cbe05d5d44b0010600231680b07faff:-265272162</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 21:55:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>5ae3eef8c9404079b817c216197ac5f1</sys_id>
+        <sys_metadata>201b69f74fe23300c09fb8de9310c766</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MostrarSSLVirtualServerBCR30</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_script_include_201b69f74fe23300c09fb8de9310c766</sys_update_name>
+        <sys_update_version display_value="sys_script_include_201b69f74fe23300c09fb8de9310c766">f28e91161b8b0410c33c877ddc4bcba2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 21:55:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

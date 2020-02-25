@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_287988_bcr_app_ambientes_citrix">x_287988_bcr_app_ambientes_citrix</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>CX</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 15:55:53</sys_created_on>
+        <sys_id>b4720527db8f0810579a9fd2ca9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CX</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_number_b4720527db8f0810579a9fd2ca9619a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 15:55:53</sys_updated_on>
+    </sys_number>
+</record_update>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Configuración de Virtual Servers Citrix ">3105d62cdb7573002ca60d53ca961963</catalog_item>
+        <catalog_variable>IO:90365c6f4f0f7300c09fb8de9310c79a</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-09 21:30:48</sys_created_on>
+        <sys_id>8aaa5da34f03b300c09fb8de9310c7f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>granja_a_consultar</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_8aaa5da34f03b300c09fb8de9310c7f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-09 21:30:48</sys_updated_on>
+        <table/>
+        <ui_policy display_value="VerificarGranja">cc68782b4f8f7300c09fb8de9310c7e3</ui_policy>
+        <variable>granja_a_consultar</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>catalog_ui_policy_action_8aaa5da34f03b300c09fb8de9310c7f9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Configuración de Virtual Servers Citrix ">3105d62cdb7573002ca60d53ca961963</catalog_item>
+        <catalog_variable>IO:90365c6f4f0f7300c09fb8de9310c79a</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-09 21:30:48</sys_created_on>
+        <sys_id>8aaa5da34f03b300c09fb8de9310c7f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>granja_a_consultar</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_8aaa5da34f03b300c09fb8de9310c7f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-09 21:30:48</sys_updated_on>
+        <table/>
+        <ui_policy display_value="VerificarGranja">cc68782b4f8f7300c09fb8de9310c7e3</ui_policy>
+        <variable>granja_a_consultar</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>1432194864</payload_hash>
+        <record_name>granja_a_consultar</record_name>
+        <reverted_from/>
+        <source>8ef1f44e1bc7c010c33c877ddc4bcbe1</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 22:53:01</sys_created_on>
+        <sys_id>daf1384e1bc7c010c33c877ddc4bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1705fa78da60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 22:53:01</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>1af1384e6cc7c010024da8b8403521b5</update_guid>
+        <update_guid_history>1af1384e6cc7c010024da8b8403521b5:0,44d1780e2dc7c010a23b5ca3cf49bc85:1233851062,4ab1300e27c7c0102e0c5d834bda331a:0,30c26b2993c38010fb952cf7dd2b2de8:0,a392ebe5a5c380106c514408f43ef5de:1233851062,1e82e3e50cc380101db6e03d1a868d63:0,e22a6a2d4bcf401039b2fb7d06039ffd:0,310aeae946cf4010f13ce2aa014db7bf:1233851062,2d096e69dbcf40109d07811ddd2b834c:0,f56e5ea97a8f4010f7d5346abdb9f978:0,c33e9e69278f40103ccba5e02501262e:1233851062,1d2e1669b98f4010593d6051ad39c5e0:0,a0f4bd2d74cb401096f1dea998fddc6f:0,cfc4bde9a2cb40100a2d92a34f1d5bc2:1233851062,eab4b5e9bfcb4010d41dec02a648b3ce:0,e37c465d034f001014d0881d31421611:0,b65c461d124f001099371964fd803f7b:1233851062,754c4ed9ab4f0010f0417ea2b2e1f060:0,e49e8595aa4b001067b1d0cb3658878e:1432194864</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">90d524161b870410c33c877ddc4bcb0f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 16:38:22</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>4fb2084ef1dd489abdcc41c162079b01</sys_id>
+        <sys_metadata>8aaa5da34f03b300c09fb8de9310c7f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>granja_a_consultar</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_8aaa5da34f03b300c09fb8de9310c7f9</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_8aaa5da34f03b300c09fb8de9310c7f9">daf1384e1bc7c010c33c877ddc4bcbb5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 16:38:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Configuración de Virtual Servers Citrix ">3105d62cdb7573002ca60d53ca961963</cat_item>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>ocultaAmbiente</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   	g_form.setDisplay('pruebas_y_desarrollo',false);
+		g_form.setDisplay('producci_n_externa',false);
+		g_form.setDisplay('producci_n_interna',false);
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-11 17:11:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3552fa484f533300c09fb8de9310c79d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ocultaAmbiente</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>catalog_script_client_3552fa484f533300c09fb8de9310c79d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 21:26:04</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>catalog_script_client_3552fa484f533300c09fb8de9310c79d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;
+    &lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;applies_catalog&gt;true&lt;/applies_catalog&gt;
+        &lt;applies_extended&gt;false&lt;/applies_extended&gt;
+        &lt;applies_req_item&gt;false&lt;/applies_req_item&gt;
+        &lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;
+        &lt;applies_target_record&gt;false&lt;/applies_target_record&gt;
+        &lt;applies_to&gt;item&lt;/applies_to&gt;
+        &lt;cat_item display_value="Configuración de Virtual Servers Citrix "&gt;3105d62cdb7573002ca60d53ca961963&lt;/cat_item&gt;
+        &lt;cat_variable/&gt;
+        &lt;condition/&gt;
+        &lt;description/&gt;
+        &lt;field/&gt;
+        &lt;global&gt;true&lt;/global&gt;
+        &lt;isolate_script&gt;true&lt;/isolate_script&gt;
+        &lt;messages/&gt;
+        &lt;name&gt;ocultaAmbiente&lt;/name&gt;
+        &lt;order/&gt;
+        &lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   	g_form.setDisplay('pruebas_y_desarrollo',false);
+		g_form.setDisplay('producci_n_externa',false);
+		g_form.setDisplay('producci_n_interna',false);
+}]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-08-11 17:11:12&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;3552fa484f533300c09fb8de9310c79d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;ocultaAmbiente&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="BCR_APP" source="x_287988_bcr_app"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="BCR_APP"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;catalog_script_client_3552fa484f533300c09fb8de9310c79d&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2020-02-17 21:26:04&lt;/sys_updated_on&gt;
+        &lt;table/&gt;
+        &lt;type&gt;onLoad&lt;/type&gt;
+        &lt;ui_type&gt;10&lt;/ui_type&gt;
+        &lt;variable_set/&gt;
+        &lt;view/&gt;
+    &lt;/catalog_script_client&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>725624109</payload_hash>
+        <record_name>ocultaAmbiente</record_name>
+        <reverted_from/>
+        <source>2b2ac3261b838410c33c877ddc4bcbc6</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 23:14:59</sys_created_on>
+        <sys_id>ab2a07261b838410c33c877ddc4bcb03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1706a0861e40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 23:14:59</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>e72a07263d838410b830ce9bc8e84f03</update_guid>
+        <update_guid_history>e72a07263d838410b830ce9bc8e84f03:0,9a0a03e21b838410cb0bdb12570021b0:488948536,c20a03e2458384105fc53ff479acd944:0,a6790bee2443841071b09b80b26f83bd:0,7c5903ae6943841063147935844cdda0:488948536,a85903ae43438410df346e9a11dd0f3b:0,c224f262cd038410e407d124b3813b69:0,69f332228203841002c5bcd52b69dd0c:488948536,d5f3feee5acf44106f17a531a21cc4af:0,7d82962af24f441037929ad7cb46d90f:0,955292e6d04f4410ce32b10a5669e506:488948536,495252e6d24f44106e20d933ad163690:0,ae628aa24f0f4410b77c432f567069dd:0,de328662460f4410a5f359862a3bc0c9:488948536,8e328662ee0f4410874e7b918e85d75c:0,65c4e56e4e4b44105e29d88d44e41e37:0,cd94a12e744b44102330ee4b800e5a8b:488948536,7c94a12e734b441035904a8241f34401:0,086edd92b08b0410c71f1a2444a8aad6:0,242e5952918b041018838a7b1359ec96:488948536,982e1952f68b04109b2c1b0ee8adcbf7:0,9e00d9de070b0410f248a38815e918a6:0,0acf459ef60b04104dd79fa316d3fa80:488948536,fdcf059e6d0b041083cfed48e42104eb:0,02f1384efac7c0104ef4391ec40f6931:0,e6b1300e5dc7c0103650b16df19c82df:488948536,4ab1300ed1c7c0100ca5152d08c59663:0,64c26b292cc380105b9e5e1c2a7ce26f:0,b282e3e5c9c380106e693709a4e1f4fc:488948536,aa82e3e576c38010a9d5f1c81b5df283:0,962a6a2d72cf401072c39b6bd0a5679d:0,95f926e961cf40101c8967e432296c1a:488948536,b9096e69b6cf40107bcfe5bfc59a1175:0,a96e5ea9fb8f4010d7c8540a87af3f18:0,f12e5669c68f401042dcc87b99a5c7b9:488948536,a12e5669b28f4010170424f13240e332:0,54f4bd2d71cb40102b80a24783c8520f:0,72b4f5e9e6cb4010a93267665ab6f58c:488948536,6ab4b5e906cb401089fb69e04af172ee:0,05ea4e59064f00105dd6ac0b4d372138:334865179,6f7c065d854f0010b7d11311b7d7cbbd:0,164c8ed9f54f0010c6c111a765b1b53a:488948536,b54c4ed9e64f0010a36f3ddc9a46c280:0,05ea4e59064f00105dd6ac0b4d372138:334865179,5c9e8595a04b00106f6ef58307589d38:1783108554</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">dedc30631b474810c33c877ddc4bcb9a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 15:31:25</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>181c8583a1064928877f56f07c4f5904</sys_id>
+        <sys_metadata>3552fa484f533300c09fb8de9310c79d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ocultaAmbiente</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>catalog_script_client_3552fa484f533300c09fb8de9310c79d</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_3552fa484f533300c09fb8de9310c79d">ab2a07261b838410c33c877ddc4bcb03</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 15:31:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

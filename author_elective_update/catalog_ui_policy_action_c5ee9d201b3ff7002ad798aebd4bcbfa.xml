@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Configuración de Virtual Servers Citrix ">3105d62cdb7573002ca60d53ca961963</catalog_item>
+        <catalog_variable>IO:9f74c455db4e73002ca60d53ca9619a3</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>114190586</sys_created_by>
+        <sys_created_on>2019-09-06 20:55:35</sys_created_on>
+        <sys_id>c5ee9d201b3ff7002ad798aebd4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tipo_de_solicitud</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_c5ee9d201b3ff7002ad798aebd4bcbfa</sys_update_name>
+        <sys_updated_by>114190586</sys_updated_by>
+        <sys_updated_on>2019-09-06 20:55:35</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Look_RITM_SCTASK_Creación ">c490c1e81b7bf7002ad798aebd4bcb8b</ui_policy>
+        <variable>tipo_de_solicitud</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>catalog_ui_policy_action_c5ee9d201b3ff7002ad798aebd4bcbfa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Configuración de Virtual Servers Citrix ">3105d62cdb7573002ca60d53ca961963</catalog_item>
+        <catalog_variable>IO:9f74c455db4e73002ca60d53ca9619a3</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>114190586</sys_created_by>
+        <sys_created_on>2019-09-06 20:55:35</sys_created_on>
+        <sys_id>c5ee9d201b3ff7002ad798aebd4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tipo_de_solicitud</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_c5ee9d201b3ff7002ad798aebd4bcbfa</sys_update_name>
+        <sys_updated_by>114190586</sys_updated_by>
+        <sys_updated_on>2019-09-06 20:55:35</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Look_RITM_SCTASK_Creación ">c490c1e81b7bf7002ad798aebd4bcb8b</ui_policy>
+        <variable>tipo_de_solicitud</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>293626619</payload_hash>
+        <record_name>tipo_de_solicitud</record_name>
+        <reverted_from/>
+        <source>8ef1f44e1bc7c010c33c877ddc4bcbe1</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 22:53:01</sys_created_on>
+        <sys_id>5ef1384e1bc7c010c33c877ddc4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1705fa78de40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 22:53:01</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>9af1384e6dc7c0105458c70bc08d97c6</update_guid>
+        <update_guid_history>9af1384e6dc7c0105458c70bc08d97c6:0,00e1fc0e08c7c0102dba2a2bf1f9776e:602057310,0ab1300e14c7c010ba8d31f5d9459a1c:0,f0c26b29a8c38010b051efcd1241e8ec:0,32a2232937c380109d5ff12edec3dcc1:602057310,d682e3e511c38010c07a4bcecb674865:0,a62aaa2ddacf40107f74e50c8ce49001:0,8d1a222d36cf4010f2dc0dfd467fa769:602057310,e5096e69f2cf4010a9281786908dbf4e:0,b96e5ea9dd8f40109073bb49272a2b7c:0,074ed2a9e88f4010b7db7c075c475063:602057310,d52e1669058f4010b5757ef5a22060e2:0,64f4bd2d42cb4010df44a2a55fe51f73:0,d6d4352db6cb40108bcfd558fb7041a9:602057310,a6b4b5e912cb40105116742b859ea6d0:0,a77c465d1c4f0010746f977bc85c8215:0,426cca1dde4f0010fc457fd863a95145:602057310,314c4ed9144f00103a60c39b55f4b162:0,209e8595314b00107fa06249c0102d92:293626619</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">8a27e4561b870410c33c877ddc4bcb93</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 16:44:14</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>052d1fab45824360823ca380d1af4040</sys_id>
+        <sys_metadata>c5ee9d201b3ff7002ad798aebd4bcbfa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tipo_de_solicitud</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_c5ee9d201b3ff7002ad798aebd4bcbfa</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_c5ee9d201b3ff7002ad798aebd4bcbfa">5ef1384e1bc7c010c33c877ddc4bcbc6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 16:44:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

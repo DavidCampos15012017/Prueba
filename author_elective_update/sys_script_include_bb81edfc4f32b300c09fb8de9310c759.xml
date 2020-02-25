@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_287988_bcr_app.MostrarPersistenciaFiltroBynameBCR32</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>MostrarPersistenciaFiltroBynameBCR32</name>
+        <script><![CDATA[var MostrarPersistenciaFiltroBynameBCR32 = Class.create();
+MostrarPersistenciaFiltroBynameBCR32.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	listarPersist:function(){
+		var text_body = this.getParameter('sysparm_JSON_data');
+		var searchQuery = encodeURIComponent(text_body);
+		var arrayValue = [];
+		var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'MostrarPersistenciaByNameBCR32');
+		r.setStringParameterNoEscape('serverName', searchQuery);
+		var response = r.execute();
+		var responseBody = response.getBody();
+		var httpStatus = response.getStatusCode();
+		var valueGet = JSON.parse(responseBody);
+		var virtualServerName = valueGet.lbgroup[0].name;
+		var tipoProtocolo = valueGet.lbgroup[0].persistencetype;
+		var IP = valueGet.lbgroup[0].persistmask;
+		var IPv6 = valueGet.lbgroup[0].v6persistmasklen;
+		var cookieName = valueGet.lbgroup[0].cookiename;
+		var cookieDomain = valueGet.lbgroup[0].cookiedomain;
+		arrayValue.push(virtualServerName,tipoProtocolo,IP,IPv6,cookieName,cookieDomain);
+		return arrayValue.toString();
+	},
+	type: 'MostrarPersistenciaFiltroBynameBCR32'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-19 23:18:46</sys_created_on>
+        <sys_id>bb81edfc4f32b300c09fb8de9310c759</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>MostrarPersistenciaFiltroBynameBCR32</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_script_include_bb81edfc4f32b300c09fb8de9310c759</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-02 18:04:24</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>sys_script_include_bb81edfc4f32b300c09fb8de9310c759</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;package_private&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_287988_bcr_app.MostrarPersistenciaFiltroBynameBCR32&lt;/api_name&gt;
+        &lt;caller_access/&gt;
+        &lt;client_callable&gt;true&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;MostrarPersistenciaFiltroBynameBCR32&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var MostrarPersistenciaFiltroBynameBCR32 = Class.create();
+MostrarPersistenciaFiltroBynameBCR32.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	listarPersist:function(){
+		var text_body = this.getParameter('sysparm_JSON_data');
+		var searchQuery = encodeURIComponent(text_body);
+		var arrayValue = [];
+		var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'MostrarPersistenciaByNameBCR32');
+		r.setStringParameterNoEscape('serverName', searchQuery);
+		var response = r.execute();
+		var responseBody = response.getBody();
+		var httpStatus = response.getStatusCode();
+		var valueGet = JSON.parse(responseBody);
+		var virtualServerName = valueGet.lbgroup[0].name;
+		var tipoProtocolo = valueGet.lbgroup[0].persistencetype;
+		var IP = valueGet.lbgroup[0].persistmask;
+		var IPv6 = valueGet.lbgroup[0].v6persistmasklen;
+		var cookieName = valueGet.lbgroup[0].cookiename;
+		var cookieDomain = valueGet.lbgroup[0].cookiedomain;
+		arrayValue.push(virtualServerName,tipoProtocolo,IP,IPv6,cookieName,cookieDomain);
+		return arrayValue.toString();
+	},
+	type: 'MostrarPersistenciaFiltroBynameBCR32'
+});]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-07-19 23:18:46&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;bb81edfc4f32b300c09fb8de9310c759&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;MostrarPersistenciaFiltroBynameBCR32&lt;/sys_name&gt;
+        &lt;sys_package display_value="BCR_APP" source="x_287988_bcr_app"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_scope display_value="BCR_APP"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_bb81edfc4f32b300c09fb8de9310c759&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-09-02 18:04:24&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-150343386</payload_hash>
+        <record_name>MostrarPersistenciaFiltroBynameBCR32</record_name>
+        <reverted_from/>
+        <source>806edd921b8b0410c33c877ddc4bcba5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 20:46:13</sys_created_on>
+        <sys_id>7a8e91161b8b0410c33c877ddc4bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1706459d4580000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:46:13</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>b68e9116368b041039fc3a1670a3ede5</update_guid>
+        <update_guid_history>b68e9116368b041039fc3a1670a3ede5:0,154e95921a8b041046a0bddfa1b70e6b:-962188974,c9309d121b4b0410d5488c854fcfc629:0,5fef81de680b04103cb05498a1222030:-962188974,64223c8e67c7c010fbd7f9a835d182a1:0,6fd1bc0ed2c7c010143f1f95beec19c4:-962188974,a5e2ab690dc380104ebcaca7e7bff153:0,96a2efe54ac38010f73a131437562ab9:-962188974,264aea6df7cf4010a38f63d1052a5f89:0,281aeee911cf40101ddd862783042ec5:-962188974,ff8e9ee9718f401082ce7cabab742fbf:0,5a4e92a9138f40103eaed3ea8a74dba1:-962188974,6c1571ad99cb401091f910356ed1d442:0,35d4f12d23cb40103deeba5a3704cbec:-962188974,a39c069d8c4f00101e286060535c08ea:0,d16c8a1d594f001069b2c60b2fa86b7f:-962188974,98be45d5a14b001026cb48e50d53ba89:2008470417</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 21:57:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>69a390f187e740b1b6c75979920fb0a1</sys_id>
+        <sys_metadata>bb81edfc4f32b300c09fb8de9310c759</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MostrarPersistenciaFiltroBynameBCR32</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_script_include_bb81edfc4f32b300c09fb8de9310c759</sys_update_name>
+        <sys_update_version display_value="sys_script_include_bb81edfc4f32b300c09fb8de9310c759">7a8e91161b8b0410c33c877ddc4bcbe5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 21:57:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="DELETE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Configuración de Virtual Servers Citrix ">3105d62cdb7573002ca60d53ca961963</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <example_text/>
+        <field/>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro display_value="Listar_Nombre_servidores">1aa84f9fdbba0890f9d35f774896198a</macro>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>macro_servidores</name>
+        <order>300</order>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <question_text>macro servidores</question_text>
+        <read_roles/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table/>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>701980296</sys_created_by>
+        <sys_created_on>2020-02-11 21:07:40</sys_created_on>
+        <sys_id>5accc397dbfa0890f9d35f7748961962</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>macro servidores</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>item_option_new_5accc397dbfa0890f9d35f7748961962</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-18 14:32:05</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>14</type>
+        <ui_page/>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </item_option_new>
+    <sys_translated_text action="DELETE" query="documentkey=5accc397dbfa0890f9d35f7748961962"/>
+    <fx_price action="DELETE" query="id=5accc397dbfa0890f9d35f7748961962"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="CRC">a1717eb30a0a0b5400d84de16c2432e6</currency>
+        <field>price_if_checked</field>
+        <id>5accc397dbfa0890f9d35f7748961962</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>701980296</sys_created_by>
+        <sys_created_on>2020-02-11 21:07:40</sys_created_on>
+        <sys_id>d52d87d7dbfa0890f9d35f77489619bb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 20:20:50</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="CRC">a1717eb30a0a0b5400d84de16c2432e6</currency>
+        <field>rec_price_if_checked</field>
+        <id>5accc397dbfa0890f9d35f7748961962</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>701980296</sys_created_by>
+        <sys_created_on>2020-02-11 21:07:40</sys_created_on>
+        <sys_id>d12d4357dbfa0890f9d35f77489619da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 20:20:50</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>item_option_new_5accc397dbfa0890f9d35f7748961962</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Configuración de Virtual Servers Citrix ">3105d62cdb7573002ca60d53ca961963</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <example_text/>
+        <field/>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro display_value="Listar_Nombre_servidores">1aa84f9fdbba0890f9d35f774896198a</macro>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>macro_servidores</name>
+        <order>300</order>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <question_text>macro servidores</question_text>
+        <read_roles/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table/>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>701980296</sys_created_by>
+        <sys_created_on>2020-02-11 21:07:40</sys_created_on>
+        <sys_id>5accc397dbfa0890f9d35f7748961962</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>macro servidores</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>item_option_new_5accc397dbfa0890f9d35f7748961962</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-18 14:32:05</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <type>14</type>
+        <ui_page/>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </item_option_new>
+    <sys_translated_text action="delete_multiple" query="documentkey=5accc397dbfa0890f9d35f7748961962"/>
+    <fx_price action="delete_multiple" query="id=5accc397dbfa0890f9d35f7748961962"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CRC">a1717eb30a0a0b5400d84de16c2432e6</currency>
+        <field>price_if_checked</field>
+        <id>5accc397dbfa0890f9d35f7748961962</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>701980296</sys_created_by>
+        <sys_created_on>2020-02-11 21:07:40</sys_created_on>
+        <sys_id>d52d87d7dbfa0890f9d35f77489619bb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 20:20:50</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CRC">a1717eb30a0a0b5400d84de16c2432e6</currency>
+        <field>rec_price_if_checked</field>
+        <id>5accc397dbfa0890f9d35f7748961962</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>701980296</sys_created_by>
+        <sys_created_on>2020-02-11 21:07:40</sys_created_on>
+        <sys_id>d12d4357dbfa0890f9d35f77489619da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 20:20:50</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>]]></payload>
+        <payload_hash>1497123525</payload_hash>
+        <record_name>macro servidores</record_name>
+        <reverted_from/>
+        <source>62628aa21b0f4410c33c877ddc4bcb9e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 18:01:39</sys_created_on>
+        <sys_id>f97242e21b0f4410c33c877ddc4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17068e984e40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 18:01:39</sys_updated_on>
+        <type>Variable</type>
+        <update_guid>397242e29b0f441066340aad4979aa6d</update_guid>
+        <update_guid_history>397242e29b0f441066340aad4979aa6d:0,28428a62ba0f441049a0af878c267e29:-1733656113,29324662c40f4410d11e0e6ff30e60db:0,5c32c262330f4410e1b801a11cc5d275:0,74d46d6e2e4b44103ce502508f788fbd:0,1b94652e9a4b44100cf81f34382452bb:-1733656113,6c94612e2b4b44109c78ee23a333ebbe:0,8b84adea554b4410f1db8d7b467a7ad1:0,f76e55d2d88b0410c3b7f6ed73413ece:0,5f2e5d52e78b04104159e30b343f1dde:-1733656113,402e1952b58b0410245ad4ab8b6d52b3:0,c21e95523e8b0410f451b6484a79677b:0,521091121b4b0410fafb5c7aa43047c6:0,b8df099efa0b0410e639a9747dfa46ee:-1733656113,29cf059ecc0b04105db9fd192d24f68e:0,93bf419ec80b0410bfcbeb49b78603f3:0,4202bc4eb1c7c01035e18b34962fb9e0:0,ddc1740e4fc7c010ae60683856127325:-1733656113,3db1fccabbc7c010859eca075e8486e3:0,33a13cca53c7c010405d1a3ef62cc0e1:0,b7c2ef299fc38010a0a3d349ff5b15c1:0,8592e7e56bc380101b8a19773926d4fc:-1733656113,4a82e3e5bac38010266da6937ec58e30:0,e48223e584c380108675ed04a1300af3:0,d13aae2dc5cf4010a3b4ea47bac115ac:0,27f9e6e9adcf40103bc682cbca42c778:-1733656113,abe962e910cf40108d7dddba72a4dca8:0,ed096e69dccf401073aa4abb7c33a208:0,ed7e92e92f8f4010eedb2dcda58fbde8:0,983e5a69868f4010bd95ab66a613ba4f:-1733656113,492e1669fa8f4010197f25be99696bad:0,931e9269b08f4010ab10de3550e5e20d:0,f2b5b561de0f4010893ff03070c85d75:1867818043,53f4f16d16cb40105d4c387e5f4bb0d3:0,3cc4f9e92dcb4010ce7fbf8d6c49e803:-2036230940,deb4b5e993cb4010ea3c9bbcfa4392a7:0,70b435e9e3cb4010501a5e734b15016c:0,de8c4a5d104f001021ed9e16da3947bf:0,945c421df54f00104611f8645d3497a1:1491906811,ed4c4ed95d4f001017e595da0db4fc2d:0,844c8ad9284f00109d63d47a1fb24174:0,179e0d95454b00108ba8de50d4dbaf14:-1449226599</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">86605ae21b4f4410c33c877ddc4bcbab</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 19:02:34</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new">item_option_new</sys_db_object>
+        <sys_id>5ba2a50bdf2845cba933407ac889be51</sys_id>
+        <sys_metadata>5accc397dbfa0890f9d35f7748961962</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>macro servidores</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent display_value="Configuración de Virtual Servers Citrix ">3105d62cdb7573002ca60d53ca961963</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>item_option_new_5accc397dbfa0890f9d35f7748961962</sys_update_name>
+        <sys_update_version display_value="item_option_new_5accc397dbfa0890f9d35f7748961962">f97242e21b0f4410c33c877ddc4bcb6d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 19:02:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

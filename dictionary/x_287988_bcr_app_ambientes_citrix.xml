@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Ambientes Citrix" max_length="40" name="x_287988_bcr_app_ambientes_citrix" type="collection">
+        <element label="Ambiente" mandatory="true" max_length="40" name="ambiente" type="string"/>
+        <element label="ID Ambiente" mandatory="true" max_length="40" name="id_ambiente" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="IP Primaria" mandatory="true" max_length="40" name="ip_primaria" type="ip_addr"/>
+        <element attributes="edge_encryption_enabled=true" label="IP Secundaria" mandatory="true" max_length="40" name="ip_secundaria" type="ip_addr"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+    </element>
+</database>

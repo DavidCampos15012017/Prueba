@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-02-21 21:32:54">
+    <sys_portal_page action="DELETE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-28 21:28:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c63e1104db3133002ca60d53ca96197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>catalog_granjas_telecom</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_portal_page_c63e1104db3133002ca60d53ca96197e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-28 21:28:50</sys_updated_on>
+        <title>catalog_granjas_telecom</title>
+        <user/>
+        <view>catalog_granjas_telecom</view>
+    </sys_portal_page>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>sys_portal_page_c63e1104db3133002ca60d53ca96197e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-02-21 21:32:54">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-28 21:28:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c63e1104db3133002ca60d53ca96197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>catalog_granjas_telecom</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_portal_page_c63e1104db3133002ca60d53ca96197e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-28 21:28:50</sys_updated_on>
+        <title>catalog_granjas_telecom</title>
+        <user/>
+        <view>catalog_granjas_telecom</view>
+    </sys_portal_page>
+</record_update>]]></payload>
+        <payload_hash>-832045736</payload_hash>
+        <record_name>catalog_granjas_telecom</record_name>
+        <reverted_from/>
+        <source>7d24f2621b038410c33c877ddc4bcb35</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 21:39:24</sys_created_on>
+        <sys_id>ab4436a21b038410c33c877ddc4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17069b0e2050000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 21:39:24</sys_updated_on>
+        <type>Portal Page</type>
+        <update_guid>e74436a2d7038410f8d40941a8d9acaa</update_guid>
+        <update_guid_history>e74436a2d7038410f8d40941a8d9acaa:0,a2a2966a2c4f4410f49dcca31834deae:0,7e828ae2cf0f44106dc0e24e2526f014:0,a9e4a5ae2d4b4410ce32ff45114ede4b:0,e98e1116958b041062fa9e4263cd6901:0,bb20d912f54b041070df997bdea39590:0,ab12788e95c7c0102bf55f4655839f91:0,794a6a6d6ccf4010d490fa1e81e60f98:0,3e8e5ee9288f4010faded2b0816b3232:0,6b05bd6d89cb40106eafb611b217c342:0,a69c429d6b4f00105d05cc75f660b6e8:0,97aec1d5e24b0010eb4c6303daa58c66:-679905578</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 21:42:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_portal_page">sys_portal_page</sys_db_object>
+        <sys_id>37009f947d6d44e0aa4c601347917100</sys_id>
+        <sys_metadata>c63e1104db3133002ca60d53ca96197e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>catalog_granjas_telecom</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_portal_page_c63e1104db3133002ca60d53ca96197e</sys_update_name>
+        <sys_update_version display_value="sys_portal_page_c63e1104db3133002ca60d53ca96197e">ab4436a21b038410c33c877ddc4bcbaa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 21:42:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

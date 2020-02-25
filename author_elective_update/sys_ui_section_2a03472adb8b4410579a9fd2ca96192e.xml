@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="2a03472adb8b4410579a9fd2ca96192e" sys_domain="global" table="x_287988_bcr_app_configuraciones" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nombre_ambiente</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-21 22:44:25</sys_created_on>
+            <sys_id>77234b6adb8b4410579a9fd2ca9619c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_287988_bcr_app_configuraciones" sys_domain="global" view="Default view">2a03472adb8b4410579a9fd2ca96192e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-21 22:44:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-21 22:44:25</sys_created_on>
+            <sys_id>fb234b6adb8b4410579a9fd2ca9619c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_287988_bcr_app_configuraciones" sys_domain="global" view="Default view">2a03472adb8b4410579a9fd2ca96192e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-21 22:44:25</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ip_primaria</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-21 22:44:25</sys_created_on>
+            <sys_id>73234b6adb8b4410579a9fd2ca9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_287988_bcr_app_configuraciones" sys_domain="global" view="Default view">2a03472adb8b4410579a9fd2ca96192e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-21 22:44:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ip_secundaria</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-21 22:44:25</sys_created_on>
+            <sys_id>f7234b6adb8b4410579a9fd2ca9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_287988_bcr_app_configuraciones" sys_domain="global" view="Default view">2a03472adb8b4410579a9fd2ca96192e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-21 22:44:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-21 22:47:59</sys_created_on>
+            <sys_id>5804c7aadb8b4410579a9fd2ca9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_287988_bcr_app_configuraciones" sys_domain="global" view="Default view">2a03472adb8b4410579a9fd2ca96192e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-21 22:47:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_287988_bcr_app_configuraciones</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-21 22:43:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2a03472adb8b4410579a9fd2ca96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_287988_bcr_app_configuraciones</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+            <sys_update_name>sys_ui_section_2a03472adb8b4410579a9fd2ca96192e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-21 22:43:47</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>4fa0acfc6fe6b5c0c2b67b2f5d3ee422</instance_id>
+        <instance_name>dev10576</instance_name>
+        <name>sys_ui_section_2a03472adb8b4410579a9fd2ca96192e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="2a03472adb8b4410579a9fd2ca96192e" sys_domain="global" table="x_287988_bcr_app_configuraciones" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>nombre_ambiente</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-21 22:44:25</sys_created_on><sys_id>77234b6adb8b4410579a9fd2ca9619c3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_287988_bcr_app_configuraciones" sys_domain="global" view="Default view">2a03472adb8b4410579a9fd2ca96192e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-21 22:44:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-21 22:44:25</sys_created_on><sys_id>fb234b6adb8b4410579a9fd2ca9619c3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_287988_bcr_app_configuraciones" sys_domain="global" view="Default view">2a03472adb8b4410579a9fd2ca96192e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-21 22:44:25</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>ip_primaria</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-21 22:44:25</sys_created_on><sys_id>73234b6adb8b4410579a9fd2ca9619c4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_287988_bcr_app_configuraciones" sys_domain="global" view="Default view">2a03472adb8b4410579a9fd2ca96192e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-21 22:44:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>ip_secundaria</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-21 22:44:25</sys_created_on><sys_id>f7234b6adb8b4410579a9fd2ca9619c4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_287988_bcr_app_configuraciones" sys_domain="global" view="Default view">2a03472adb8b4410579a9fd2ca96192e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-21 22:44:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-21 22:47:59</sys_created_on><sys_id>5804c7aadb8b4410579a9fd2ca9619f9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_287988_bcr_app_configuraciones" sys_domain="global" view="Default view">2a03472adb8b4410579a9fd2ca96192e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-21 22:47:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_287988_bcr_app_configuraciones</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-21 22:43:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2a03472adb8b4410579a9fd2ca96192e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_287988_bcr_app_configuraciones</sys_name><sys_overrides/><sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package><sys_policy/><sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope><sys_update_name>sys_ui_section_2a03472adb8b4410579a9fd2ca96192e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-21 22:43:47</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-284025732</payload_hash>
+        <record_name>Configuraciones</record_name>
+        <reverted_from/>
+        <source>a9deecafdb0f0810579a9fd2ca961948</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 14:30:17</sys_created_on>
+        <sys_id>36de60efdb0f0810579a9fd2ca961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170779b15900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 14:30:17</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>5004c7aa1b8b4410211801051cba0ffc</update_guid>
+        <update_guid_history>5004c7aa1b8b4410211801051cba0ffc:-284025732,254ce86bd30f0810f79fd2aff86d48bb:1951439573,5004c7aa1b8b4410211801051cba0ffc:-284025732,bb234b6ad28b4410009e4edf6764b3c6:-397180946,2e03c76ae18b44101ef87b4b3720c23c:-1669480845,aa03472a288b44103750d5d34dfc9f31:1299895389</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 15:51:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>2e8807a9edc24aecb094a7e6637b5b90</sys_id>
+        <sys_metadata>2a03472adb8b4410579a9fd2ca96192e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_287988_bcr_app_configuraciones</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent display_value="">4560cb66db8b4410579a9fd2ca9619e0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_ui_section_2a03472adb8b4410579a9fd2ca96192e</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_2a03472adb8b4410579a9fd2ca96192e">36de60efdb0f0810579a9fd2ca961948</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 15:51:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

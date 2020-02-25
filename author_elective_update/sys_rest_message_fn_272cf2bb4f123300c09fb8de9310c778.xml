@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="nsSNow">ac17eec7db580410f9d35f774896190e</basic_auth_profile>
+        <basic_auth_user/>
+        <content/>
+        <function_name>MostrarperfilPersistentciaBIND-VS</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>BCRmessage [ MostrarperfilPersistentciaBIND-VS ]</qualified_name>
+        <rest_endpoint>http://${ipAddress}/nitro/v1/config/lbgroup_lbvserver_binding/${serverName}</rest_endpoint>
+        <rest_message display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-04 16:29:05</sys_created_on>
+        <sys_id>272cf2bb4f123300c09fb8de9310c778</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>MostrarperfilPersistentciaBIND-VS</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_rest_message_fn_272cf2bb4f123300c09fb8de9310c778</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:25:19</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server display_value="Katherine">ae95d5511b8b0010c33c877ddc4bcb10</use_mid_server>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>sys_rest_message_fn_272cf2bb4f123300c09fb8de9310c778</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>basic</authentication_type><basic_auth_password/><basic_auth_profile display_value="nsSNow">ac17eec7db580410f9d35f774896190e</basic_auth_profile><basic_auth_user/><content/><function_name>MostrarperfilPersistentciaBIND-VS</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>BCRmessage [ MostrarperfilPersistentciaBIND-VS ]</qualified_name><rest_endpoint>http://${ipAddress}/nitro/v1/config/lbgroup_lbvserver_binding/${serverName}</rest_endpoint><rest_message display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-07-04 16:29:05</sys_created_on><sys_id>272cf2bb4f123300c09fb8de9310c778</sys_id><sys_mod_count>14</sys_mod_count><sys_name>MostrarperfilPersistentciaBIND-VS</sys_name><sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package><sys_policy/><sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope><sys_update_name>sys_rest_message_fn_272cf2bb4f123300c09fb8de9310c778</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-20 20:25:19</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server display_value="Katherine">ae95d5511b8b0010c33c877ddc4bcb10</use_mid_server><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>-877589387</payload_hash>
+        <record_name>MostrarperfilPersistentciaBIND-VS</record_name>
+        <reverted_from/>
+        <source>3bde5d161b8b0410c33c877ddc4bcb35</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 20:47:42</sys_created_on>
+        <sys_id>ecee9d161b8b0410c33c877ddc4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170645b2e880000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:47:42</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>acc9591e0b4b04104854daa6cc298ebc</update_guid>
+        <update_guid_history>acc9591e0b4b04104854daa6cc298ebc:-877589387,758e1116f98b04108876a7e07e9b4a33:0,431ed552b88b041016fae9b323239ea2:-1304858263,acc9591e0b4b04104854daa6cc298ebc:-877589387,8430d912614b0410402dddba59bb47a9:0,2ccfc19e830b0410b343d267997fdb2d:-1304858263,6853a7a553c3801019e2f962947e8758:-877589387,6f12788e31c7c010b8f95cf28cac14d0:0,30b1bccaa5c7c01013b2aec692f4d651:-1304858263,6853a7a553c3801019e2f962947e8758:-877589387,ece2e76987c38010681934be9a98ebfd:0,5d82a3e5ebc380109276125c9dded240:-1304858263,57b713e9c5838010c247dccd678a09e2:-877589387,714a6a6dfacf4010a60355e6ae6b25c9:0,acf9a2e95acf4010a27744c20e8180cc:1937579245,b68e5ee9618f4010f55057e37f74e44a:0,d42ed269f78f40103c4ce7769763abba:-1304858263,3705bd6dbecb4010b1b273f681adfa7f:0,edb475e9a5cb40105c4600f3ed30c57c:-1304858263,199d8a112c8f0010401db051deb84987:-877589387,ae9c829d174f0010342de7c9b0945a18:0,f04c0ed9184f00107171ac565850e82a:-1304858263,1d17ddd1fe8b001011f0c792e71df5d2:-877589387,97aec1d54e4b0010f93b144afbaf6995:-395163084</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 15:16:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>023b5ab9bd1149f28065372e07376d44</sys_id>
+        <sys_metadata>272cf2bb4f123300c09fb8de9310c778</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MostrarperfilPersistentciaBIND-VS</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent display_value="BCRmessage">f18a8f81db37230087d9d6aa48961916</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_272cf2bb4f123300c09fb8de9310c778</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_272cf2bb4f123300c09fb8de9310c778">ecee9d161b8b0410c33c877ddc4bcb88</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 15:16:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

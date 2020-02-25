@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Configuración de Virtual Servers Citrix ">3105d62cdb7573002ca60d53ca961963</catalog_item>
+        <catalog_variable>IO:19e565f34fe23300c09fb8de9310c7ef</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 20:28:48</sys_created_on>
+        <sys_id>174629f34fe23300c09fb8de9310c734</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>seleccione_un_ssl</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_174629f34fe23300c09fb8de9310c734</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 20:28:48</sys_updated_on>
+        <table/>
+        <ui_policy display_value="SSLVirtualServerBCR">6985adb34fe23300c09fb8de9310c779</ui_policy>
+        <variable>seleccione_un_ssl</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>catalog_ui_policy_action_174629f34fe23300c09fb8de9310c734</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Configuración de Virtual Servers Citrix ">3105d62cdb7573002ca60d53ca961963</catalog_item>
+        <catalog_variable>IO:19e565f34fe23300c09fb8de9310c7ef</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 20:28:48</sys_created_on>
+        <sys_id>174629f34fe23300c09fb8de9310c734</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>seleccione_un_ssl</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_174629f34fe23300c09fb8de9310c734</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 20:28:48</sys_updated_on>
+        <table/>
+        <ui_policy display_value="SSLVirtualServerBCR">6985adb34fe23300c09fb8de9310c779</ui_policy>
+        <variable>seleccione_un_ssl</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>-1165752853</payload_hash>
+        <record_name>seleccione_un_ssl</record_name>
+        <reverted_from/>
+        <source>8ef1f44e1bc7c010c33c877ddc4bcbe1</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-19 22:53:01</sys_created_on>
+        <sys_id>9af1384e1bc7c010c33c877ddc4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1705fa78d5d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-19 22:53:01</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>d6f1384e0ec7c010275c419ed38552ae</update_guid>
+        <update_guid_history>d6f1384e0ec7c010275c419ed38552ae:0,d3a13ccacdc7c010b6b8dff9badd1d48:602323285,f8c26b29dac380108fd691265b2d68e1:0,c48223e580c380106ddbab61d54eee61:602323285,ae2a6a2d78cf401058658df3a98320f6:0,93e962e9a0cf4010c5ce41d42989ec23:-1370359957,e1096e69aacf40100dfb28f7a760e14a:0,b16e5ea97b8f40104e48e9a9da8bd572:0,761e5269c88f4010f2531cd974212888:602323285,6cf4bd2d5bcb401056c9952a8192a468:0,e8b4f1e9c2cb401096617ac9d238c1f3:602323285,af7c465d5b4f0010489916e27babba0a:0,273c4ad9434f0010c4389236dafcf9fc:602323285,609e8595794b001051172920c9a32589:-1165752853</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">a12ed81e1b470410c33c877ddc4bcbd7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 16:04:53</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>6c734bc0a4ee464e9e1ad9abf289a509</sys_id>
+        <sys_metadata>174629f34fe23300c09fb8de9310c734</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>seleccione_un_ssl</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_174629f34fe23300c09fb8de9310c734</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_174629f34fe23300c09fb8de9310c734">9af1384e1bc7c010c33c877ddc4bcbae</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 16:04:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

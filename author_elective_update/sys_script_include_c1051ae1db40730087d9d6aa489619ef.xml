@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_287988_bcr_app.CrearServerVPX</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>CrearServerVPX</name>
+        <script><![CDATA[var CrearServerVPX = Class.create();
+CrearServerVPX.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	llamdadoServer:function(){
+		
+
+			 
+ var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'crearServer');
+
+//override authentication profile 
+//authentication type ='basic'/ 'oauth2'
+//r.setAuthentication(authentication type, profile name);
+
+//set a MID server name if one wants to run the message on MID
+//r.setMIDServer('MY_MID_SERVER');
+var searchQuery = this.getParameter('sysparm_JSON_dataServerCreated');
+r.setRequestBody(searchQuery);
+//if the message is configured to communicate through ECC queue, either
+//by setting a MID server or calling executeAsync, one needs to set skip_sensor
+//to true. Otherwise, one may get an intermittent error that the response body is null
+//r.setEccParameter('skip_sensor', true);
+
+ var response = r.execute();
+ var responseBody = response.getBody();
+ var httpStatus = response.getStatusCode();
+		
+		return responseBody;
+	},
+
+    type: 'CrearServerVPX'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-07 17:30:45</sys_created_on>
+        <sys_id>c1051ae1db40730087d9d6aa489619ef</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CrearServerVPX</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_script_include_c1051ae1db40730087d9d6aa489619ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-07 17:53:28</sys_updated_on>
+    </sys_script_include>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>4fa0acfc6fe6b5c0c2b67b2f5d3ee422</instance_id>
+        <instance_name>dev10576</instance_name>
+        <name>sys_script_include_c1051ae1db40730087d9d6aa489619ef</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;
+    &lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+        &lt;access&gt;public&lt;/access&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;api_name&gt;x_287988_bcr_app.CrearServerVPX&lt;/api_name&gt;
+        &lt;caller_access/&gt;
+        &lt;client_callable&gt;true&lt;/client_callable&gt;
+        &lt;description/&gt;
+        &lt;name&gt;CrearServerVPX&lt;/name&gt;
+        &lt;script&gt;&lt;![CDATA[var CrearServerVPX = Class.create();
+CrearServerVPX.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	llamdadoServer:function(){
+		
+
+			 
+ var r = new sn_ws.RESTMessageV2('x_287988_bcr_app.BCRmessage', 'crearServer');
+
+//override authentication profile 
+//authentication type ='basic'/ 'oauth2'
+//r.setAuthentication(authentication type, profile name);
+
+//set a MID server name if one wants to run the message on MID
+//r.setMIDServer('MY_MID_SERVER');
+var searchQuery = this.getParameter('sysparm_JSON_dataServerCreated');
+r.setRequestBody(searchQuery);
+//if the message is configured to communicate through ECC queue, either
+//by setting a MID server or calling executeAsync, one needs to set skip_sensor
+//to true. Otherwise, one may get an intermittent error that the response body is null
+//r.setEccParameter('skip_sensor', true);
+
+ var response = r.execute();
+ var responseBody = response.getBody();
+ var httpStatus = response.getStatusCode();
+		
+		return responseBody;
+	},
+
+    type: 'CrearServerVPX'
+});]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2019-03-07 17:30:45&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;c1051ae1db40730087d9d6aa489619ef&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;CrearServerVPX&lt;/sys_name&gt;
+        &lt;sys_package display_value="BCR_APP" source="x_287988_bcr_app"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_package&gt;
+        &lt;sys_policy&gt;read&lt;/sys_policy&gt;
+        &lt;sys_scope display_value="BCR_APP"&gt;28f3b438db33230087d9d6aa48961993&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_include_c1051ae1db40730087d9d6aa489619ef&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2019-03-07 17:53:28&lt;/sys_updated_on&gt;
+    &lt;/sys_script_include&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>929780523</payload_hash>
+        <record_name>CrearServerVPX</record_name>
+        <reverted_from/>
+        <source>5e4f065ddb470010579a9fd2ca9619d3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 21:45:54</sys_created_on>
+        <sys_id>3f6fc69ddb470010579a9fd2ca961915</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170551d65270000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 21:45:54</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>bb6fc69dc9470010aee50bd9f9ec4615</update_guid>
+        <update_guid_history>bb6fc69dc9470010aee50bd9f9ec4615:0,332fca1d6b47001013cdfd27a3dcc60a:874644813,3377855d2a03001034f71b45b2f2eb8e:0,47664d592c0300109191844273e74484:1541660795,56f24c7a6b5200109de6db183ea75f3c:0,d7aeffa237520010916d4c9819b545c1:-1359219147,f3e27b5ed0d600100e448e22dcfd4efc:-1796935194</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-17 22:49:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>18eba36793c04adb8181c40393aab1a9</sys_id>
+        <sys_metadata>c1051ae1db40730087d9d6aa489619ef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CrearServerVPX</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_script_include_c1051ae1db40730087d9d6aa489619ef</sys_update_name>
+        <sys_update_version display_value="sys_script_include_c1051ae1db40730087d9d6aa489619ef">3f6fc69ddb470010579a9fd2ca961915</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-17 22:49:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers">
+    <sys_rest_message_fn_headers action="DELETE">
+        <name>Content-Type</name>
+        <rest_message_function display_value="BindPersistenceGroup30BCR">f81b4ac04f723300c09fb8de9310c70c</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-17 17:48:19</sys_created_on>
+        <sys_id>911b82044f723300c09fb8de9310c740</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content-Type</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_rest_message_fn_headers_911b82044f723300c09fb8de9310c740</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-17 17:48:19</sys_updated_on>
+        <value>application/json</value>
+    </sys_rest_message_fn_headers>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</application>
+        <file_path/>
+        <instance_id>efda4693dbf6b7048aea21c405961913</instance_id>
+        <instance_name>dev89340</instance_name>
+        <name>sys_rest_message_fn_headers_911b82044f723300c09fb8de9310c740</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers">
+    <sys_rest_message_fn_headers action="INSERT_OR_UPDATE">
+        <name>Content-Type</name>
+        <rest_message_function display_value="BindPersistenceGroup30BCR">f81b4ac04f723300c09fb8de9310c70c</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-17 17:48:19</sys_created_on>
+        <sys_id>911b82044f723300c09fb8de9310c740</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content-Type</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_update_name>sys_rest_message_fn_headers_911b82044f723300c09fb8de9310c740</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-17 17:48:19</sys_updated_on>
+        <value>application/json</value>
+    </sys_rest_message_fn_headers>
+</record_update>]]></payload>
+        <payload_hash>2442369</payload_hash>
+        <record_name>Content-Type</record_name>
+        <reverted_from/>
+        <source>806edd921b8b0410c33c877ddc4bcba5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 20:46:11</sys_created_on>
+        <sys_id>d68e51161b8b0410c33c877ddc4bcb5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1706459cb460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-20 20:46:11</sys_updated_on>
+        <type>HTTP Headers</type>
+        <update_guid>168e5116418b041058071b8f798ff15f</update_guid>
+        <update_guid_history>168e5116418b041058071b8f798ff15f:0,923e9192be8b0410122c13626f6a1e57:-1283653493,e4301d12a24b0410d3dffb4c9f4040bc:0,9cef8d9eeb0b0410d4d71e0ecf9cc641:-1283653493,c822b88ed4c7c010bd01221e4d9c58f8:0,24d1780e24c7c0102634a5a9a79224ea:-1283653493,c1e22b696ac3801030317c5fd94bf0fc:0,b3922fe573c38010429d45e8028e4450:-1283653493,1e4aaa6ddbcf401058b19a554527a3d3:0,1a0a2ee9eccf4010499d6912ebbd6918:-1283653493,138e5ee9f98f4010b7a48bddebea83fe:0,db3e9e698b8f401058ca4474adb84689:-1283653493,c815fd6dbbcb40104c04411faccefd88:0,5fc4fde9ffcb4010b811b3ab994ea366:-1283653493,c79cc29d6e4f00102ee35f6c5eff583c:0,8f5c461d9a4f001001a9ae5c427e99e4:-1283653493,f3ae05d5914b001047d06c3ff6e3eb17:2442369</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 15:02:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_headers">sys_rest_message_fn_headers</sys_db_object>
+        <sys_id>7aeb85f4382843189f9e84cd55c6ac90</sys_id>
+        <sys_metadata>911b82044f723300c09fb8de9310c740</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content-Type</sys_name>
+        <sys_package display_value="BCR_APP" source="x_287988_bcr_app">28f3b438db33230087d9d6aa48961993</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BCR_APP">28f3b438db33230087d9d6aa48961993</sys_scope>
+        <sys_scope_delete display_value="">c01e9d06a39f4d10a0fce799056e2e40</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_headers_911b82044f723300c09fb8de9310c740</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_headers_911b82044f723300c09fb8de9310c740">d68e51161b8b0410c33c877ddc4bcb5f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 15:02:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
